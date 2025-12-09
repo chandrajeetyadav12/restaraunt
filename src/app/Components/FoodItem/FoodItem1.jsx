@@ -29,58 +29,58 @@ const FoodItem1 = () => {
 
                     <div className="food-menu-tab">
                         <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                            <li className={`nav-item ₹{isActive === 'FastFood' ? 'active' : ''}`} onClick={() => setIsActive('FastFood')} role="presentation">
+                            <li className={`nav-item ${isActive === 'FastFood' ? 'active' : ''}`} onClick={() => setIsActive('FastFood')} role="presentation">
                                 <button className="nav-link" id="pills-FastFood-tab" data-bs-toggle="pill"
                                     data-bs-target="#pills-FastFood" type="button" role="tab"
                                     aria-controls="pills-FastFood" aria-selected="true"><Image src="/assets/img/menu/fastfood.png" alt="img" width={36} height={36}   />Fast Food</button>
                             </li>
-                            <li className={`nav-item ₹{isActive === 'DrinkJuice' ? 'active' : ''}`} onClick={() => setIsActive('DrinkJuice')} role="presentation">
+                            <li className={`nav-item ${isActive === 'DrinkJuice' ? 'active' : ''}`} onClick={() => setIsActive('DrinkJuice')} role="presentation">
                                 <button className="nav-link" id="pills-drinkJuice-tab" data-bs-toggle="pill"
                                     data-bs-target="#pills-drinkJuice" type="button" role="tab"
                                     aria-controls="pills-drinkJuice" aria-selected="false"><Image src="/assets/img/menu/drinkjuice.png" alt="img" width={36} height={36}   />Drink & Juice</button>
                             </li>
-                            <li className={`nav-item ₹{isActive === 'ChickenPizza' ? 'active' : ''}`} onClick={() => setIsActive('ChickenPizza')} role="presentation">
+                            <li className={`nav-item ${isActive === 'ChickenPizza' ? 'active' : ''}`} onClick={() => setIsActive('ChickenPizza')} role="presentation">
                                 <button className="nav-link" id="pills-chickenPizza-tab" data-bs-toggle="pill"
                                     data-bs-target="#pills-chickenPizza" type="button" role="tab"
                                     aria-controls="pills-chickenPizza" aria-selected="false"><Image src="/assets/img/menu/chickenpizza.png" alt="img" width={36} height={36}   />Chicken Pizza</button>
                             </li>
-                            <li className={`nav-item ₹{isActive === 'FreshPasta' ? 'active' : ''}`} onClick={() => setIsActive('FreshPasta')}  role="presentation">
+                            <li className={`nav-item ${isActive === 'FreshPasta' ? 'active' : ''}`} onClick={() => setIsActive('FreshPasta')}  role="presentation">
                                 <button className="nav-link" id="pills-freshPasta-tab" data-bs-toggle="pill"
                                     data-bs-target="#pills-freshPasta" type="button" role="tab"
                                     aria-controls="pills-freshPasta" aria-selected="false"><Image src="/assets/img/menu/freshpasta.png" alt="img" width={36} height={36}   />Fresh Pasta</button>
                             </li>
                         </ul>
                         <div className="tab-content" id="pills-tabContent">
-                            <div className={`tab-pane ₹{isActive === 'FastFood' ? 'active' : ''}`} id="pills-FastFood" role="tabpanel"
+                            <div className={`tab-pane ${isActive === 'FastFood' ? 'active' : ''}`} id="pills-FastFood" role="tabpanel"
                                 aria-labelledby="pills-FastFood-tab" tabIndex="0">
                                 <div className="row gx-60">
                                     <div className="col-lg-6">
                                         <FoodItemCard
-                                            img="/assets/img/menu/menuThumb1_1.png"
+                                            img="/assets/img/menu/chinesepasta.png"
                                             title="Chinese Pasta"
                                             content="It's a testament to our."
                                             price="₹15.99"
                                         ></FoodItemCard>
                                         <FoodItemCard
-                                            img="/assets/img/menu/menuThumb1_2.png"
+                                            img="/assets/img/menu/chickenfriedrice.png"
                                             title="Chicken Fried Rice"
                                             content="It's a testament to our."
                                             price="₹25.99"
                                         ></FoodItemCard>
                                         <FoodItemCard
-                                            img="/assets/img/menu/menuThumb1_3.png"
+                                            img="/assets/img/menu/chickenpizza.png"
                                             title="Chicken Pizza"
                                             content="It's a testament to our."
                                             price="₹115.99"
                                         ></FoodItemCard>
                                         <FoodItemCard
-                                            img="/assets/img/menu/menuThumb1_4.png"
+                                            img="/assets/img/menu/chickennoddle.png"
                                             title="Chicken Noodles"
                                             content="It's a testament to our."
                                             price="₹154.99"
                                         ></FoodItemCard>
                                         <FoodItemCard
-                                            img="/assets/img/menu/menuThumb1_5.png"
+                                            img="/assets/img/menu/grilledchicken.png"
                                             title="Grilled Chicken"
                                             content="It's a testament to our."
                                             price="₹55.99"
@@ -88,31 +88,31 @@ const FoodItem1 = () => {
                                     </div>
                                     <div className="col-lg-6">
                                         <FoodItemCard
-                                            img="/assets/img/menu/menuThumb1_6.png"
+                                            img="/assets/img/menu/eggandcucumber.png"
                                             title="Egg and Cucumber"
                                             content="It's a testament to our."
                                             price="₹65.99"
                                         ></FoodItemCard>                                       
                                         <FoodItemCard
-                                            img="/assets/img/menu/menuThumb1_7.png"
+                                            img="/assets/img/menu/chickenwhiterice.webp"
                                             title="Chicken White Rice"
                                             content="It's a testament to our."
                                             price="₹135.99"
                                         ></FoodItemCard> 
                                         <FoodItemCard
-                                            img="/assets/img/menu/menuThumb1_8.png"
+                                            img="/assets/img/menu/spatial.webp"
                                             title="Spatial Barger"
                                             content="It's a testament to our."
                                             price="₹95.99"
                                         ></FoodItemCard> 
                                          <FoodItemCard
-                                            img="/assets/img/menu/menuThumb1_9.png"
+                                            img="/assets/img/menu/vegetable berger.webp"
                                             title="Vegetables Burger"
                                             content="It's a testament to our."
                                             price="₹75.99"
                                         ></FoodItemCard>                                        
                                         <FoodItemCard
-                                            img="/assets/img/menu/menuThumb1_10.png"
+                                            img="/assets/img/menu/beefchicken.webp"
                                             title="Brief Chicken"
                                             content="It's a testament to our."
                                             price="₹44.99"

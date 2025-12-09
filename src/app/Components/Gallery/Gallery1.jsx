@@ -37,14 +37,14 @@ const Gallery1 = () => {
       }; 
     
     const logoItems = [
-        {img:'/assets/img/gallery/galleryThumb1_5.jpg'},
-        {img:'/assets/img/gallery/galleryThumb1_1.jpg'},
-        {img:'/assets/img/gallery/galleryThumb1_2.jpg'},
-        {img:'/assets/img/gallery/galleryThumb1_3.jpg'},
-        {img:'/assets/img/gallery/galleryThumb1_4.jpg'},
-        {img:'/assets/img/gallery/galleryThumb1_5.jpg'},
-        {img:'/assets/img/gallery/galleryThumb1_1.jpg'},
-        {img:'/assets/img/gallery/galleryThumb1_2.jpg'},        
+        {img:'/assets/img/gallery/imgi_g1.webp'},
+        {img:'/assets/img/gallery/imgi_g2.webp'},
+        {img:'/assets/img/gallery/imgi_g3.webp'},
+        {img:'/assets/img/gallery/imgi_g4.webp'},
+        {img:'/assets/img/gallery/imgi_g5.webp'},
+        {img:'/assets/img/gallery/imgi_g6.webp'},
+        {img:'/assets/img/gallery/imgi_g7.webp'},
+        {img:'/assets/img/gallery/imgi_g7.webp'},        
       ]; 
 
     return (

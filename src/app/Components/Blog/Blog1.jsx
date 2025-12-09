@@ -48,12 +48,12 @@ const Blog1 = () => {
     }; 
 
     const blogItems = [
-        {img:'/assets/img/blog/blogThumb1_1.jpg', title:'Fast Food Frenzy a Taste of Convenience'},     
-        {img:'/assets/img/blog/blogThumb1_2.jpg', title:'Benefits of health and safety measures'},     
-        {img:'/assets/img/blog/blogThumb1_3.jpg', title:'Quick Cravings Unraveling Fast Food Delights'},   
-        {img:'/assets/img/blog/blogThumb1_1.jpg', title:'Fast Food Frenzy a Taste of Convenience'},     
-        {img:'/assets/img/blog/blogThumb1_2.jpg', title:'Benefits of health and safety measures'},     
-        {img:'/assets/img/blog/blogThumb1_3.jpg', title:'Quick Cravings Unraveling Fast Food Delights'},            
+        {img:'/assets/img/blog/blogThumb1_1.webp', title:'Fast Food Frenzy a Taste of Convenience'},     
+        {img:'/assets/img/blog/blogThumb1_2.webp', title:'Benefits of health and safety measures'},     
+        {img:'/assets/img/blog/blogThumb1_3.webp', title:'Quick Cravings Unraveling Fast Food Delights'},   
+        {img:'/assets/img/blog/blogThumb1_1.webp', title:'Fast Food Frenzy a Taste of Convenience'},     
+        {img:'/assets/img/blog/blogThumb1_2.webp', title:'Benefits of health and safety measures'},     
+        {img:'/assets/img/blog/blogThumb1_3.webp', title:'Quick Cravings Unraveling Fast Food Delights'},            
       ]; 
 
     return (

@@ -37,9 +37,9 @@ const Team1 = () => {
       }; 
 
     const teamItems = [
-        {img:'/assets/img/chefe/chefeThumb1_1.png', title:'Ralph Edwards', content:'Chef Lead', facebook:'#', linkedin:'#'},
-        {img:'/assets/img/chefe/chefeThumb1_2.png', title:'Leslie Alexander', content:'Chef Assistant', facebook:'#', linkedin:'#'},
-        {img:'/assets/img/chefe/chefeThumb1_3.png', title:'Ronald Richards', content:'Chef Assistant', facebook:'#', linkedin:'#'},
+        {img:'/assets/img/chefe/imgi_134_image.webp', title:'Ralph Edwards', content:'Chef Lead', facebook:'#', linkedin:'#'},
+        {img:'/assets/img/chefe/imgi_134_image.webp', title:'Leslie Alexander', content:'Chef Assistant', facebook:'#', linkedin:'#'},
+        {img:'/assets/img/chefe/imgi_135_image.webp', title:'Ronald Richards', content:'Chef Assistant', facebook:'#', linkedin:'#'},
       ]; 
 
       const logoItems = [

@@ -51,19 +51,19 @@ const HeroBanner1 = ()=>{
     };
     const heroContent = [
         {
-            img: '/assets/img/banner/bannerThumb1_1.png',
+            img: '/assets/img/banner/bannerThumb0_1.png',
             subtitle: 'WELCOME FRESHEAT',
             title: 'SPICY FRIED CHICKEN',
             btnname: 'ORDER NOW'
         },
         {
-            img: '/assets/img/banner/bannerThumb1_2.png',
+            img: '/assets/img/banner/bannerThumb0_2.png',
             subtitle: 'WELCOME FRESHEAT',
             title: 'Chicago Deep Pizza King',
             btnname: 'ORDER NOW'
         },
         {
-            img: '/assets/img/banner/bannerThumb1_3.png',
+            img: '/assets/img/banner/bannerThumb0_3.png',
             subtitle: 'WELCOME FRESHEAT',
             title: 'Chicago Deep Burger King',
             btnname: 'ORDER NOW'
@@ -794,14 +794,14 @@ const Offer1 = ()=>{
             addClass: 'theme-btn style4'
         },
         {
-            img: '/assets/img/offer/offerThumb1_2.png',
+            img: '/assets/img/offer/imgi_1_offerThumb1_2.png',
             title1: 'WELCOME FRESHEAT',
             title2: 'TODAY SPACIAL FOOD',
             content: 'limits Time Offer',
             addClass: 'theme-btn style5'
         },
         {
-            img: '/assets/img/offer/offerThumb1_3.png',
+            img: '/assets/img/offer/imgi_1_offerThumb1_3.png',
             title1: 'ON THIS WEEK',
             title2: 'SPECIAL CHICKEN ROLL',
             content: 'limits Time Offer',
@@ -821,7 +821,7 @@ const Offer1 = ()=>{
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "offer-card style1 wow fadeInUp",
                                 "data-wow-delay": "0.2s",
-                                "data-background": "/assets/img/bg/offerBG1_1.jpg",
+                                "data-background": "/assets/img/bg/offerBG0_1.jpg",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "offer-content",
@@ -1153,7 +1153,7 @@ const FoodItem1 = ()=>{
                                         role: "tablist",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                className: `nav-item ₹{isActive === 'FastFood' ? 'active' : ''}`,
+                                                className: `nav-item ${isActive === 'FastFood' ? 'active' : ''}`,
                                                 onClick: ()=>setIsActive('FastFood'),
                                                 role: "presentation",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1189,7 +1189,7 @@ const FoodItem1 = ()=>{
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                className: `nav-item ₹{isActive === 'DrinkJuice' ? 'active' : ''}`,
+                                                className: `nav-item ${isActive === 'DrinkJuice' ? 'active' : ''}`,
                                                 onClick: ()=>setIsActive('DrinkJuice'),
                                                 role: "presentation",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1225,7 +1225,7 @@ const FoodItem1 = ()=>{
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                className: `nav-item ₹{isActive === 'ChickenPizza' ? 'active' : ''}`,
+                                                className: `nav-item ${isActive === 'ChickenPizza' ? 'active' : ''}`,
                                                 onClick: ()=>setIsActive('ChickenPizza'),
                                                 role: "presentation",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1261,7 +1261,7 @@ const FoodItem1 = ()=>{
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                className: `nav-item ₹{isActive === 'FreshPasta' ? 'active' : ''}`,
+                                                className: `nav-item ${isActive === 'FreshPasta' ? 'active' : ''}`,
                                                 onClick: ()=>setIsActive('FreshPasta'),
                                                 role: "presentation",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1307,7 +1307,7 @@ const FoodItem1 = ()=>{
                                         id: "pills-tabContent",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: `tab-pane ₹{isActive === 'FastFood' ? 'active' : ''}`,
+                                                className: `tab-pane ${isActive === 'FastFood' ? 'active' : ''}`,
                                                 id: "pills-FastFood",
                                                 role: "tabpanel",
                                                 "aria-labelledby": "pills-FastFood-tab",
@@ -1319,7 +1319,7 @@ const FoodItem1 = ()=>{
                                                             className: "col-lg-6",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                    img: "/assets/img/menu/menuThumb1_1.png",
+                                                                    img: "/assets/img/menu/chinesepasta.png",
                                                                     title: "Chinese Pasta",
                                                                     content: "It's a testament to our.",
                                                                     price: "₹15.99"
@@ -1329,7 +1329,7 @@ const FoodItem1 = ()=>{
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                    img: "/assets/img/menu/menuThumb1_2.png",
+                                                                    img: "/assets/img/menu/chickenfriedrice.png",
                                                                     title: "Chicken Fried Rice",
                                                                     content: "It's a testament to our.",
                                                                     price: "₹25.99"
@@ -1339,7 +1339,7 @@ const FoodItem1 = ()=>{
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                    img: "/assets/img/menu/menuThumb1_3.png",
+                                                                    img: "/assets/img/menu/chickenpizza.png",
                                                                     title: "Chicken Pizza",
                                                                     content: "It's a testament to our.",
                                                                     price: "₹115.99"
@@ -1349,7 +1349,7 @@ const FoodItem1 = ()=>{
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                    img: "/assets/img/menu/menuThumb1_4.png",
+                                                                    img: "/assets/img/menu/chickennoddle.png",
                                                                     title: "Chicken Noodles",
                                                                     content: "It's a testament to our.",
                                                                     price: "₹154.99"
@@ -1359,7 +1359,7 @@ const FoodItem1 = ()=>{
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                    img: "/assets/img/menu/menuThumb1_5.png",
+                                                                    img: "/assets/img/menu/grilledchicken.png",
                                                                     title: "Grilled Chicken",
                                                                     content: "It's a testament to our.",
                                                                     price: "₹55.99"
@@ -1378,7 +1378,7 @@ const FoodItem1 = ()=>{
                                                             className: "col-lg-6",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                    img: "/assets/img/menu/menuThumb1_6.png",
+                                                                    img: "/assets/img/menu/eggandcucumber.png",
                                                                     title: "Egg and Cucumber",
                                                                     content: "It's a testament to our.",
                                                                     price: "₹65.99"
@@ -1388,7 +1388,7 @@ const FoodItem1 = ()=>{
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                    img: "/assets/img/menu/menuThumb1_7.png",
+                                                                    img: "/assets/img/menu/chickenwhiterice.webp",
                                                                     title: "Chicken White Rice",
                                                                     content: "It's a testament to our.",
                                                                     price: "₹135.99"
@@ -1398,7 +1398,7 @@ const FoodItem1 = ()=>{
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                    img: "/assets/img/menu/menuThumb1_8.png",
+                                                                    img: "/assets/img/menu/spatial.webp",
                                                                     title: "Spatial Barger",
                                                                     content: "It's a testament to our.",
                                                                     price: "₹95.99"
@@ -1408,7 +1408,7 @@ const FoodItem1 = ()=>{
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                    img: "/assets/img/menu/menuThumb1_9.png",
+                                                                    img: "/assets/img/menu/vegetable berger.webp",
                                                                     title: "Vegetables Burger",
                                                                     content: "It's a testament to our.",
                                                                     price: "₹75.99"
@@ -1418,7 +1418,7 @@ const FoodItem1 = ()=>{
                                                                     columnNumber: 42
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                    img: "/assets/img/menu/menuThumb1_10.png",
+                                                                    img: "/assets/img/menu/beefchicken.webp",
                                                                     title: "Brief Chicken",
                                                                     content: "It's a testament to our.",
                                                                     price: "₹44.99"
@@ -2186,21 +2186,21 @@ const Team1 = ()=>{
     };
     const teamItems = [
         {
-            img: '/assets/img/chefe/chefeThumb1_1.png',
+            img: '/assets/img/chefe/imgi_134_image.webp',
             title: 'Ralph Edwards',
             content: 'Chef Lead',
             facebook: '#',
             linkedin: '#'
         },
         {
-            img: '/assets/img/chefe/chefeThumb1_2.png',
+            img: '/assets/img/chefe/imgi_134_image.webp',
             title: 'Leslie Alexander',
             content: 'Chef Assistant',
             facebook: '#',
             linkedin: '#'
         },
         {
-            img: '/assets/img/chefe/chefeThumb1_3.png',
+            img: '/assets/img/chefe/imgi_135_image.webp',
             title: 'Ronald Richards',
             content: 'Chef Assistant',
             facebook: '#',
@@ -3356,27 +3356,27 @@ const Blog1 = ()=>{
     };
     const blogItems = [
         {
-            img: '/assets/img/blog/blogThumb1_1.jpg',
+            img: '/assets/img/blog/blogThumb1_1.webp',
             title: 'Fast Food Frenzy a Taste of Convenience'
         },
         {
-            img: '/assets/img/blog/blogThumb1_2.jpg',
+            img: '/assets/img/blog/blogThumb1_2.webp',
             title: 'Benefits of health and safety measures'
         },
         {
-            img: '/assets/img/blog/blogThumb1_3.jpg',
+            img: '/assets/img/blog/blogThumb1_3.webp',
             title: 'Quick Cravings Unraveling Fast Food Delights'
         },
         {
-            img: '/assets/img/blog/blogThumb1_1.jpg',
+            img: '/assets/img/blog/blogThumb1_1.webp',
             title: 'Fast Food Frenzy a Taste of Convenience'
         },
         {
-            img: '/assets/img/blog/blogThumb1_2.jpg',
+            img: '/assets/img/blog/blogThumb1_2.webp',
             title: 'Benefits of health and safety measures'
         },
         {
-            img: '/assets/img/blog/blogThumb1_3.jpg',
+            img: '/assets/img/blog/blogThumb1_3.webp',
             title: 'Quick Cravings Unraveling Fast Food Delights'
         }
     ];
@@ -3801,28 +3801,28 @@ const Gallery1 = ()=>{
     };
     const logoItems = [
         {
-            img: '/assets/img/gallery/galleryThumb1_5.jpg'
+            img: '/assets/img/gallery/imgi_g1.webp'
         },
         {
-            img: '/assets/img/gallery/galleryThumb1_1.jpg'
+            img: '/assets/img/gallery/imgi_g2.webp'
         },
         {
-            img: '/assets/img/gallery/galleryThumb1_2.jpg'
+            img: '/assets/img/gallery/imgi_g3.webp'
         },
         {
-            img: '/assets/img/gallery/galleryThumb1_3.jpg'
+            img: '/assets/img/gallery/imgi_g4.webp'
         },
         {
-            img: '/assets/img/gallery/galleryThumb1_4.jpg'
+            img: '/assets/img/gallery/imgi_g5.webp'
         },
         {
-            img: '/assets/img/gallery/galleryThumb1_5.jpg'
+            img: '/assets/img/gallery/imgi_g6.webp'
         },
         {
-            img: '/assets/img/gallery/galleryThumb1_1.jpg'
+            img: '/assets/img/gallery/imgi_g7.webp'
         },
         {
-            img: '/assets/img/gallery/galleryThumb1_2.jpg'
+            img: '/assets/img/gallery/imgi_g7.webp'
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {

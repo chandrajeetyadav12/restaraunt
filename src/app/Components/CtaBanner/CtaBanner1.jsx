@@ -24,7 +24,7 @@ const CtaBanner1 = () => {
                         </div>
                         <div className="col-xl-6 order-1 order-xl-2">
                             <div className="cta-thumb">
-                            <Image className="img-fluid float-bob-x" src="/assets/img/cta/ctaThumb1_1.png" alt="img" width={656} height={326}   />
+                            <Image className="img-fluid float-bob-x" src="/assets/img/cta/ctaThumb1_1.webp" alt="img" width={656} height={326}   />
                             </div>
                         </div>
                     </div>

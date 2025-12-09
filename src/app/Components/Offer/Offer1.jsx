@@ -12,8 +12,8 @@ const Offer1 = () => {
 
       const offerItems = [
         {img:'/assets/img/offer/offerThumb1.png', title1:'ON THIS WEEK', title2:'SPICY FRIED CHICKEN', content:'limits Time Offer', addClass:'theme-btn style4'},      
-        {img:'/assets/img/offer/offerThumb1_2.png', title1:'WELCOME FRESHEAT', title2:'TODAY SPACIAL FOOD', content:'limits Time Offer', addClass:'theme-btn style5'},      
-        {img:'/assets/img/offer/offerThumb1_3.png', title1:'ON THIS WEEK', title2:'SPECIAL CHICKEN ROLL', content:'limits Time Offer', addClass:'theme-btn style4'},      
+        {img:'/assets/img/offer/imgi_1_offerThumb1_2.png', title1:'WELCOME FRESHEAT', title2:'TODAY SPACIAL FOOD', content:'limits Time Offer', addClass:'theme-btn style5'},      
+        {img:'/assets/img/offer/imgi_1_offerThumb1_3.png', title1:'ON THIS WEEK', title2:'SPECIAL CHICKEN ROLL', content:'limits Time Offer', addClass:'theme-btn style4'},      
       ]; 
 
     return (
@@ -23,7 +23,7 @@ const Offer1 = () => {
                 <div className="row gy-4">
                 {offerItems.map((item, i) => (
                     <div key={i} className="col-lg-6 col-xl-4">
-                        <div className="offer-card style1 wow fadeInUp" data-wow-delay="0.2s" data-background="/assets/img/bg/offerBG1_1.jpg"
+                        <div className="offer-card style1 wow fadeInUp" data-wow-delay="0.2s" data-background="/assets/img/bg/offerBG0_1.jpg"
                             >
                             <div className="offer-content">
                                 <h6>{item.title1}</h6>

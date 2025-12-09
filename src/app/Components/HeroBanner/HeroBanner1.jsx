@@ -37,9 +37,9 @@ const HeroBanner1 = () => {
       };  
 
     const heroContent = [
-        {img:'/assets/img/banner/bannerThumb1_1.png', subtitle:'WELCOME FRESHEAT', title:'SPICY FRIED CHICKEN', btnname:'ORDER NOW'},
-        {img:'/assets/img/banner/bannerThumb1_2.png', subtitle:'WELCOME FRESHEAT', title:'Chicago Deep Pizza King', btnname:'ORDER NOW'},
-        {img:'/assets/img/banner/bannerThumb1_3.png', subtitle:'WELCOME FRESHEAT', title:'Chicago Deep Burger King', btnname:'ORDER NOW'},
+        {img:'/assets/img/banner/bannerThumb0_1.png', subtitle:'WELCOME FRESHEAT', title:'SPICY FRIED CHICKEN', btnname:'ORDER NOW'},
+        {img:'/assets/img/banner/bannerThumb0_2.png', subtitle:'WELCOME FRESHEAT', title:'Chicago Deep Pizza King', btnname:'ORDER NOW'},
+        {img:'/assets/img/banner/bannerThumb0_3.png', subtitle:'WELCOME FRESHEAT', title:'Chicago Deep Burger King', btnname:'ORDER NOW'},
       ]; 
 
     return (

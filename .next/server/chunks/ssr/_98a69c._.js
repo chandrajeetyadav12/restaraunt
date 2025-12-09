@@ -130,10 +130,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const About1 = ()=>{
     const aboutContent = {
-        img1: '/assets/img/shape/aboutShape1_1.png',
-        img2: '/assets/img/shape/aboutShape1_3.png',
-        img3: '/assets/img/shape/aboutShape1_4.png',
-        img4: '/assets/img/shape/aboutShape1_6.png',
+        img1: '/assets/img/shape/aboutShape1_1.webp',
+        img2: '/assets/img/shape/aboutShape1_3.webp',
+        img3: '/assets/img/shape/aboutShape1_4.webp',
+        img4: '/assets/img/shape/aboutShape1_6.webp',
         subtitle: "About US",
         title: 'Variety of flavours from american cuisine',
         content: 'It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point established fact that',
@@ -834,7 +834,7 @@ const CtaBanner1 = ()=>{
                                         className: "cta-thumb",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                             className: "img-fluid float-bob-x",
-                                            src: "/assets/img/cta/ctaThumb1_1.png",
+                                            src: "/assets/img/cta/ctaThumb1_1.webp",
                                             alt: "img",
                                             width: 656,
                                             height: 326
@@ -1008,7 +1008,7 @@ const Timer1 = ()=>{
                                             className: "timer-thumb wow fadeInUp",
                                             "data-wow-delay": "0.3s",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                src: "/assets/img/timer/timerThumb1_1.png",
+                                                src: "/assets/img/timer/timerThumb0_4.webp",
                                                 alt: "img",
                                                 width: 601,
                                                 height: 633

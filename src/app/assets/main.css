@@ -5168,7 +5168,7 @@ input.main-search-input::placeholder {
 /* 16.Banner */
 .banner-wrapper.style1 {
   position: relative;
-  background-image: url(/assets/img/bg/bannerBG1_1.jpg);
+  background-image: url(/assets/img/bg/imgi_154_bannerBG1_1.png);
 }
 .banner-wrapper.style1 .shape1_1 {
   position: absolute;
@@ -7622,7 +7622,7 @@ input.main-search-input::placeholder {
 /* 25.Cta */
 .cta-wrapper.style1 {
   position: relative;
-  background-image: url(/assets/img/bg/ctaBG1_1.jpg);
+  background-image: url(/assets/img/bg/ctaBG1_1_img.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
