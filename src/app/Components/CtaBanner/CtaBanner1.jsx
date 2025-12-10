@@ -16,7 +16,7 @@ const CtaBanner1 = () => {
                     <div className="row">
                         <div className="col-xl-6 order-2 order-xl-1">
                             <div className="cta-content">
-                                <h6 className="wow fadeInUp" data-wow-delay="0.5s">WELCOME FRESHEAT</h6>
+                                <h6 className="wow fadeInUp" data-wow-delay="0.5s">WELCOME Ambrosia Starbuds Cafe</h6>
                                 <h3 className="wow fadeInUp" data-wow-delay="0.7s">TODAY SPACIAL FOOD</h3>
                                 <p className="wow fadeInUp" data-wow-delay="0.8s">limits Time Offer</p>
                                 <Link className="theme-btn wow fadeInUp" data-wow-delay="0.9s" href="/menu">ORDER NOW <i className="bi bi-arrow-right"></i></Link>

@@ -5,11 +5,11 @@ const About1 = () => {
 
     const aboutContent = {  
         img1:'/assets/img/shape/aboutShape1_1.webp',  
-        img2:'/assets/img/shape/aboutShape1_3.webp',  
+        img2:'/assets/img/shape/tandooripannerpizza1_3.png',  
         img3:'/assets/img/shape/aboutShape1_4.webp',  
-        img4:'/assets/img/shape/aboutShape1_6.webp',  
+        img4:'/assets/img/shape/cheeseonionpizza1_6.png',  
         subtitle:"About US",
-        title:'Variety of flavours from american cuisine',
+        title:'Variety of flavours from Ambrosia Starbuds Cafe',
         content:'It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point established fact that',  
         btnName:'ORDER NOW', 
         btnUrl:'/menu', 

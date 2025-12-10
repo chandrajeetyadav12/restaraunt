@@ -208,15 +208,15 @@ const Testimonial2 = ()=>{
     };
     const tesItems = [
         {
+            img: '/assets/img/testimonial/testimonialProfile2_1.webp',
+            content: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classNameical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock !'
+        },
+        {
             img: '/assets/img/testimonial/testimonialProfile2_1.png',
             content: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classNameical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock !'
         },
         {
-            img: '/assets/img/testimonial/testimonialProfile2_2.png',
-            content: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classNameical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock !'
-        },
-        {
-            img: '/assets/img/testimonial/testimonialProfile2_3.png',
+            img: '/assets/img/testimonial/testimonialProfile2_1.png',
             content: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classNameical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock !'
         }
     ];
@@ -465,7 +465,7 @@ const Testimonial2 = ()=>{
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "testimonial-thumb",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                            src: "/assets/img/testimonial/testimonialThumb2_1.png",
+                                            src: "/assets/img/testimonial/testimonialThumb2_1.webp",
                                             alt: "img",
                                             width: 561,
                                             height: 547

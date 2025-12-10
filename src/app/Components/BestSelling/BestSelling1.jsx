@@ -4,11 +4,11 @@ import Link from "next/link";
 const BestSelling1 = () => {
 
     const foodItems = [
-        {img:'/assets/img/dishes/chickenfriedrice.png', title:'Chicken Fried Rice', content:'The registration fee', price:'₹100.99'},    
-        {img:'/assets/img/dishes/chinesepasta.png', title:'Chinese Pasta', content:'The registration fee', price:'₹15.99'},    
-        {img:'/assets/img/dishes/chickenpizza.png', title:'Chicken Pizza', content:'The registration fee', price:'₹26.99'},    
-        {img:'/assets/img/dishes/chickennoddle.png', title:'Chicken Noodles', content:'The registration fee', price:'₹39.00'},    
-        {img:'/assets/img/dishes/grilledchicken.png', title:'Grilled Chicken', content:'The registration fee', price:'₹20.99'},    
+        {img:'/assets/img/dishes/naturalsandwich.png', title:'Natural Sandwich', content:'The registration fee', price:'₹30.00'},    
+        {img:'/assets/img/dishes/regularberger.png', title:'Regular Berger', content:'The registration fee', price:'₹30.00'},    
+        {img:'/assets/img/dishes/cheeseonionpizza.png', title:'Cheese Onion Pizza', content:'The registration fee', price:'120.00'},    
+        {img:'/assets/img/dishes/classicpasta.png', title:'Classic Pasta', content:'The registration fee', price:'₹70.00'},    
+        {img:'/assets/img/dishes/garlicbread.png', title:'Classic Garlic Bread', content:'The registration fee', price:'₹50.00'},    
       ]; 
 
     return (

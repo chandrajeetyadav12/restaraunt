@@ -18,13 +18,13 @@ const roboto = Roboto({
 export const metadata = {
   title: {
     absolute: '',
-    default: 'Fresheat - Food & Restaurant NextJS Template',
-    template: '%s | Fresheat - Food & Restaurant NextJS Template',
+    default: 'Ambrosia Starbuds Cafe - Food & Restaurant NextJS Template',
+    template: '%s | Ambrosia Starbuds Cafe - Food & Restaurant NextJS Template',
   },
-  description: 'Fresheat - Food & Restaurant NextJS Template',
+  description: 'Ambrosia Starbuds Cafe - Food & Restaurant NextJS Template',
   openGraph: {
-    title: 'Fresheat - Food & Restaurant NextJS Template',
-    description: 'Fresheat - Food & Restaurant NextJS Template',
+    title: 'Ambrosia Starbuds Cafe - Food & Restaurant NextJS Template',
+    description: 'Ambrosia Starbuds Cafe - Food & Restaurant NextJS Template',
   },
 };
 

@@ -131,11 +131,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 const About1 = ()=>{
     const aboutContent = {
         img1: '/assets/img/shape/aboutShape1_1.webp',
-        img2: '/assets/img/shape/aboutShape1_3.webp',
+        img2: '/assets/img/shape/tandooripannerpizza1_3.png',
         img3: '/assets/img/shape/aboutShape1_4.webp',
-        img4: '/assets/img/shape/aboutShape1_6.webp',
+        img4: '/assets/img/shape/cheeseonionpizza1_6.png',
         subtitle: "About US",
-        title: 'Variety of flavours from american cuisine',
+        title: 'Variety of flavours from Ambrosia Starbuds Cafe',
         content: 'It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point established fact that',
         btnName: 'ORDER NOW',
         btnUrl: '/menu'
@@ -395,34 +395,34 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 const BestSelling1 = ()=>{
     const foodItems = [
         {
-            img: '/assets/img/dishes/chickenfriedrice.png',
-            title: 'Chicken Fried Rice',
+            img: '/assets/img/dishes/naturalsandwich.png',
+            title: 'Natural Sandwich',
             content: 'The registration fee',
-            price: '₹100.99'
+            price: '₹30.00'
         },
         {
-            img: '/assets/img/dishes/chinesepasta.png',
-            title: 'Chinese Pasta',
+            img: '/assets/img/dishes/regularberger.png',
+            title: 'Regular Berger',
             content: 'The registration fee',
-            price: '₹15.99'
+            price: '₹30.00'
         },
         {
-            img: '/assets/img/dishes/chickenpizza.png',
-            title: 'Chicken Pizza',
+            img: '/assets/img/dishes/cheeseonionpizza.png',
+            title: 'Cheese Onion Pizza',
             content: 'The registration fee',
-            price: '₹26.99'
+            price: '120.00'
         },
         {
-            img: '/assets/img/dishes/chickennoddle.png',
-            title: 'Chicken Noodles',
+            img: '/assets/img/dishes/classicpasta.png',
+            title: 'Classic Pasta',
             content: 'The registration fee',
-            price: '₹39.00'
+            price: '₹70.00'
         },
         {
-            img: '/assets/img/dishes/grilledchicken.png',
-            title: 'Grilled Chicken',
+            img: '/assets/img/dishes/garlicbread.png',
+            title: 'Classic Garlic Bread',
             content: 'The registration fee',
-            price: '₹20.99'
+            price: '₹50.00'
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -774,7 +774,7 @@ const CtaBanner1 = ()=>{
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
                                                 className: "wow fadeInUp",
                                                 "data-wow-delay": "0.5s",
-                                                children: "WELCOME FRESHEAT"
+                                                children: "WELCOME Ambrosia Starbuds Cafe"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/CtaBanner/CtaBanner1.jsx",
                                                 lineNumber: 19,

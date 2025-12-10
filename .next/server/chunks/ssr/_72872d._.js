@@ -17,61 +17,61 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 const BestSelling4 = ()=>{
     const foodItems = [
         {
-            img: '/assets/img/dishes/dishes1_1.png',
+            img: '/assets/img/dishes/chickenfriedrice.png',
             title: 'Chicken Fried Rice',
             content: 'The registration fee',
             price: '₹100.99'
         },
         {
-            img: '/assets/img/dishes/dishes1_2.png',
+            img: '/assets/img/dishes/chinesepasta.png',
             title: 'Chinese Pasta',
             content: 'The registration fee',
             price: '₹15.99'
         },
         {
-            img: '/assets/img/dishes/dishes1_3.png',
+            img: '/assets/img/dishes/chickenpizza.png',
             title: 'Chicken Pizza',
             content: 'The registration fee',
             price: '₹26.99'
         },
         {
-            img: '/assets/img/dishes/dishes1_4.png',
+            img: '/assets/img/dishes/chickennoddle.png',
             title: 'Chicken Noodles',
             content: 'The registration fee',
             price: '₹39.00'
         },
         {
-            img: '/assets/img/dishes/dishes1_5.png',
+            img: '/assets/img/dishes/grilledchicken.png',
             title: 'Grilled Chicken',
             content: 'The registration fee',
             price: '₹20.99'
         },
         {
-            img: '/assets/img/dishes/dishes1_1.png',
+            img: '/assets/img/dishes/chickenfriedrice.png',
             title: 'Chicken Fried Rice',
             content: 'The registration fee',
             price: '₹100.99'
         },
         {
-            img: '/assets/img/dishes/dishes1_2.png',
+            img: '/assets/img/dishes/chinesepasta.png',
             title: 'Chinese Pasta',
             content: 'The registration fee',
             price: '₹15.99'
         },
         {
-            img: '/assets/img/dishes/dishes1_3.png',
+            img: '/assets/img/dishes/chickenpizza.png',
             title: 'Chicken Pizza',
             content: 'The registration fee',
             price: '₹26.99'
         },
         {
-            img: '/assets/img/dishes/dishes1_4.png',
+            img: '/assets/img/dishes/chickennoddle.png',
             title: 'Chicken Noodles',
             content: 'The registration fee',
             price: '₹39.00'
         },
         {
-            img: '/assets/img/dishes/dishes1_5.png',
+            img: '/assets/img/dishes/grilledchicken.png',
             title: 'Grilled Chicken',
             content: 'The registration fee',
             price: '₹20.99'
@@ -498,7 +498,7 @@ const CtaBanner1 = ()=>{
                                         className: "cta-thumb",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                             className: "img-fluid float-bob-x",
-                                            src: "/assets/img/cta/ctaThumb1_1.png",
+                                            src: "/assets/img/cta/ctaThumb1_1.webp",
                                             alt: "img",
                                             width: 656,
                                             height: 326

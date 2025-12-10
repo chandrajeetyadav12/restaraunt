@@ -36,14 +36,14 @@ const FoodItems1 = () => {
       }; 
 
       const foodItems = [
-        {img:'/assets/img/food-items/chickenpizza.png', title:'Chicken Pizza', content:'The registration fee', price:'₹26.99'},
-        {img:'/assets/img/food-items/eggandcucumber.png', title:'Egg and Cucumber', content:'The registration fee', price:'₹28.00'},
-        {img:'/assets/img/food-items/chickenfriedrice.png', title:'Chicken Fried Rice', content:'The registration fee', price:'₹100.99'},
-        {img:'/assets/img/food-items/chickenlegpiece.png', title:'Chicken Leg Piece', content:'The registration fee', price:'₹20.99'},
-        {img:'/assets/img/food-items/chickenpizza.png', title:'Chicken Pizza', content:'The registration fee', price:'₹26.99'},
-        {img:'/assets/img/food-items/eggandcucumber.png', title:'Egg and Cucumber', content:'The registration fee', price:'₹28.00'},
-        {img:'/assets/img/food-items/chickenfriedrice.png', title:'Chicken Fried Rice', content:'The registration fee', price:'₹100.99'},
-        {img:'/assets/img/food-items/chickenlegpiece.png', title:'Chicken Leg Piece', content:'The registration fee', price:'₹20.99'},        
+        {img:'/assets/img/food-items/maxicancheesberger.png', title:'Mexican Cheese Burger', content:'The registration fee', price:'₹50.00'},
+        {img:'/assets/img/food-items/tandooripannerpizza.png', title:'Tandoori Paneer Pizza', content:'The registration fee', price:'₹180.00'},
+        {img:'/assets/img/food-items/garlicbread.png', title:'Classic Garlic Bread', content:'The registration fee', price:'₹50.00'},
+        {img:'/assets/img/food-items/regularberger.png', title:'Regular Burger', content:'The registration fee', price:'₹30.00'},
+        {img:'/assets/img/food-items/naturalsandwich.png', title:'Natural Sandwich', content:'The registration fee', price:'₹30.00'},
+        {img:'/assets/img/food-items/maxicancheesberger.png', title:'Mexican Cheese Burger', content:'The registration fee', price:'₹50.00'},
+        {img:'/assets/img/food-items/tandooripannerpizza.png', title:'Tandoori Paneer Pizza', content:'The registration fee', price:'₹180.00'},
+        {img:'/assets/img/food-items/classicpasta.png', title:'Classic Pasta', content:'The registration fee', price:'₹70.00'},
       ]; 
 
     return (

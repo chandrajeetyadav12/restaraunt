@@ -16,7 +16,7 @@ const Timer2 = () => {
                         <div className="row gy-4 gx-134">
                             <div className="col-lg-6 d-flex align-items-center">
                                 <div className="timer-thumb  timer-thumb2-area wow fadeInUp" data-wow-delay="0.3s">
-                                    <Image src="/assets/img/timer/timerThumb1_1.png" alt="img" width={601} height={633}   />
+                                    <Image src="/assets/img/timer/timerThumb0_4.webp" alt="img" width={601} height={633}   />
                                 </div>
                             </div>
                             <div className="col-lg-6 d-flex align-items-center">

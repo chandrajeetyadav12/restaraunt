@@ -11,9 +11,9 @@ const Offer1 = () => {
       }, []);
 
       const offerItems = [
-        {img:'/assets/img/offer/offerThumb1.png', title1:'ON THIS WEEK', title2:'SPICY FRIED CHICKEN', content:'limits Time Offer', addClass:'theme-btn style4'},      
-        {img:'/assets/img/offer/imgi_1_offerThumb1_2.png', title1:'WELCOME FRESHEAT', title2:'TODAY SPACIAL FOOD', content:'limits Time Offer', addClass:'theme-btn style5'},      
-        {img:'/assets/img/offer/imgi_1_offerThumb1_3.png', title1:'ON THIS WEEK', title2:'SPECIAL CHICKEN ROLL', content:'limits Time Offer', addClass:'theme-btn style4'},      
+        {img:'/assets/img/offer/naturalsandwich.png', title1:'ON THIS WEEK', title2:'Natural Sandwhich ', content:'limits Time Offer', addClass:'theme-btn style4'},      
+        {img:'/assets/img/offer/regularberger.png', title1:'WELCOME To Ambrosia Starbuds cafe', title2:'regular Berger', content:'limits Time Offer', addClass:'theme-btn style5'},      
+        {img:'/assets/img/offer/tandooripannerpizza.png', title1:'ON THIS WEEK', title2:'tandoori Panner Pizza', content:'limits Time Offer', addClass:'theme-btn style4'},      
       ]; 
 
     return (

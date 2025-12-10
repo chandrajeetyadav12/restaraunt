@@ -23,7 +23,7 @@ const FoodItem1 = () => {
                                 src="/assets/img/icon/titleIcon.svg" alt="img" width={20} height={20}   />
                         </div>
                         <h2 className="title wow fadeInUp" data-wow-delay="0.7s">
-                            Fresheat Foods Menu
+                            Ambrosia Starbuds  Foods Menu
                         </h2>
                     </div>
 
@@ -39,11 +39,11 @@ const FoodItem1 = () => {
                                     data-bs-target="#pills-drinkJuice" type="button" role="tab"
                                     aria-controls="pills-drinkJuice" aria-selected="false"><Image src="/assets/img/menu/drinkjuice.png" alt="img" width={36} height={36}   />Drink & Juice</button>
                             </li>
-                            <li className={`nav-item ${isActive === 'ChickenPizza' ? 'active' : ''}`} onClick={() => setIsActive('ChickenPizza')} role="presentation">
+                            {/* <li className={`nav-item ${isActive === 'ChickenPizza' ? 'active' : ''}`} onClick={() => setIsActive('ChickenPizza')} role="presentation">
                                 <button className="nav-link" id="pills-chickenPizza-tab" data-bs-toggle="pill"
                                     data-bs-target="#pills-chickenPizza" type="button" role="tab"
                                     aria-controls="pills-chickenPizza" aria-selected="false"><Image src="/assets/img/menu/chickenpizza.png" alt="img" width={36} height={36}   />Chicken Pizza</button>
-                            </li>
+                            </li> */}
                             <li className={`nav-item ${isActive === 'FreshPasta' ? 'active' : ''}`} onClick={() => setIsActive('FreshPasta')}  role="presentation">
                                 <button className="nav-link" id="pills-freshPasta-tab" data-bs-toggle="pill"
                                     data-bs-target="#pills-freshPasta" type="button" role="tab"
@@ -56,29 +56,45 @@ const FoodItem1 = () => {
                                 <div className="row gx-60">
                                     <div className="col-lg-6">
                                         <FoodItemCard
-                                            img="/assets/img/menu/chinesepasta.png"
-                                            title="Chinese Pasta"
+                                            img="/assets/img/menu/cheeseonionpizza.png"
+                                            title="Cheese Onion Pizza"
                                             content="It's a testament to our."
-                                            price="₹15.99"
+                                            price="₹79.00"
                                         ></FoodItemCard>
                                         <FoodItemCard
-                                            img="/assets/img/menu/chickenfriedrice.png"
-                                            title="Chicken Fried Rice"
+                                            img="/assets/img/menu/cheescornpizza.png"
+                                            title="Cheese corn pizza"
                                             content="It's a testament to our."
-                                            price="₹25.99"
+                                            price="₹79.00"
                                         ></FoodItemCard>
                                         <FoodItemCard
-                                            img="/assets/img/menu/chickenpizza.png"
-                                            title="Chicken Pizza"
+                                            img="/assets/img/menu/cheesetomatopizza.png"
+                                            title="Cheese tomato pizza"
                                             content="It's a testament to our."
-                                            price="₹115.99"
+                                            price="₹79.00"
                                         ></FoodItemCard>
                                         <FoodItemCard
-                                            img="/assets/img/menu/chickennoddle.png"
-                                            title="Chicken Noodles"
-                                            content="It's a testament to our."
-                                            price="₹154.99"
-                                        ></FoodItemCard>
+                                            img="/assets/img/menu/cheeseonionpizza.png"
+                                            title="Cheese Onion "
+                                            content="It's a testament to our.( Loaded Cheese +Fresh Onion ) small"
+                                            price="₹120.00"
+                                        >
+                                        </FoodItemCard>
+                                          <FoodItemCard
+                                            img="/assets/img/menu/cheeseonionpizza.png"
+                                            title="Cheese Onion "
+                                            content="It's a testament to our.( Loaded Cheese +Fresh Onion ) medium."
+                                            price="₹180.00"
+                                        >
+                                        </FoodItemCard>
+                                          <FoodItemCard
+                                            img="/assets/img/menu/cheeseonionpizza.png"
+                                            title="Cheese Onion "
+                                            content="It's a testament to our.( Loaded Cheese +Fresh Onion ) large"
+                                            price="₹250.00"
+                                        >
+                                        </FoodItemCard>
+                                        
                                         <FoodItemCard
                                             img="/assets/img/menu/grilledchicken.png"
                                             title="Grilled Chicken"
@@ -343,20 +359,29 @@ const FoodItem1 = () => {
             <div className="marquee-inner to-left">
                 <ul className="marqee-list d-flex">
                     <li className="marquee-item style1">
-                        <span className="text-slider"></span><span className="text-slider text-style">chicken pizza</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">GRILLED CHICKEN</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">MOCTAILS</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">HOT COFFEE</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">COLD COFFEE</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">HOT TEA</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">FRESH DOUGH PIZZA</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">GARLIC BREAD</span>
                         <span className="text-slider"></span><span className="text-slider text-style">BURGER</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">CHICKEN PIZZA</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">FRESH PASTA</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">ITALIANO FRENCH FRY</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">CHICKEN FRY</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">chicken pizza</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">GRILLED CHICKEN</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">SANDWICH</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">PASTA</span>
                         <span className="text-slider"></span><span className="text-slider text-style">BURGER</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">CHICKEN PIZZA</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">FRESH PASTA</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">ITALIANO FRENCH FRY</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">CHICKEN FRY</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">FRENCH FRIES</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">SOUTH INDIAN </span>
+                        <span className="text-slider"></span><span className="text-slider text-style">DOSA </span>
+                        <span className="text-slider"></span><span className="text-slider text-style">UTTAPAM</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">RAVA DOSA</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">MEDU VADA</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">IDL</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">RAVA DOSA</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">INDIAN SNACKS</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">PAKODE</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">VADA PAV</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">PARATHA( WITH CURD)</span>
+
                     </li>
                 </ul>
             </div>

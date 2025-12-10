@@ -48,9 +48,9 @@ const Testimonial2 = () => {
 
 
     const tesItems = [
+        {img:'/assets/img/testimonial/testimonialProfile2_1.webp', content:'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classNameical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock !'},
         {img:'/assets/img/testimonial/testimonialProfile2_1.png', content:'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classNameical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock !'},
-        {img:'/assets/img/testimonial/testimonialProfile2_2.png', content:'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classNameical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock !'},
-        {img:'/assets/img/testimonial/testimonialProfile2_3.png', content:'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classNameical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock !'},
+        {img:'/assets/img/testimonial/testimonialProfile2_1.png', content:'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classNameical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock !'},
       ]; 
 
     return (
@@ -108,7 +108,7 @@ const Testimonial2 = () => {
                         </div>
                         <div className="col-xl-5 order-1 order-xl-2">
                             <div className="testimonial-thumb">
-                            <Image src="/assets/img/testimonial/testimonialThumb2_1.png" alt="img" width={561} height={547}   />
+                            <Image src="/assets/img/testimonial/testimonialThumb2_1.webp" alt="img" width={561} height={547}   />
                             </div>
                         </div>
                     </div>

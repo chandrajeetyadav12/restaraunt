@@ -1,6 +1,15 @@
 {
   "/(defaultLayout)/page": "app/(defaultLayout)/page.js",
-  "/(defaultLayout)/shop/shop-details/page": "app/(defaultLayout)/shop/shop-details/page.js",
   "/_not-found/page": "app/_not-found/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/(defaultLayout)/contact/page": "app/(defaultLayout)/contact/page.js",
+  "/(defaultLayout)/menu/page": "app/(defaultLayout)/menu/page.js",
+  "/(defaultLayout)/menu2/page": "app/(defaultLayout)/menu2/page.js",
+  "/(defaultLayout)/blog/page": "app/(defaultLayout)/blog/page.js",
+  "/(defaultLayout)/shop/page": "app/(defaultLayout)/shop/page.js",
+  "/(defaultLayout)/shop/shop-details/page": "app/(defaultLayout)/shop/shop-details/page.js",
+  "/(defaultLayout)/shop/cart/page": "app/(defaultLayout)/shop/cart/page.js",
+  "/(defaultLayout)/shop-list/page": "app/(defaultLayout)/shop-list/page.js",
+  "/(defaultLayout)/shop-list-right/page": "app/(defaultLayout)/shop-list-right/page.js",
+  "/(defaultLayout)/contact2/page": "app/(defaultLayout)/contact2/page.js"
 }

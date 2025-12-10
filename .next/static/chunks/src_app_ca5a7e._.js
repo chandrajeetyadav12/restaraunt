@@ -51,21 +51,21 @@ const HeroBanner1 = ()=>{
     };
     const heroContent = [
         {
-            img: '/assets/img/banner/bannerThumb0_1.png',
-            subtitle: 'WELCOME FRESHEAT',
-            title: 'SPICY FRIED CHICKEN',
+            img: '/assets/img/banner/garlicbread.png',
+            subtitle: 'WELCOME To Ambrosia Starbudscafe',
+            title: 'GARLIC BREAD',
             btnname: 'ORDER NOW'
         },
         {
-            img: '/assets/img/banner/bannerThumb0_2.png',
-            subtitle: 'WELCOME FRESHEAT',
-            title: 'Chicago Deep Pizza King',
+            img: '/assets/img/banner/tandooripannerpizza.png',
+            subtitle: 'WELCOME To Ambrosia Starbudscafe',
+            title: 'Tandoori Paneer Pizza',
             btnname: 'ORDER NOW'
         },
         {
-            img: '/assets/img/banner/bannerThumb0_3.png',
-            subtitle: 'WELCOME FRESHEAT',
-            title: 'Chicago Deep Burger King',
+            img: '/assets/img/banner/maxicancheesberger.png',
+            subtitle: 'WELCOME To Ambrosia Starbudscafe',
+            title: 'Mexican Cheese Burger',
             btnname: 'ORDER NOW'
         }
     ];
@@ -472,52 +472,52 @@ const FoodItems1 = ()=>{
     };
     const foodItems = [
         {
-            img: '/assets/img/food-items/chickenpizza.png',
-            title: 'Chicken Pizza',
+            img: '/assets/img/food-items/maxicancheesberger.png',
+            title: 'Mexican Cheese Burger',
             content: 'The registration fee',
-            price: '₹26.99'
+            price: '₹50.00'
         },
         {
-            img: '/assets/img/food-items/eggandcucumber.png',
-            title: 'Egg and Cucumber',
+            img: '/assets/img/food-items/tandooripannerpizza.png',
+            title: 'Tandoori Paneer Pizza',
             content: 'The registration fee',
-            price: '₹28.00'
+            price: '₹180.00'
         },
         {
-            img: '/assets/img/food-items/chickenfriedrice.png',
-            title: 'Chicken Fried Rice',
+            img: '/assets/img/food-items/garlicbread.png',
+            title: 'Classic Garlic Bread',
             content: 'The registration fee',
-            price: '₹100.99'
+            price: '₹50.00'
         },
         {
-            img: '/assets/img/food-items/chickenlegpiece.png',
-            title: 'Chicken Leg Piece',
+            img: '/assets/img/food-items/regularberger.png',
+            title: 'Regular Burger',
             content: 'The registration fee',
-            price: '₹20.99'
+            price: '₹30.00'
         },
         {
-            img: '/assets/img/food-items/chickenpizza.png',
-            title: 'Chicken Pizza',
+            img: '/assets/img/food-items/naturalsandwich.png',
+            title: 'Natural Sandwich',
             content: 'The registration fee',
-            price: '₹26.99'
+            price: '₹30.00'
         },
         {
-            img: '/assets/img/food-items/eggandcucumber.png',
-            title: 'Egg and Cucumber',
+            img: '/assets/img/food-items/maxicancheesberger.png',
+            title: 'Mexican Cheese Burger',
             content: 'The registration fee',
-            price: '₹28.00'
+            price: '₹50.00'
         },
         {
-            img: '/assets/img/food-items/chickenfriedrice.png',
-            title: 'Chicken Fried Rice',
+            img: '/assets/img/food-items/tandooripannerpizza.png',
+            title: 'Tandoori Paneer Pizza',
             content: 'The registration fee',
-            price: '₹100.99'
+            price: '₹180.00'
         },
         {
-            img: '/assets/img/food-items/chickenlegpiece.png',
-            title: 'Chicken Leg Piece',
+            img: '/assets/img/food-items/classicpasta.png',
+            title: 'Classic Pasta',
             content: 'The registration fee',
-            price: '₹20.99'
+            price: '₹70.00'
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -806,23 +806,23 @@ const Offer1 = ()=>{
     }["Offer1.useEffect"], []);
     const offerItems = [
         {
-            img: '/assets/img/offer/offerThumb1.png',
+            img: '/assets/img/offer/naturalsandwich.png',
             title1: 'ON THIS WEEK',
-            title2: 'SPICY FRIED CHICKEN',
+            title2: 'Natural Sandwhich ',
             content: 'limits Time Offer',
             addClass: 'theme-btn style4'
         },
         {
-            img: '/assets/img/offer/imgi_1_offerThumb1_2.png',
-            title1: 'WELCOME FRESHEAT',
-            title2: 'TODAY SPACIAL FOOD',
+            img: '/assets/img/offer/regularberger.png',
+            title1: 'WELCOME To Ambrosia Starbuds cafe',
+            title2: 'regular Berger',
             content: 'limits Time Offer',
             addClass: 'theme-btn style5'
         },
         {
-            img: '/assets/img/offer/imgi_1_offerThumb1_3.png',
+            img: '/assets/img/offer/tandooripannerpizza.png',
             title1: 'ON THIS WEEK',
-            title2: 'SPECIAL CHICKEN ROLL',
+            title2: 'tandoori Panner Pizza',
             content: 'limits Time Offer',
             addClass: 'theme-btn style4'
         }
@@ -1166,7 +1166,7 @@ const FoodItem1 = ()=>{
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         className: "title wow fadeInUp",
                                         "data-wow-delay": "0.7s",
-                                        children: "Fresheat Foods Menu"
+                                        children: "Ambrosia Starbuds  Foods Menu"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
                                         lineNumber: 25,
@@ -1259,42 +1259,6 @@ const FoodItem1 = ()=>{
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                className: `nav-item ${isActive === 'ChickenPizza' ? 'active' : ''}`,
-                                                onClick: ()=>setIsActive('ChickenPizza'),
-                                                role: "presentation",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                    className: "nav-link",
-                                                    id: "pills-chickenPizza-tab",
-                                                    "data-bs-toggle": "pill",
-                                                    "data-bs-target": "#pills-chickenPizza",
-                                                    type: "button",
-                                                    role: "tab",
-                                                    "aria-controls": "pills-chickenPizza",
-                                                    "aria-selected": "false",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                            src: "/assets/img/menu/chickenpizza.png",
-                                                            alt: "img",
-                                                            width: 36,
-                                                            height: 36
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                            lineNumber: 45,
-                                                            columnNumber: 94
-                                                        }, this),
-                                                        "Chicken Pizza"
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                    lineNumber: 43,
-                                                    columnNumber: 33
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                lineNumber: 42,
-                                                columnNumber: 29
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 className: `nav-item ${isActive === 'FreshPasta' ? 'active' : ''}`,
                                                 onClick: ()=>setIsActive('FreshPasta'),
                                                 role: "presentation",
@@ -1353,44 +1317,64 @@ const FoodItem1 = ()=>{
                                                             className: "col-lg-6",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                    img: "/assets/img/menu/chinesepasta.png",
-                                                                    title: "Chinese Pasta",
+                                                                    img: "/assets/img/menu/cheeseonionpizza.png",
+                                                                    title: "Cheese Onion Pizza",
                                                                     content: "It's a testament to our.",
-                                                                    price: "₹15.99"
+                                                                    price: "₹79.00"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
                                                                     lineNumber: 58,
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                    img: "/assets/img/menu/chickenfriedrice.png",
-                                                                    title: "Chicken Fried Rice",
+                                                                    img: "/assets/img/menu/cheescornpizza.png",
+                                                                    title: "Cheese corn pizza",
                                                                     content: "It's a testament to our.",
-                                                                    price: "₹25.99"
+                                                                    price: "₹79.00"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
                                                                     lineNumber: 64,
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                    img: "/assets/img/menu/chickenpizza.png",
-                                                                    title: "Chicken Pizza",
+                                                                    img: "/assets/img/menu/cheesetomatopizza.png",
+                                                                    title: "Cheese tomato pizza",
                                                                     content: "It's a testament to our.",
-                                                                    price: "₹115.99"
+                                                                    price: "₹79.00"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
                                                                     lineNumber: 70,
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                    img: "/assets/img/menu/chickennoddle.png",
-                                                                    title: "Chicken Noodles",
-                                                                    content: "It's a testament to our.",
-                                                                    price: "₹154.99"
+                                                                    img: "/assets/img/menu/cheeseonionpizza.png",
+                                                                    title: "Cheese Onion ",
+                                                                    content: "It's a testament to our.( Loaded Cheese +Fresh Onion ) small",
+                                                                    price: "₹120.00"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
                                                                     lineNumber: 76,
                                                                     columnNumber: 41
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                    img: "/assets/img/menu/cheeseonionpizza.png",
+                                                                    title: "Cheese Onion ",
+                                                                    content: "It's a testament to our.( Loaded Cheese +Fresh Onion ) medium.",
+                                                                    price: "₹180.00"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                                                    lineNumber: 83,
+                                                                    columnNumber: 43
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                    img: "/assets/img/menu/cheeseonionpizza.png",
+                                                                    title: "Cheese Onion ",
+                                                                    content: "It's a testament to our.( Loaded Cheese +Fresh Onion ) large",
+                                                                    price: "₹250.00"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                                                    lineNumber: 90,
+                                                                    columnNumber: 43
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                                     img: "/assets/img/menu/grilledchicken.png",
@@ -1399,7 +1383,7 @@ const FoodItem1 = ()=>{
                                                                     price: "₹55.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 82,
+                                                                    lineNumber: 98,
                                                                     columnNumber: 41
                                                                 }, this)
                                                             ]
@@ -1418,7 +1402,7 @@ const FoodItem1 = ()=>{
                                                                     price: "₹65.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 90,
+                                                                    lineNumber: 106,
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1428,7 +1412,7 @@ const FoodItem1 = ()=>{
                                                                     price: "₹135.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 96,
+                                                                    lineNumber: 112,
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1438,7 +1422,7 @@ const FoodItem1 = ()=>{
                                                                     price: "₹95.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 102,
+                                                                    lineNumber: 118,
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1448,7 +1432,7 @@ const FoodItem1 = ()=>{
                                                                     price: "₹75.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 108,
+                                                                    lineNumber: 124,
                                                                     columnNumber: 42
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1458,13 +1442,13 @@ const FoodItem1 = ()=>{
                                                                     price: "₹44.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 114,
+                                                                    lineNumber: 130,
                                                                     columnNumber: 41
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                            lineNumber: 89,
+                                                            lineNumber: 105,
                                                             columnNumber: 37
                                                         }, this)
                                                     ]
@@ -1497,7 +1481,7 @@ const FoodItem1 = ()=>{
                                                                     price: "₹115.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 128,
+                                                                    lineNumber: 144,
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1507,7 +1491,7 @@ const FoodItem1 = ()=>{
                                                                     price: "₹154.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 134,
+                                                                    lineNumber: 150,
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1517,7 +1501,7 @@ const FoodItem1 = ()=>{
                                                                     price: "₹55.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 140,
+                                                                    lineNumber: 156,
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1527,7 +1511,7 @@ const FoodItem1 = ()=>{
                                                                     price: "₹15.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 146,
+                                                                    lineNumber: 162,
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1537,13 +1521,13 @@ const FoodItem1 = ()=>{
                                                                     price: "₹25.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 152,
+                                                                    lineNumber: 168,
                                                                     columnNumber: 41
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                            lineNumber: 126,
+                                                            lineNumber: 142,
                                                             columnNumber: 37
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1556,7 +1540,7 @@ const FoodItem1 = ()=>{
                                                                     price: "₹65.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 161,
+                                                                    lineNumber: 177,
                                                                     columnNumber: 37
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1566,7 +1550,7 @@ const FoodItem1 = ()=>{
                                                                     price: "₹95.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 167,
+                                                                    lineNumber: 183,
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1576,7 +1560,7 @@ const FoodItem1 = ()=>{
                                                                     price: "₹75.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 173,
+                                                                    lineNumber: 189,
                                                                     columnNumber: 42
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1586,7 +1570,7 @@ const FoodItem1 = ()=>{
                                                                     price: "₹135.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 179,
+                                                                    lineNumber: 195,
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1596,24 +1580,24 @@ const FoodItem1 = ()=>{
                                                                     price: "₹44.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 185,
+                                                                    lineNumber: 201,
                                                                     columnNumber: 41
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                            lineNumber: 160,
+                                                            lineNumber: 176,
                                                             columnNumber: 37
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                    lineNumber: 125,
+                                                    lineNumber: 141,
                                                     columnNumber: 33
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                lineNumber: 123,
+                                                lineNumber: 139,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1635,7 +1619,7 @@ const FoodItem1 = ()=>{
                                                                     price: "₹15.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 199,
+                                                                    lineNumber: 215,
                                                                     columnNumber: 37
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1645,7 +1629,7 @@ const FoodItem1 = ()=>{
                                                                     price: "₹55.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 205,
+                                                                    lineNumber: 221,
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1655,7 +1639,7 @@ const FoodItem1 = ()=>{
                                                                     price: "₹25.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 211,
+                                                                    lineNumber: 227,
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1665,7 +1649,7 @@ const FoodItem1 = ()=>{
                                                                     price: "₹115.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 217,
+                                                                    lineNumber: 233,
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1675,13 +1659,13 @@ const FoodItem1 = ()=>{
                                                                     price: "₹154.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 223,
+                                                                    lineNumber: 239,
                                                                     columnNumber: 41
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                            lineNumber: 197,
+                                                            lineNumber: 213,
                                                             columnNumber: 37
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1694,7 +1678,7 @@ const FoodItem1 = ()=>{
                                                                     price: "₹75.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 232,
+                                                                    lineNumber: 248,
                                                                     columnNumber: 37
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1704,7 +1688,7 @@ const FoodItem1 = ()=>{
                                                                     price: "₹44.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 238,
+                                                                    lineNumber: 254,
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1714,7 +1698,7 @@ const FoodItem1 = ()=>{
                                                                     price: "₹65.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 244,
+                                                                    lineNumber: 260,
                                                                     columnNumber: 37
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1724,7 +1708,7 @@ const FoodItem1 = ()=>{
                                                                     price: "₹135.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 250,
+                                                                    lineNumber: 266,
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1734,24 +1718,24 @@ const FoodItem1 = ()=>{
                                                                     price: "₹95.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 256,
+                                                                    lineNumber: 272,
                                                                     columnNumber: 41
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                            lineNumber: 231,
+                                                            lineNumber: 247,
                                                             columnNumber: 37
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                    lineNumber: 196,
+                                                    lineNumber: 212,
                                                     columnNumber: 33
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                lineNumber: 194,
+                                                lineNumber: 210,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1773,7 +1757,7 @@ const FoodItem1 = ()=>{
                                                                     price: "₹25.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 270,
+                                                                    lineNumber: 286,
                                                                     columnNumber: 37
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1783,7 +1767,7 @@ const FoodItem1 = ()=>{
                                                                     price: "₹15.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 276,
+                                                                    lineNumber: 292,
                                                                     columnNumber: 37
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1793,7 +1777,7 @@ const FoodItem1 = ()=>{
                                                                     price: "₹115.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 282,
+                                                                    lineNumber: 298,
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1803,7 +1787,7 @@ const FoodItem1 = ()=>{
                                                                     price: "₹154.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 288,
+                                                                    lineNumber: 304,
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1813,13 +1797,13 @@ const FoodItem1 = ()=>{
                                                                     price: "₹55.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 294,
+                                                                    lineNumber: 310,
                                                                     columnNumber: 41
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                            lineNumber: 269,
+                                                            lineNumber: 285,
                                                             columnNumber: 37
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1832,7 +1816,7 @@ const FoodItem1 = ()=>{
                                                                     price: "₹65.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 302,
+                                                                    lineNumber: 318,
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1842,7 +1826,7 @@ const FoodItem1 = ()=>{
                                                                     price: "₹75.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 308,
+                                                                    lineNumber: 324,
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1852,7 +1836,7 @@ const FoodItem1 = ()=>{
                                                                     price: "₹135.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 314,
+                                                                    lineNumber: 330,
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1862,7 +1846,7 @@ const FoodItem1 = ()=>{
                                                                     price: "₹95.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 320,
+                                                                    lineNumber: 336,
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1872,24 +1856,24 @@ const FoodItem1 = ()=>{
                                                                     price: "₹44.99"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                    lineNumber: 326,
+                                                                    lineNumber: 342,
                                                                     columnNumber: 41
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                            lineNumber: 301,
+                                                            lineNumber: 317,
                                                             columnNumber: 37
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                    lineNumber: 268,
+                                                    lineNumber: 284,
                                                     columnNumber: 33
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                lineNumber: 266,
+                                                lineNumber: 282,
                                                 columnNumber: 29
                                             }, this)
                                         ]
@@ -1933,37 +1917,97 @@ const FoodItem1 = ()=>{
                                     className: "text-slider"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 346,
+                                    lineNumber: 362,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider text-style",
-                                    children: "chicken pizza"
+                                    children: "MOCTAILS"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 346,
+                                    lineNumber: 362,
                                     columnNumber: 62
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 347,
+                                    lineNumber: 363,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider text-style",
-                                    children: "GRILLED CHICKEN"
+                                    children: "HOT COFFEE"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 347,
+                                    lineNumber: 363,
                                     columnNumber: 62
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 348,
+                                    lineNumber: 364,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-slider text-style",
+                                    children: "COLD COFFEE"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                    lineNumber: 364,
+                                    columnNumber: 62
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-slider"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                    lineNumber: 365,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-slider text-style",
+                                    children: "HOT TEA"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                    lineNumber: 365,
+                                    columnNumber: 62
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-slider"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                    lineNumber: 366,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-slider text-style",
+                                    children: "FRESH DOUGH PIZZA"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                    lineNumber: 366,
+                                    columnNumber: 62
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-slider"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                    lineNumber: 367,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-slider text-style",
+                                    children: "GARLIC BREAD"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                    lineNumber: 367,
+                                    columnNumber: 62
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-slider"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                    lineNumber: 368,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1971,104 +2015,44 @@ const FoodItem1 = ()=>{
                                     children: "BURGER"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 348,
+                                    lineNumber: 368,
                                     columnNumber: 62
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 349,
+                                    lineNumber: 369,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider text-style",
-                                    children: "CHICKEN PIZZA"
+                                    children: "SANDWICH"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 349,
+                                    lineNumber: 369,
                                     columnNumber: 62
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 350,
+                                    lineNumber: 370,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider text-style",
-                                    children: "FRESH PASTA"
+                                    children: "PASTA"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 350,
+                                    lineNumber: 370,
                                     columnNumber: 62
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 351,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-slider text-style",
-                                    children: "ITALIANO FRENCH FRY"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 351,
-                                    columnNumber: 62
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-slider"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 352,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-slider text-style",
-                                    children: "CHICKEN FRY"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 352,
-                                    columnNumber: 62
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-slider"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 353,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-slider text-style",
-                                    children: "chicken pizza"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 353,
-                                    columnNumber: 62
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-slider"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 354,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-slider text-style",
-                                    children: "GRILLED CHICKEN"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 354,
-                                    columnNumber: 62
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-slider"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 355,
+                                    lineNumber: 371,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2076,88 +2060,208 @@ const FoodItem1 = ()=>{
                                     children: "BURGER"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 355,
+                                    lineNumber: 371,
                                     columnNumber: 62
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 356,
+                                    lineNumber: 372,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider text-style",
-                                    children: "CHICKEN PIZZA"
+                                    children: "FRENCH FRIES"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 356,
+                                    lineNumber: 372,
                                     columnNumber: 62
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 357,
+                                    lineNumber: 373,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider text-style",
-                                    children: "FRESH PASTA"
+                                    children: "SOUTH INDIAN "
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 357,
+                                    lineNumber: 373,
                                     columnNumber: 62
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 358,
+                                    lineNumber: 374,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider text-style",
-                                    children: "ITALIANO FRENCH FRY"
+                                    children: "DOSA "
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 358,
+                                    lineNumber: 374,
                                     columnNumber: 62
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 359,
+                                    lineNumber: 375,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider text-style",
-                                    children: "CHICKEN FRY"
+                                    children: "UTTAPAM"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 359,
+                                    lineNumber: 375,
+                                    columnNumber: 62
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-slider"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                    lineNumber: 376,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-slider text-style",
+                                    children: "RAVA DOSA"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                    lineNumber: 376,
+                                    columnNumber: 62
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-slider"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                    lineNumber: 377,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-slider text-style",
+                                    children: "MEDU VADA"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                    lineNumber: 377,
+                                    columnNumber: 62
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-slider"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                    lineNumber: 378,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-slider text-style",
+                                    children: "IDL"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                    lineNumber: 378,
+                                    columnNumber: 62
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-slider"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                    lineNumber: 379,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-slider text-style",
+                                    children: "RAVA DOSA"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                    lineNumber: 379,
+                                    columnNumber: 62
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-slider"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                    lineNumber: 380,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-slider text-style",
+                                    children: "INDIAN SNACKS"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                    lineNumber: 380,
+                                    columnNumber: 62
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-slider"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                    lineNumber: 381,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-slider text-style",
+                                    children: "PAKODE"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                    lineNumber: 381,
+                                    columnNumber: 62
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-slider"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                    lineNumber: 382,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-slider text-style",
+                                    children: "VADA PAV"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                    lineNumber: 382,
+                                    columnNumber: 62
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-slider"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                    lineNumber: 383,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-slider text-style",
+                                    children: "PARATHA( WITH CURD)"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                    lineNumber: 383,
                                     columnNumber: 62
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                            lineNumber: 345,
+                            lineNumber: 361,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                        lineNumber: 344,
+                        lineNumber: 360,
                         columnNumber: 17
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                    lineNumber: 343,
+                    lineNumber: 359,
                     columnNumber: 13
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                lineNumber: 342,
+                lineNumber: 358,
                 columnNumber: 9
             }, this)
         ]
@@ -2740,7 +2844,7 @@ const Testimonial1 = ()=>{
     };
     const tesItems = [
         {
-            img: '/assets/img/testimonial/testimonialProfile1_1.png',
+            img: '/assets/img/testimonial/testimonialProfile1_1.webp',
             title: 'Albert Flores',
             designation: 'Web Designer',
             content: 'Penatibus magnis dis point parturient montes nascetur ridiculus mus Ut id lorem ac enim the vestibulum blandit nec sit amet felis. Fusce quis diam odio Cras mattis mi quis tincidunt'
@@ -2767,7 +2871,7 @@ const Testimonial1 = ()=>{
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "shape",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                            src: "/assets/img/testimonial/testimonialThumb1_1.png",
+                            src: "/assets/img/testimonial/testimonialThumb1_1.webp",
                             alt: "img",
                             width: 885,
                             height: 747

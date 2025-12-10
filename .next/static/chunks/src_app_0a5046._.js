@@ -199,28 +199,28 @@ const Gallery1 = ()=>{
     };
     const logoItems = [
         {
-            img: '/assets/img/gallery/galleryThumb1_5.jpg'
+            img: '/assets/img/gallery/imgi_g1.webp'
         },
         {
-            img: '/assets/img/gallery/galleryThumb1_1.jpg'
+            img: '/assets/img/gallery/imgi_g2.webp'
         },
         {
-            img: '/assets/img/gallery/galleryThumb1_2.jpg'
+            img: '/assets/img/gallery/imgi_g3.webp'
         },
         {
-            img: '/assets/img/gallery/galleryThumb1_3.jpg'
+            img: '/assets/img/gallery/imgi_g4.webp'
         },
         {
-            img: '/assets/img/gallery/galleryThumb1_4.jpg'
+            img: '/assets/img/gallery/imgi_g5.webp'
         },
         {
-            img: '/assets/img/gallery/galleryThumb1_5.jpg'
+            img: '/assets/img/gallery/imgi_g6.webp'
         },
         {
-            img: '/assets/img/gallery/galleryThumb1_1.jpg'
+            img: '/assets/img/gallery/imgi_g7.webp'
         },
         {
-            img: '/assets/img/gallery/galleryThumb1_2.jpg'
+            img: '/assets/img/gallery/imgi_g7.webp'
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {

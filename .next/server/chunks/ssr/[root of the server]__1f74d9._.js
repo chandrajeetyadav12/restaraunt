@@ -84,13 +84,13 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$r
 const metadata = {
     title: {
         absolute: '',
-        default: 'Fresheat - Food & Restaurant NextJS Template',
-        template: '%s | Fresheat - Food & Restaurant NextJS Template'
+        default: 'Ambrosia Starbuds Cafe - Food & Restaurant NextJS Template',
+        template: '%s | Ambrosia Starbuds Cafe - Food & Restaurant NextJS Template'
     },
-    description: 'Fresheat - Food & Restaurant NextJS Template',
+    description: 'Ambrosia Starbuds Cafe - Food & Restaurant NextJS Template',
     openGraph: {
-        title: 'Fresheat - Food & Restaurant NextJS Template',
-        description: 'Fresheat - Food & Restaurant NextJS Template'
+        title: 'Ambrosia Starbuds Cafe - Food & Restaurant NextJS Template',
+        description: 'Ambrosia Starbuds Cafe - Food & Restaurant NextJS Template'
     }
 };
 function RootLayout({ children }) {

@@ -43,7 +43,7 @@ export default function Header1({ variant }) {
           <div className="cs_top_header_in">
             <div className="cs_top_header_left header-info">
               <ul className="cs_top_nav d-flex flex-wrap align-items-center cs_fs_12 text-white m-0 p-0">
-                <li><i className="bi bi-geo-alt-fill"></i>New market Sandigo - California</li>
+                <li><i className="bi bi-geo-alt-fill"></i>Shop No. GF-18 Signate Plaza Complex Krunal Char  Rasta Gotri-Samta Road, Laxmipura, Gotri, Vadodara, Gujarat-390021</li>
                 <li><i className="bi bi-alarm"></i>9.00 am - 5.00 pm</li>
               </ul>
             </div>
@@ -69,7 +69,7 @@ export default function Header1({ variant }) {
           <div className="cs_main_header_in">
             <div className="cs_main_header_left">
               <Link className="cs_site_branding" href="/">
-                <Image src="/assets/img/logo/logobuds.jpeg" alt="img" width={167} height={58}   />
+                <Image src="/assets/img/logo/starbudslogo1.jpeg" alt="img" width={167} height={58}/>
               </Link>
               </div>
               <div className="cs_main_header_center">
@@ -92,9 +92,9 @@ export default function Header1({ variant }) {
 
               <a onClick={() => setSearchToggle(!searchToggle)} className="search-trigger search-icon"><i className="bi bi-search"></i></a>
 
-                <div className="main-button">
+                {/* <div className="main-button">
                 <Link href="/contact" className="theme-btn" >ORDER NOW <i className="bi bi-arrow-right"></i></Link>
-                  </div>
+                  </div> */}
 
               </div>
             </div>

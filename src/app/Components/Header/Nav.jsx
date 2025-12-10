@@ -90,11 +90,11 @@ export default function Nav({ setMobileToggle }) {
         </DropDown> */}
       </li>  
 
-      <li className="menu-item-has-children">
+      <li className="">
         <Link href="/menu" onClick={() => setMobileToggle(false)}>
         Food Menu
         </Link>
-        <DropDown>
+        {/* <DropDown>
           <ul>
             <li>
               <Link href="/menu" onClick={() => setMobileToggle(false)}>
@@ -107,10 +107,10 @@ export default function Nav({ setMobileToggle }) {
               </Link>
             </li>
           </ul>
-        </DropDown>
+        </DropDown> */}
       </li> 
       
-      <li className="menu-item-has-children">
+      {/* <li className="menu-item-has-children">
         <Link href="/blog" onClick={() => setMobileToggle(false)}>
           Blog
         </Link>
@@ -141,8 +141,8 @@ export default function Nav({ setMobileToggle }) {
             </li>
           </ul>
         </DropDown>
-      </li>
-      <li className="menu-item-has-children">
+      </li> */}
+      {/* <li className="menu-item-has-children">
         <Link href="/shop" onClick={() => setMobileToggle(false)}>
         Shop
         </Link>
@@ -185,12 +185,12 @@ export default function Nav({ setMobileToggle }) {
             </li>                                                                             
           </ul>
         </DropDown>
-      </li>
-      <li className="menu-item-has-children">
+      </li> */}
+      <li className="">
         <Link href="/contact" onClick={() => setMobileToggle(false)}>
         Contact
         </Link>
-        <DropDown>
+        {/* <DropDown>
           <ul>
             <li>
               <Link href="/contact" onClick={() => setMobileToggle(false)}>
@@ -203,7 +203,7 @@ export default function Nav({ setMobileToggle }) {
               </Link>
             </li>                         
           </ul>
-        </DropDown>
+        </DropDown> */}
       </li>
 
     </ul>

@@ -60,7 +60,7 @@ const Testimonial1 = () => {
         };
 
     const tesItems = [
-        {img:'/assets/img/testimonial/testimonialProfile1_1.png', title:'Albert Flores', designation:'Web Designer', content:'Penatibus magnis dis point parturient montes nascetur ridiculus mus Ut id lorem ac enim the vestibulum blandit nec sit amet felis. Fusce quis diam odio Cras mattis mi quis tincidunt'},
+        {img:'/assets/img/testimonial/testimonialProfile1_1.webp', title:'Albert Flores', designation:'Web Designer', content:'Penatibus magnis dis point parturient montes nascetur ridiculus mus Ut id lorem ac enim the vestibulum blandit nec sit amet felis. Fusce quis diam odio Cras mattis mi quis tincidunt'},
         {img:'/assets/img/testimonial/testimonialProfile1_1.png', title:'Albert Flores', designation:'Web Designer', content:'Penatibus magnis dis point parturient montes nascetur ridiculus mus Ut id lorem ac enim the vestibulum blandit nec sit amet felis. Fusce quis diam odio Cras mattis mi quis tincidunt'},
         {img:'/assets/img/testimonial/testimonialProfile1_1.png', title:'Albert Flores', designation:'Web Designer', content:'Penatibus magnis dis point parturient montes nascetur ridiculus mus Ut id lorem ac enim the vestibulum blandit nec sit amet felis. Fusce quis diam odio Cras mattis mi quis tincidunt'},
       ]; 
@@ -68,7 +68,7 @@ const Testimonial1 = () => {
     return (
     <section className="testimonial-section fix bg-color3">
         <div className="testimonial-wrapper style1 section-padding ">
-            <div className="shape"><Image src="/assets/img/testimonial/testimonialThumb1_1.png" alt="img" width={885} height={747}   /></div>
+            <div className="shape"><Image src="/assets/img/testimonial/testimonialThumb1_1.webp" alt="img" width={885} height={747}   /></div>
             <div className="shape2"><Image src="/assets/img/shape/testimonialShape1_1.png" alt="img" width={224} height={401}   /></div>
             <div className="container">
                 <div className="row d-flex justify-content-center">
