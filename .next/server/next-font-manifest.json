@@ -8,43 +8,11 @@
       "static/media/O4ZRFGj5hxF0EhjimlIksgg4lWmc-s.p.540d7db0.woff2",
       "static/media/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ-s.p.a797655c.woff2"
     ],
-    "[project]/src/app/(defaultLayout)/contact/page": [
-      "static/media/O4ZRFGj5hxF0EhjimlIksgg4lWmc-s.p.540d7db0.woff2",
-      "static/media/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ-s.p.a797655c.woff2"
-    ],
     "[project]/src/app/(defaultLayout)/menu/page": [
       "static/media/O4ZRFGj5hxF0EhjimlIksgg4lWmc-s.p.540d7db0.woff2",
       "static/media/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ-s.p.a797655c.woff2"
     ],
-    "[project]/src/app/(defaultLayout)/menu2/page": [
-      "static/media/O4ZRFGj5hxF0EhjimlIksgg4lWmc-s.p.540d7db0.woff2",
-      "static/media/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ-s.p.a797655c.woff2"
-    ],
-    "[project]/src/app/(defaultLayout)/blog/page": [
-      "static/media/O4ZRFGj5hxF0EhjimlIksgg4lWmc-s.p.540d7db0.woff2",
-      "static/media/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ-s.p.a797655c.woff2"
-    ],
-    "[project]/src/app/(defaultLayout)/shop/page": [
-      "static/media/O4ZRFGj5hxF0EhjimlIksgg4lWmc-s.p.540d7db0.woff2",
-      "static/media/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ-s.p.a797655c.woff2"
-    ],
-    "[project]/src/app/(defaultLayout)/shop/shop-details/page": [
-      "static/media/O4ZRFGj5hxF0EhjimlIksgg4lWmc-s.p.540d7db0.woff2",
-      "static/media/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ-s.p.a797655c.woff2"
-    ],
-    "[project]/src/app/(defaultLayout)/shop/cart/page": [
-      "static/media/O4ZRFGj5hxF0EhjimlIksgg4lWmc-s.p.540d7db0.woff2",
-      "static/media/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ-s.p.a797655c.woff2"
-    ],
-    "[project]/src/app/(defaultLayout)/shop-list/page": [
-      "static/media/O4ZRFGj5hxF0EhjimlIksgg4lWmc-s.p.540d7db0.woff2",
-      "static/media/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ-s.p.a797655c.woff2"
-    ],
-    "[project]/src/app/(defaultLayout)/shop-list-right/page": [
-      "static/media/O4ZRFGj5hxF0EhjimlIksgg4lWmc-s.p.540d7db0.woff2",
-      "static/media/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ-s.p.a797655c.woff2"
-    ],
-    "[project]/src/app/(defaultLayout)/contact2/page": [
+    "[project]/src/app/(defaultLayout)/chef/chef-details/page": [
       "static/media/O4ZRFGj5hxF0EhjimlIksgg4lWmc-s.p.540d7db0.woff2",
       "static/media/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ-s.p.a797655c.woff2"
     ]
