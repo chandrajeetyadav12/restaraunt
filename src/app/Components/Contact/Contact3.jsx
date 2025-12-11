@@ -46,7 +46,7 @@ const Contact3 = () => {
                 <div className="row gx-60 gy-5">
                     <div className="col-xl-6">
                         <div className="contact-form-thumb">
-                        <Image src="/assets/img/contact/contactThumb2_1.webp" alt="img" width={933} height={634}   />
+                        <Image src="/assets/img/contact/vegetarianrestaurant.png" alt="img" width={933} height={634}   />
                          
                         </div>
                     </div>

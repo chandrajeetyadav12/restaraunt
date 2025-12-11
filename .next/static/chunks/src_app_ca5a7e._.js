@@ -478,7 +478,7 @@ const FoodItems1 = ()=>{
             price: '₹50.00'
         },
         {
-            img: '/assets/img/food-items/tandooripannerpizza.png',
+            img: '/assets/img/food-items/tandooripizza.png',
             title: 'Tandoori Paneer Pizza',
             content: 'The registration fee',
             price: '₹180.00'
@@ -508,7 +508,7 @@ const FoodItems1 = ()=>{
             price: '₹50.00'
         },
         {
-            img: '/assets/img/food-items/tandooripannerpizza.png',
+            img: '/assets/img/food-items/tandooripizza.png',
             title: 'Tandoori Paneer Pizza',
             content: 'The registration fee',
             price: '₹180.00'
@@ -1007,19 +1007,12 @@ const FoodItemCard = ({ img, title, content, price })=>{
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "menu-content",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                href: "/menu",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    children: title
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/Components/Card/FoodItemCard.jsx",
-                                    lineNumber: 11,
-                                    columnNumber: 21
-                                }, this)
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                children: title
                             }, void 0, false, {
                                 fileName: "[project]/src/app/Components/Card/FoodItemCard.jsx",
-                                lineNumber: 10,
-                                columnNumber: 17
+                                lineNumber: 11,
+                                columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: content

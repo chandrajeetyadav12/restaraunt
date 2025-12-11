@@ -27,7 +27,7 @@ export default function Nav({ setMobileToggle }) {
         </DropDown> */}
       </li>
       <li className="">
-        <Link href="#">Pages</Link>
+        <Link href="/menu">Dishes</Link>
         {/* <DropDown>
           <ul>
           <li>
