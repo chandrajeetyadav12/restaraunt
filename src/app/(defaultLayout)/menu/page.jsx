@@ -9,7 +9,7 @@ const page = () => {
     <div>
              <BreadCumb
                 bgimg="/assets/img/bg/breadcumb.jpg"
-                Title="Food Menu 1"
+                Title="Food Menu"
             ></BreadCumb>   
             <FoodItem4></FoodItem4>
             <Timer2></Timer2>  

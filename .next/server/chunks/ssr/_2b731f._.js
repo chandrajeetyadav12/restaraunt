@@ -217,10 +217,10 @@ const FoodItem4 = ()=>{
                                                                     "aria-controls": "pills-chinesePasta",
                                                                     "aria-selected": "true",
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard2$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                                        img: "/assets/img/menu/chinesepasta.png",
-                                                                        title: "Chinese Pasta",
-                                                                        content: "It's a testament to our.",
-                                                                        price: "₹15.99"
+                                                                        img: "/assets/img/menu/cheeseonionpizza.png",
+                                                                        title: "Cheese Onion Pizza",
+                                                                        content: "Fresh Dough Pizza.",
+                                                                        price: "₹79.00"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/Components/FoodItem/FoodItem4.jsx",
                                                                         lineNumber: 28,
@@ -248,10 +248,10 @@ const FoodItem4 = ()=>{
                                                                     "aria-controls": "pills-chickenFriedRice",
                                                                     "aria-selected": "false",
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard2$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                                        img: "/assets/img/menu/chickenfriedrice.png",
-                                                                        title: "Chicken Fried Rice",
+                                                                        img: "/assets/img/menu/cheescornpizza.png",
+                                                                        title: "Cheese corn pizza",
                                                                         content: "It's a testament to our.",
-                                                                        price: "₹25.99"
+                                                                        price: "₹79.00"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/Components/FoodItem/FoodItem4.jsx",
                                                                         lineNumber: 42,
@@ -279,10 +279,10 @@ const FoodItem4 = ()=>{
                                                                     "aria-controls": "pills-chickenPizza",
                                                                     "aria-selected": "false",
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard2$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                                        img: "/assets/img/menu/chickenpizza.png",
-                                                                        title: "Chicken Pizza",
-                                                                        content: "It's a testament to our.",
-                                                                        price: "₹115.99"
+                                                                        img: "/assets/img/menu/cheesetomatopizza.png",
+                                                                        title: "Cheese tomato pizza",
+                                                                        content: "Fresh Dough Pizza..",
+                                                                        price: "₹79.00"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/Components/FoodItem/FoodItem4.jsx",
                                                                         lineNumber: 54,
@@ -310,10 +310,10 @@ const FoodItem4 = ()=>{
                                                                     "aria-controls": "pills-chickenNoodles",
                                                                     "aria-selected": "false",
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard2$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                                        img: "/assets/img/menu/chickennoddle.png",
-                                                                        title: "Chicken Noodles",
-                                                                        content: "It's a testament to our.",
-                                                                        price: "₹154.99"
+                                                                        img: "/assets/img/menu/cheeseonionpizza.png",
+                                                                        title: "Cheese Onion",
+                                                                        content: "( Loaded Cheese +Fresh Onion ) small.",
+                                                                        price: "₹120.00"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/Components/FoodItem/FoodItem4.jsx",
                                                                         lineNumber: 67,
@@ -341,10 +341,10 @@ const FoodItem4 = ()=>{
                                                                     "aria-controls": "pills-grilledChicken",
                                                                     "aria-selected": "false",
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard2$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                                        img: "/assets/img/menu/grilledchicken.png",
-                                                                        title: "Grilled Chicken",
-                                                                        content: "It's a testament to our.",
-                                                                        price: "₹55.99"
+                                                                        img: "/assets/img/menu/cheeseonionpizza.png",
+                                                                        title: "Cheese Onion",
+                                                                        content: "( Loaded Cheese +Fresh Onion ) medium..",
+                                                                        price: "₹180.00"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/Components/FoodItem/FoodItem4.jsx",
                                                                         lineNumber: 80,
@@ -445,10 +445,10 @@ const FoodItem4 = ()=>{
                                                                     "aria-controls": "pills-EggCucumber",
                                                                     "aria-selected": "true",
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard2$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                                        img: "/assets/img/menu/eggandcucumber.png",
-                                                                        title: "Egg and Cucumber",
+                                                                        img: "/assets/img/menu/garlicbread.png",
+                                                                        title: "Classic Garlic Breadr",
                                                                         content: "It's a testament to our.",
-                                                                        price: "₹65.99"
+                                                                        price: "₹50.00"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/Components/FoodItem/FoodItem4.jsx",
                                                                         lineNumber: 112,
@@ -476,10 +476,10 @@ const FoodItem4 = ()=>{
                                                                     "aria-controls": "pills-chickenWhiteRice",
                                                                     "aria-selected": "false",
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard2$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                                        img: "/assets/img/menu/chickenwhiterice.webp",
-                                                                        title: "Chicken White Rice",
+                                                                        img: "/assets/img/menu/cheesgarlic.png",
+                                                                        title: "Cheese Garlic Bread",
                                                                         content: "It's a testament to our.",
-                                                                        price: "₹135.99"
+                                                                        price: "₹60.00"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/Components/FoodItem/FoodItem4.jsx",
                                                                         lineNumber: 126,
@@ -507,10 +507,10 @@ const FoodItem4 = ()=>{
                                                                     "aria-controls": "pills-specialBurger",
                                                                     "aria-selected": "false",
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard2$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                                        img: "/assets/img/menu/spatial.webp",
-                                                                        title: "Spatial Barger",
+                                                                        img: "/assets/img/menu/garlicbread.png",
+                                                                        title: "Exotic Garlic Bread",
                                                                         content: "It's a testament to our.",
-                                                                        price: "₹95.99"
+                                                                        price: "₹70.00"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/Components/FoodItem/FoodItem4.jsx",
                                                                         lineNumber: 138,
@@ -538,10 +538,10 @@ const FoodItem4 = ()=>{
                                                                     "aria-controls": "pills-vegetablesBurger",
                                                                     "aria-selected": "false",
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard2$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                                        img: "/assets/img/menu/vegetableberger.webp",
-                                                                        title: "Vegetables Burger",
+                                                                        img: "/assets/img/menu/pannergarlicbread.png",
+                                                                        title: "Paneer Tikka Garlic Bread",
                                                                         content: "It's a testament to our.",
-                                                                        price: "₹75.99"
+                                                                        price: "₹80.00"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/Components/FoodItem/FoodItem4.jsx",
                                                                         lineNumber: 151,
@@ -569,10 +569,10 @@ const FoodItem4 = ()=>{
                                                                     "aria-controls": "pills-briefChicken",
                                                                     "aria-selected": "false",
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard2$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                                        img: "/assets/img/menu/beefchicken.webp",
-                                                                        title: "Brief Chicken",
+                                                                        img: "/assets/img/menu/pannergarlicbread.png",
+                                                                        title: "Regular Burger",
                                                                         content: "It's a testament to our.",
-                                                                        price: "₹44.99"
+                                                                        price: "₹30.00"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/Components/FoodItem/FoodItem4.jsx",
                                                                         lineNumber: 164,
@@ -637,7 +637,7 @@ const FoodItem4 = ()=>{
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "marquee-wrapper style-1 text-slider section-padding ",
+                className: "marquee-wrapper style-1 text-slider section-padding",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "marquee-inner to-left",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1295,7 +1295,7 @@ const page = ()=>{
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Common$2f$BreadCumb$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                 bgimg: "/assets/img/bg/breadcumb.jpg",
-                Title: "Food Menu 1"
+                Title: "Food Menu"
             }, void 0, false, {
                 fileName: "[project]/src/app/(defaultLayout)/menu/page.jsx",
                 lineNumber: 10,

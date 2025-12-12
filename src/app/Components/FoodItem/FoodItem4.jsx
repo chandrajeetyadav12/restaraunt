@@ -26,10 +26,10 @@ const FoodItem4 = () => {
                                                     data-bs-toggle="pill" data-bs-target="#pills-chinesePasta"
                                                     role="tab" aria-controls="pills-chinesePasta" aria-selected="true">
                                                         <FoodItemCard2
-                                                            img="/assets/img/menu/chinesepasta.png"
-                                                            title="Chinese Pasta"
-                                                            content="It's a testament to our."
-                                                            price="₹15.99"                                                            
+                                                            img="/assets/img/menu/cheeseonionpizza.png"
+                                                            title="Cheese Onion Pizza"
+                                                            content="Fresh Dough Pizza."
+                                                            price="₹79.00"                                                            
                                                         >
                                                         </FoodItemCard2>
                                                 </div>
@@ -40,10 +40,10 @@ const FoodItem4 = () => {
                                                     role="tab" aria-controls="pills-chickenFriedRice"
                                                     aria-selected="false">
                                                     <FoodItemCard2
-                                                        img="/assets/img/menu/chickenfriedrice.png"
-                                                        title="Chicken Fried Rice"
+                                                        img="/assets/img/menu/cheescornpizza.png"
+                                                        title="Cheese corn pizza"
                                                         content="It's a testament to our."
-                                                        price="₹25.99"
+                                                        price="₹79.00"
                                                     ></FoodItemCard2>
                                                 </div>
                                             </li>
@@ -52,10 +52,10 @@ const FoodItem4 = () => {
                                                     data-bs-target="#pills-chickenPizza" role="tab"
                                                     aria-controls="pills-chickenPizza" aria-selected="false">
                                                     <FoodItemCard2
-                                                        img="/assets/img/menu/chickenpizza.png"
-                                                        title="Chicken Pizza"
-                                                        content="It's a testament to our."
-                                                        price="₹115.99"
+                                                        img="/assets/img/menu/cheesetomatopizza.png"
+                                                        title="Cheese tomato pizza"
+                                                        content="Fresh Dough Pizza.."
+                                                        price="₹79.00"
                                                     ></FoodItemCard2>
                                                 </div>
                                             </li>
@@ -65,10 +65,10 @@ const FoodItem4 = () => {
                                                     role="tab" aria-controls="pills-chickenNoodles"
                                                     aria-selected="false">
                                                     <FoodItemCard2
-                                                        img="/assets/img/menu/chickennoddle.png"
-                                                        title="Chicken Noodles"
-                                                        content="It's a testament to our."
-                                                        price="₹154.99"
+                                                        img="/assets/img/menu/cheeseonionpizza.png"
+                                                        title="Cheese Onion"
+                                                        content="( Loaded Cheese +Fresh Onion ) small."
+                                                        price="₹120.00"
                                                     ></FoodItemCard2>
                                                 </div>
                                             </li>
@@ -78,10 +78,10 @@ const FoodItem4 = () => {
                                                     role="tab" aria-controls="pills-grilledChicken"
                                                     aria-selected="false">
                                                     <FoodItemCard2
-                                                        img="/assets/img/menu/grilledchicken.png"
-                                                        title="Grilled Chicken"
-                                                        content="It's a testament to our."
-                                                        price="₹55.99"
+                                                        img="/assets/img/menu/cheeseonionpizza.png"
+                                                        title="Cheese Onion"
+                                                        content="( Loaded Cheese +Fresh Onion ) medium.."
+                                                        price="₹180.00"
                                                     ></FoodItemCard2>
                                                 </div>
                                             </li>
@@ -110,10 +110,10 @@ const FoodItem4 = () => {
                                                     data-bs-target="#pills-EggCucumber" role="tab"
                                                     aria-controls="pills-EggCucumber" aria-selected="true">
                                                     <FoodItemCard2
-                                                        img="/assets/img/menu/eggandcucumber.png"
-                                                        title="Egg and Cucumber"
+                                                        img="/assets/img/menu/garlicbread.png"
+                                                        title="Classic Garlic Breadr"
                                                         content="It's a testament to our."
-                                                        price="₹65.99"
+                                                        price="₹50.00"
                                                     ></FoodItemCard2>  
 
                                                 </div>
@@ -124,10 +124,10 @@ const FoodItem4 = () => {
                                                     role="tab" aria-controls="pills-chickenWhiteRice"
                                                     aria-selected="false">
                                                     <FoodItemCard2
-                                                        img="/assets/img/menu/chickenwhiterice.webp"
-                                                        title="Chicken White Rice"
+                                                        img="/assets/img/menu/cheesgarlic.png"
+                                                        title="Cheese Garlic Bread"
                                                         content="It's a testament to our."
-                                                        price="₹135.99"
+                                                        price="₹60.00"
                                                     ></FoodItemCard2> 
                                                 </div>
                                             </li>
@@ -136,10 +136,10 @@ const FoodItem4 = () => {
                                                     data-bs-target="#pills-specialBurger" role="tab"
                                                     aria-controls="pills-specialBurger" aria-selected="false">
                                         <FoodItemCard2
-                                            img="/assets/img/menu/spatial.webp"
-                                            title="Spatial Barger"
+                                            img="/assets/img/menu/garlicbread.png"
+                                            title="Exotic Garlic Bread"
                                             content="It's a testament to our."
-                                            price="₹95.99"
+                                            price="₹70.00"
                                         ></FoodItemCard2>
                                                 </div>
                                             </li>
@@ -149,10 +149,10 @@ const FoodItem4 = () => {
                                                     role="tab" aria-controls="pills-vegetablesBurger"
                                                     aria-selected="false">
                                          <FoodItemCard2
-                                            img="/assets/img/menu/vegetableberger.webp"
-                                            title="Vegetables Burger"
+                                            img="/assets/img/menu/pannergarlicbread.png"
+                                            title="Paneer Tikka Garlic Bread"
                                             content="It's a testament to our."
-                                            price="₹75.99"
+                                            price="₹80.00"
                                         ></FoodItemCard2> 
 
                                                 </div>
@@ -162,10 +162,10 @@ const FoodItem4 = () => {
                                                     data-bs-target="#pills-briefChicken" role="tab"
                                                     aria-controls="pills-briefChicken" aria-selected="false">
                                         <FoodItemCard2
-                                            img="/assets/img/menu/beefchicken.webp"
-                                            title="Brief Chicken"
+                                            img="/assets/img/menu/pannergarlicbread.png"
+                                            title="Regular Burger"
                                             content="It's a testament to our."
-                                            price="₹44.99"
+                                            price="₹30.00"
                                         ></FoodItemCard2>  
                                                 </div>
                                             </li>
@@ -179,7 +179,7 @@ const FoodItem4 = () => {
             </div>
         </div>
 
-        <div className="marquee-wrapper style-1 text-slider section-padding ">
+        <div className="marquee-wrapper style-1 text-slider section-padding">
             <div className="marquee-inner to-left">
                 <ul className="marqee-list d-flex">
                     <li className="marquee-item style1">

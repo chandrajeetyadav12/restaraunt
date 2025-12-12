@@ -76,9 +76,9 @@ const FoodItems1 = () => {
                                                 src="/assets/img/food-items/circleShape.png" alt="shape" /></div>
                                     </div>
                                     <div className="item-content">
-                                        <Link href="/menu">
+                                        {/* <Link href="/menu"> */}
                                             <h3>{item.title}</h3>
-                                        </Link>
+                                        {/* </Link> */}
                                         <div className="text">{item.content}</div>
                                         <h6>{item.price}</h6>
                                     </div>

@@ -34,9 +34,9 @@ const BestSelling1 = () => {
                         <div className="dishes-thumb">
                         <Image src={item.img} alt="img" width={158} height={158}   />
                         </div>
-                        <Link href="/menu">
+                        {/* <Link href="/menu"> */}
                             <h3>{item.title}</h3>
-                        </Link>
+                        {/* </Link> */}
                         <p>{item.content}</p>
                         <h6>{item.price}</h6>
                         <div className="social-profile">

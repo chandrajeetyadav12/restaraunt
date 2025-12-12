@@ -50,7 +50,24 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
 ;
 ;
+;
 const Contact3 = ()=>{
+    const [form, setForm] = useState({
+        fullname: "",
+        email: "",
+        phone: "",
+        subject: "",
+        message: "",
+        acceptTerms: false
+    });
+    const [responseMsg, setResponseMsg] = useState("");
+    const handleChange = (e)=>{
+        const { name, value, type, checked } = e.target;
+        setForm({
+            ...form,
+            [name]: type === "checkbox" ? checked : value
+        });
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -78,13 +95,13 @@ const Contact3 = ()=>{
                                                         height: 70
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                        lineNumber: 12,
+                                                        lineNumber: 28,
                                                         columnNumber: 60
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                lineNumber: 12,
+                                                lineNumber: 28,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -92,25 +109,25 @@ const Contact3 = ()=>{
                                                 children: "Our Address"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                lineNumber: 13,
+                                                lineNumber: 29,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 children: "4517 Washington Ave. Manchester, Kentucky 39495"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                lineNumber: 14,
+                                                lineNumber: 30,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                        lineNumber: 11,
+                                        lineNumber: 27,
                                         columnNumber: 25
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                    lineNumber: 10,
+                                    lineNumber: 26,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -127,12 +144,12 @@ const Contact3 = ()=>{
                                                     height: 70
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                    lineNumber: 19,
+                                                    lineNumber: 35,
                                                     columnNumber: 59
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                lineNumber: 19,
+                                                lineNumber: 35,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -140,25 +157,25 @@ const Contact3 = ()=>{
                                                 children: "info@exmple.com"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                lineNumber: 20,
+                                                lineNumber: 36,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 children: "Email us anytime for any kind ofquety."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                lineNumber: 21,
+                                                lineNumber: 37,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                        lineNumber: 18,
+                                        lineNumber: 34,
                                         columnNumber: 25
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                    lineNumber: 17,
+                                    lineNumber: 33,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -175,12 +192,12 @@ const Contact3 = ()=>{
                                                     height: 70
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                    lineNumber: 26,
+                                                    lineNumber: 42,
                                                     columnNumber: 59
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                lineNumber: 26,
+                                                lineNumber: 42,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -188,25 +205,25 @@ const Contact3 = ()=>{
                                                 children: "Hot: +208-666-01112"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                lineNumber: 27,
+                                                lineNumber: 43,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 children: "24/7/365 priority Live Chat and ticketing support."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                lineNumber: 28,
+                                                lineNumber: 44,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                        lineNumber: 25,
+                                        lineNumber: 41,
                                         columnNumber: 25
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                    lineNumber: 24,
+                                    lineNumber: 40,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -223,12 +240,12 @@ const Contact3 = ()=>{
                                                     height: 70
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                    lineNumber: 33,
+                                                    lineNumber: 49,
                                                     columnNumber: 59
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                lineNumber: 33,
+                                                lineNumber: 49,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -236,46 +253,46 @@ const Contact3 = ()=>{
                                                 children: "Opening Hour"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                lineNumber: 34,
+                                                lineNumber: 50,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 children: "Sunday-Fri: 9 AM – 6 PM Saturday: 9 AM – 4 PM"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                lineNumber: 35,
+                                                lineNumber: 51,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                        lineNumber: 32,
+                                        lineNumber: 48,
                                         columnNumber: 25
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                    lineNumber: 31,
+                                    lineNumber: 47,
                                     columnNumber: 21
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                            lineNumber: 9,
+                            lineNumber: 25,
                             columnNumber: 17
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                        lineNumber: 8,
+                        lineNumber: 24,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                    lineNumber: 7,
+                    lineNumber: 23,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                lineNumber: 6,
+                lineNumber: 22,
                 columnNumber: 1
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -298,17 +315,17 @@ const Contact3 = ()=>{
                                             height: 634
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                            lineNumber: 49,
+                                            lineNumber: 65,
                                             columnNumber: 25
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                        lineNumber: 48,
+                                        lineNumber: 64,
                                         columnNumber: 25
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                    lineNumber: 47,
+                                    lineNumber: 63,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -317,10 +334,10 @@ const Contact3 = ()=>{
                                         className: "contact-form style2",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                children: "Get in Touch"
+                                                children: "Get in Touch "
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                lineNumber: 55,
+                                                lineNumber: 71,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -334,12 +351,12 @@ const Contact3 = ()=>{
                                                             placeholder: "Full Name"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                            lineNumber: 58,
+                                                            lineNumber: 74,
                                                             columnNumber: 37
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                        lineNumber: 57,
+                                                        lineNumber: 73,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -349,12 +366,12 @@ const Contact3 = ()=>{
                                                             placeholder: "Email Address"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                            lineNumber: 61,
+                                                            lineNumber: 77,
                                                             columnNumber: 37
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                        lineNumber: 60,
+                                                        lineNumber: 76,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -364,12 +381,12 @@ const Contact3 = ()=>{
                                                             placeholder: "Phone Number"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                            lineNumber: 64,
+                                                            lineNumber: 80,
                                                             columnNumber: 37
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                        lineNumber: 63,
+                                                        lineNumber: 79,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -384,7 +401,7 @@ const Contact3 = ()=>{
                                                                     children: "Subject"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                                    lineNumber: 68,
+                                                                    lineNumber: 84,
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -392,7 +409,7 @@ const Contact3 = ()=>{
                                                                     children: "Complain"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                                    lineNumber: 69,
+                                                                    lineNumber: 85,
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -400,7 +417,7 @@ const Contact3 = ()=>{
                                                                     children: "Greetings"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                                    lineNumber: 70,
+                                                                    lineNumber: 86,
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -408,7 +425,7 @@ const Contact3 = ()=>{
                                                                     children: "Expire Date"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                                    lineNumber: 71,
+                                                                    lineNumber: 87,
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -416,7 +433,7 @@ const Contact3 = ()=>{
                                                                     children: "About Price"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                                    lineNumber: 72,
+                                                                    lineNumber: 88,
                                                                     columnNumber: 41
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -424,18 +441,18 @@ const Contact3 = ()=>{
                                                                     children: "About order"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                                    lineNumber: 73,
+                                                                    lineNumber: 89,
                                                                     columnNumber: 41
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                            lineNumber: 67,
+                                                            lineNumber: 83,
                                                             columnNumber: 37
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                        lineNumber: 66,
+                                                        lineNumber: 82,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -447,12 +464,12 @@ const Contact3 = ()=>{
                                                             rows: "5"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                            lineNumber: 77,
+                                                            lineNumber: 93,
                                                             columnNumber: 37
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                        lineNumber: 76,
+                                                        lineNumber: 92,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -464,7 +481,7 @@ const Contact3 = ()=>{
                                                                 type: "checkbox"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                                lineNumber: 81,
+                                                                lineNumber: 97,
                                                                 columnNumber: 37
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -475,19 +492,19 @@ const Contact3 = ()=>{
                                                                         className: "checkmark"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                                        lineNumber: 83,
+                                                                        lineNumber: 99,
                                                                         columnNumber: 52
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                                lineNumber: 82,
+                                                                lineNumber: 98,
                                                                 columnNumber: 37
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                        lineNumber: 80,
+                                                        lineNumber: 96,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -500,56 +517,56 @@ const Contact3 = ()=>{
                                                                     className: "bi bi-arrow-right bg-transparent text-white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                                    lineNumber: 86,
+                                                                    lineNumber: 102,
                                                                     columnNumber: 84
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                            lineNumber: 86,
+                                                            lineNumber: 102,
                                                             columnNumber: 37
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                        lineNumber: 85,
+                                                        lineNumber: 101,
                                                         columnNumber: 33
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                                lineNumber: 56,
+                                                lineNumber: 72,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                        lineNumber: 54,
+                                        lineNumber: 70,
                                         columnNumber: 25
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                                    lineNumber: 53,
+                                    lineNumber: 69,
                                     columnNumber: 21
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                            lineNumber: 46,
+                            lineNumber: 62,
                             columnNumber: 17
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                        lineNumber: 45,
+                        lineNumber: 61,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                    lineNumber: 44,
+                    lineNumber: 60,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                lineNumber: 43,
+                lineNumber: 59,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -560,18 +577,18 @@ const Contact3 = ()=>{
                     loading: "lazy"
                 }, void 0, false, {
                     fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                    lineNumber: 97,
+                    lineNumber: 113,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-                lineNumber: 96,
+                lineNumber: 112,
                 columnNumber: 5
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/Components/Contact/Contact3.jsx",
-        lineNumber: 5,
+        lineNumber: 21,
         columnNumber: 9
     }, this);
 };

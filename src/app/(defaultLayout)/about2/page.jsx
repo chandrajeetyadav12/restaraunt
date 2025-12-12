@@ -1,5 +1,5 @@
 import About2 from '@/app/Components/About/About2';
-import Blog1 from '@/app/Components/Blog/Blog1';
+// import Blog1 from '@/app/Components/Blog/Blog1';
 import BreadCumb from '@/app/Components/Common/BreadCumb';
 import CtaBanner1 from '@/app/Components/CtaBanner/CtaBanner1';
 import Offer4 from '@/app/Components/Offer/Offer4';
@@ -19,7 +19,7 @@ const page = () => {
             <CtaBanner1></CtaBanner1>
             <Team1></Team1>
             <Testimonial1></Testimonial1>
-            <Blog1></Blog1>              
+            {/* <Blog1></Blog1>               */}
     </div>
   );
 };

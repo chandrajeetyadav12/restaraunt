@@ -11,7 +11,7 @@ import Contact2 from '../Components/Contact/Contact2';
 import Testimonial3 from '../Components/Testimonial/Testimonial3';
 import CtaBanner4 from '../Components/CtaBanner/CtaBanner4';
 import Process1 from '../Components/Process/Process1';
-import Blog2 from '../Components/Blog/Blog2';
+// import Blog2 from '../Components/Blog/Blog2';
 
 const page = () => {
     return (
@@ -28,7 +28,7 @@ const page = () => {
             <Testimonial3></Testimonial3>
             <CtaBanner4></CtaBanner4>
             <Process1></Process1>
-            <Blog2></Blog2>
+            {/* <Blog2></Blog2> */}
         </div>
     );
 };
