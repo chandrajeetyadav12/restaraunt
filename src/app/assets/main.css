@@ -7395,7 +7395,7 @@ input.main-search-input::placeholder {
 .food-menu-tab .nav-pills .nav-link img {
   margin-right: 10px;
 }
-.food-menu-tab .nav-pills .nav-item.active button {
+.food-menu-tab .nav-pills .nav-item button.active  {
   color: var(--theme);
   background-color: transparent;
 }

@@ -30506,7 +30506,7 @@ input.main-search-input::placeholder {
   margin-right: 10px;
 }
 
-.food-menu-tab .nav-pills .nav-item.active button {
+.food-menu-tab .nav-pills .nav-item button.active {
   color: var(--theme);
   background-color: #0000;
 }
