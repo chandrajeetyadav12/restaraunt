@@ -1,3 +1,9 @@
 {
-  "/(defaultLayout)/page": "app/(defaultLayout)/page.js"
+  "/(defaultLayout)/page": "app/(defaultLayout)/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/cuisines/[cuisineId]/page": "app/cuisines/[cuisineId]/page.js",
+  "/(defaultLayout)/menu/page": "app/(defaultLayout)/menu/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/(defaultLayout)/about/page": "app/(defaultLayout)/about/page.js",
+  "/(defaultLayout)/blog/page": "app/(defaultLayout)/blog/page.js"
 }

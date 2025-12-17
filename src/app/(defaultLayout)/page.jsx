@@ -11,8 +11,8 @@ import Team1 from '../Components/Team/Team1';
 import Testimonial1 from '../Components/Testimonial/Testimonial1';
 // import Blog1 from '../Components/Blog/Blog1';
 import Gallery1 from '../Components/Gallery/Gallery1';
-
 const page = () => {
+
     return (
         <div className='bg-color2'>
             <HeroBanner1></HeroBanner1>

@@ -2762,6 +2762,11 @@ input.main-search-input::placeholder {
 .dark-mood .food-menu-tab .nav-pills .nav-link {
   color: var(--white);
 }
+.boxShadow_foodContainer{
+    background: #fff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
 .dark-mood .single-menu-items .details .menu-content a h3 {
   color: var(--white);
 }
@@ -8135,6 +8140,9 @@ input.main-search-input::placeholder {
   line-height: 1;
   text-transform: capitalize;
   margin-bottom: 18px;
+}
+.cuisineHead{
+   color: var(--text);
 }
 .dishes-card.style1 p {
   color: var(--text);

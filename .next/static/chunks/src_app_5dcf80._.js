@@ -1061,6 +1061,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/app/Components/Card/FoodItemCard.jsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/image.js [app-client] (ecmascript)");
+(()=>{
+    const e = new Error("Cannot find module './CuisineTabs'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$axios$2f$lib$2f$axios$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/axios/lib/axios.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
 ;
@@ -1070,44 +1075,44 @@ var _s = __turbopack_refresh__.signature();
 ;
 ;
 ;
+;
 const FoodItem1 = ()=>{
     _s();
-    const [isActive, setIsActive] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('FastFood');
-    const [foods, setFoods] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
-    const [categories, setCategories] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
-    const [activeCategory, setActiveCategory] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
-    // console.log(activeCategory)
+    const [sections, setSections] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
+    const [activeTab, setActiveTab] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
+    const cuisineId = "693ffa61301498caaacd51ad";
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "FoodItem1.useEffect": ()=>{
-            const fetchCategories = {
-                "FoodItem1.useEffect.fetchCategories": async ()=>{
+            if ("TURBOPACK compile-time falsy", 0) {
+                "TURBOPACK unreachable";
+            }
+            const fetchMenu = {
+                "FoodItem1.useEffect.fetchMenu": async ()=>{
                     try {
-                        const res = await __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$axios$2f$lib$2f$axios$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].get(`${("TURBOPACK compile-time value", "http://localhost:5000")}/api/categories`);
-                        console.log(res);
-                        setCategories(res.data);
-                        // set first category active by default
-                        if (res.data.length > 0) {
-                            setActiveCategory(res.data[0]._id);
-                        }
+                        const res = await __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$axios$2f$lib$2f$axios$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].get(`${("TURBOPACK compile-time value", "http://localhost:5000")}/api/menuStructure/cuisine/${cuisineId}/aggregation`);
+                        // 🔥 API gives { cuisine, sections }
+                        setSections(res.data.sections);
+                        setActiveTab(0); // reset when cuisine changes
                     } catch (error) {
                         console.error(error);
                     }
                 }
-            }["FoodItem1.useEffect.fetchCategories"];
-            fetchCategories();
-        }
-    }["FoodItem1.useEffect"], []);
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
-        "FoodItem1.useEffect": ()=>{
-            if (!activeCategory) return;
-            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$axios$2f$lib$2f$axios$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].get(`${("TURBOPACK compile-time value", "http://localhost:5000")}/api/foods/category/${activeCategory}`).then({
-                "FoodItem1.useEffect": (res)=>setFoods(res.data)
-            }["FoodItem1.useEffect"]) // setFoods(res.data)
-            .catch(console.error);
+            }["FoodItem1.useEffect.fetchMenu"];
+            fetchMenu();
         }
     }["FoodItem1.useEffect"], [
-        activeCategory
+        cuisineId
     ]);
+    if (sections.length === 0) {
+        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+            children: "Loading menu..."
+        }, void 0, false, {
+            fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+            lineNumber: 35,
+            columnNumber: 16
+        }, this);
+    }
+    // check
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "food-menu-section fix section-padding",
         children: [
@@ -1120,12 +1125,12 @@ const FoodItem1 = ()=>{
                     height: 160
                 }, void 0, false, {
                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                    lineNumber: 46,
+                    lineNumber: 45,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                lineNumber: 45,
+                lineNumber: 44,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1137,12 +1142,12 @@ const FoodItem1 = ()=>{
                     height: 158
                 }, void 0, false, {
                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                    lineNumber: 49,
+                    lineNumber: 48,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                lineNumber: 48,
+                lineNumber: 47,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1167,7 +1172,7 @@ const FoodItem1 = ()=>{
                                                 height: 20
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                lineNumber: 56,
+                                                lineNumber: 55,
                                                 columnNumber: 33
                                             }, this),
                                             "FOOD MENU",
@@ -1179,13 +1184,13 @@ const FoodItem1 = ()=>{
                                                 height: 20
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                lineNumber: 57,
+                                                lineNumber: 56,
                                                 columnNumber: 42
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                        lineNumber: 55,
+                                        lineNumber: 54,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1194,13 +1199,25 @@ const FoodItem1 = ()=>{
                                         children: "Ambrosia Starbuds  Foods Menu"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                        lineNumber: 60,
+                                        lineNumber: 59,
+                                        columnNumber: 29
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "cuisineList",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(CuisineTabs, {}, void 0, false, {
+                                            fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                            lineNumber: 63,
+                                            columnNumber: 31
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                        lineNumber: 62,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                lineNumber: 54,
+                                lineNumber: 53,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1209,39 +1226,27 @@ const FoodItem1 = ()=>{
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                                         className: "nav nav-pills mb-3",
                                         role: "tablist",
-                                        children: categories.map((category)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                        children: sections.map((section, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 className: "nav-item",
                                                 role: "presentation",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                    className: `nav-link ${activeCategory === category._id ? "active" : ""}`,
-                                                    onClick: ()=>setActiveCategory(category._id),
+                                                    className: `nav-link ${activeTab === index ? "active" : ""}`,
+                                                    onClick: ()=>setActiveTab(index),
                                                     type: "button",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                            src: category?.image,
-                                                            alt: category.name,
-                                                            width: 36,
-                                                            height: 36
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                            lineNumber: 75,
-                                                            columnNumber: 48
-                                                        }, this),
-                                                        category.name
-                                                    ]
-                                                }, void 0, true, {
+                                                    children: section.name
+                                                }, void 0, false, {
                                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                    lineNumber: 69,
+                                                    lineNumber: 73,
                                                     columnNumber: 41
                                                 }, this)
-                                            }, category._id, false, {
+                                            }, index, false, {
                                                 fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                lineNumber: 68,
+                                                lineNumber: 72,
                                                 columnNumber: 37
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                        lineNumber: 66,
+                                        lineNumber: 70,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1252,66 +1257,66 @@ const FoodItem1 = ()=>{
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "row gx-60",
                                                 children: [
-                                                    foods.length === 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    sections[activeTab].items.length === 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: "No items found"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                        lineNumber: 91,
-                                                        columnNumber: 64
+                                                        lineNumber: 89,
+                                                        columnNumber: 45
                                                     }, this),
-                                                    foods.map((food)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    sections[activeTab].items.map((food, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "col-lg-6",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Components$2f$Card$2f$FoodItemCard$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                                 img: food.image || "/assets/img/menu/placeholder.png",
-                                                                title: food?.name,
-                                                                content: food?.description,
-                                                                price: `₹${food?.price}`
+                                                                title: food.name,
+                                                                content: food.description,
+                                                                price: `₹${food.price}`
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                                lineNumber: 95,
+                                                                lineNumber: 94,
                                                                 columnNumber: 49
                                                             }, this)
-                                                        }, food._id, false, {
+                                                        }, idx, false, {
                                                             fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                            lineNumber: 94,
+                                                            lineNumber: 93,
                                                             columnNumber: 45
                                                         }, this))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                                lineNumber: 90,
+                                                lineNumber: 87,
                                                 columnNumber: 37
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                            lineNumber: 89,
+                                            lineNumber: 86,
                                             columnNumber: 33
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                        lineNumber: 88,
+                                        lineNumber: 85,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                lineNumber: 65,
+                                lineNumber: 69,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                        lineNumber: 53,
+                        lineNumber: 52,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                    lineNumber: 52,
+                    lineNumber: 51,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                lineNumber: 51,
+                lineNumber: 50,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1327,7 +1332,7 @@ const FoodItem1 = ()=>{
                                     className: "text-slider"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 118,
+                                    lineNumber: 117,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1335,6 +1340,21 @@ const FoodItem1 = ()=>{
                                     children: "MOCTAILS"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                    lineNumber: 117,
+                                    columnNumber: 66
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-slider"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
+                                    lineNumber: 118,
+                                    columnNumber: 29
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-slider text-style",
+                                    children: "HOT COFFEE"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
                                     lineNumber: 118,
                                     columnNumber: 66
                                 }, this),
@@ -1347,7 +1367,7 @@ const FoodItem1 = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider text-style",
-                                    children: "HOT COFFEE"
+                                    children: "COLD COFFEE"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
                                     lineNumber: 119,
@@ -1362,7 +1382,7 @@ const FoodItem1 = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider text-style",
-                                    children: "COLD COFFEE"
+                                    children: "HOT TEA"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
                                     lineNumber: 120,
@@ -1377,7 +1397,7 @@ const FoodItem1 = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider text-style",
-                                    children: "HOT TEA"
+                                    children: "FRESH DOUGH PIZZA"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
                                     lineNumber: 121,
@@ -1392,7 +1412,7 @@ const FoodItem1 = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider text-style",
-                                    children: "FRESH DOUGH PIZZA"
+                                    children: "GARLIC BREAD"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
                                     lineNumber: 122,
@@ -1407,7 +1427,7 @@ const FoodItem1 = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider text-style",
-                                    children: "GARLIC BREAD"
+                                    children: "BURGER"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
                                     lineNumber: 123,
@@ -1422,7 +1442,7 @@ const FoodItem1 = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider text-style",
-                                    children: "BURGER"
+                                    children: "SANDWICH"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
                                     lineNumber: 124,
@@ -1437,7 +1457,7 @@ const FoodItem1 = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider text-style",
-                                    children: "SANDWICH"
+                                    children: "PASTA"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
                                     lineNumber: 125,
@@ -1452,7 +1472,7 @@ const FoodItem1 = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider text-style",
-                                    children: "PASTA"
+                                    children: "BURGER"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
                                     lineNumber: 126,
@@ -1467,7 +1487,7 @@ const FoodItem1 = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider text-style",
-                                    children: "BURGER"
+                                    children: "FRENCH FRIES"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
                                     lineNumber: 127,
@@ -1482,7 +1502,7 @@ const FoodItem1 = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider text-style",
-                                    children: "FRENCH FRIES"
+                                    children: "SOUTH INDIAN "
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
                                     lineNumber: 128,
@@ -1497,7 +1517,7 @@ const FoodItem1 = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider text-style",
-                                    children: "SOUTH INDIAN "
+                                    children: "DOSA "
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
                                     lineNumber: 129,
@@ -1512,7 +1532,7 @@ const FoodItem1 = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider text-style",
-                                    children: "DOSA "
+                                    children: "UTTAPAM"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
                                     lineNumber: 130,
@@ -1527,7 +1547,7 @@ const FoodItem1 = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider text-style",
-                                    children: "UTTAPAM"
+                                    children: "RAVA DOSA"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
                                     lineNumber: 131,
@@ -1542,7 +1562,7 @@ const FoodItem1 = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider text-style",
-                                    children: "RAVA DOSA"
+                                    children: "MEDU VADA"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
                                     lineNumber: 132,
@@ -1557,7 +1577,7 @@ const FoodItem1 = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider text-style",
-                                    children: "MEDU VADA"
+                                    children: "IDL"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
                                     lineNumber: 133,
@@ -1572,7 +1592,7 @@ const FoodItem1 = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider text-style",
-                                    children: "IDL"
+                                    children: "RAVA DOSA"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
                                     lineNumber: 134,
@@ -1587,7 +1607,7 @@ const FoodItem1 = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider text-style",
-                                    children: "RAVA DOSA"
+                                    children: "INDIAN SNACKS"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
                                     lineNumber: 135,
@@ -1602,7 +1622,7 @@ const FoodItem1 = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider text-style",
-                                    children: "INDIAN SNACKS"
+                                    children: "PAKODE"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
                                     lineNumber: 136,
@@ -1617,7 +1637,7 @@ const FoodItem1 = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider text-style",
-                                    children: "PAKODE"
+                                    children: "VADA PAV"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
                                     lineNumber: 137,
@@ -1632,56 +1652,41 @@ const FoodItem1 = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-slider text-style",
-                                    children: "VADA PAV"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 138,
-                                    columnNumber: 66
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-slider"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 139,
-                                    columnNumber: 29
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-slider text-style",
                                     children: "PARATHA( WITH CURD)"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                                    lineNumber: 139,
+                                    lineNumber: 138,
                                     columnNumber: 66
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                            lineNumber: 117,
+                            lineNumber: 116,
                             columnNumber: 25
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                        lineNumber: 116,
+                        lineNumber: 115,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                    lineNumber: 115,
+                    lineNumber: 114,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-                lineNumber: 114,
+                lineNumber: 113,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/Components/FoodItem/FoodItem1.jsx",
-        lineNumber: 44,
+        lineNumber: 43,
         columnNumber: 9
     }, this);
 };
-_s(FoodItem1, "0uB+3h4TB4h1AgSSUGebhUMr3UE=");
+_s(FoodItem1, "Em8aDR6C6jOqQAiWFTKbwV66kT0=");
 _c = FoodItem1;
 const __TURBOPACK__default__export__ = FoodItem1;
 var _c;

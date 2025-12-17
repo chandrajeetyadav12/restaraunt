@@ -3,7 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import "slick-carousel/slick/slick.css";
 import "./assets/main.css";
-
+import Header1 from "./Components/Header/Header1";
+import Footer1 from "./Components/Footer/Footer1";
 const epilogue = Epilogue({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700', '800'],
@@ -36,7 +37,11 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body className={`${epilogue.variable} ${roboto.variable}`}>
+      <Header1/>
+
         {children}
+      <Footer1/>
+
       </body>
     </html>
   );

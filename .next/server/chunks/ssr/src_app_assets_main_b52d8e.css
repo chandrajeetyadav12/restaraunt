@@ -2969,6 +2969,12 @@ input.main-search-input::placeholder {
   color: var(--white);
 }
 
+.boxShadow_foodContainer {
+  background: #fff;
+  box-shadow: 0 6px 18px #0000001a;
+  border-radius: 10px;
+}
+
 .dark-mood .single-menu-items .details .menu-content a h3 {
   color: var(--white);
 }
@@ -9128,6 +9134,10 @@ input.main-search-input::placeholder {
   line-height: 1;
   text-transform: capitalize;
   margin-bottom: 18px;
+}
+
+.cuisineHead {
+  color: var(--text);
 }
 
 .dishes-card.style1 p {
