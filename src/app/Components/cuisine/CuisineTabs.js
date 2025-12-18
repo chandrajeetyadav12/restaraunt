@@ -13,18 +13,19 @@ export default function CuisineTabs() {
   }, []);
 
   return (
+    <div className="food-menu-tab">
     <ul className="nav nav-pills mb-3">
       {cuisines.map((cuisine) => (
         <li key={cuisine._id} className="nav-item">
           <Link
-            className="nav-link" 
+            className="nav-link " 
             href={`/cuisines/${cuisine._id}`}
-            style={{color:"black",fontWeight:"bold"}}
           >
             {cuisine.name}
           </Link>
         </li>
       ))}
     </ul>
+    </div>
   );
 }

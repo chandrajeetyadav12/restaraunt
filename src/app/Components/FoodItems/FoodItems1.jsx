@@ -81,7 +81,7 @@ const FoodItems1 = () => {
                           <h3>{item.name}</h3>
                           </Link>
                           <div className="text text-start">{item.description}</div>
-                          <h6>Price:{item.price}</h6>
+                          <h6 className="text-start">Price:{item.price}</h6>
                         </div>
                       </div>
                     </div>

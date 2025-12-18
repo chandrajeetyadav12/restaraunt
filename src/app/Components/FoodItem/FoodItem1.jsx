@@ -2,12 +2,6 @@
 import Image from "next/image";
 import CuisineTabs from "../cuisine/CuisineTabs";
 const FoodItem1 = () => {
-
-    // check
-
-
-
-
     return (
         <section className="food-menu-section fix section-padding">
             <div className="burger-shape">
@@ -35,11 +29,7 @@ const FoodItem1 = () => {
                             </div>
 
                         </div>
-                                <CuisineTabs />
-
-                        {/* food menu tabs */}
-
-
+                        <CuisineTabs />
                     </div>
                 </div>
             </div>
