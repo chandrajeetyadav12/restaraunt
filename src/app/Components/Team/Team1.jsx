@@ -1,10 +1,20 @@
 "use client"
+import axios from "axios";
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import Slider from "react-slick";
 
 const Team1 = () => {
-
+    const [chefs,setChefs]=useState([])
+    useEffect(()=>{
+       const getChefs=async()=>{
+        const res=await axios.get("http://localhost:3000/api/chefs")
+        setChefs(res.data)
+       }
+       getChefs()
+    },[])
+    console.log(chefs)
     const settings = {
         dots: false,
         infinite: true,
@@ -71,22 +81,23 @@ const Team1 = () => {
                 </div>
                 <div className="chefe-card-wrap style1 pb-5">
                     <div className="row">
-                    {teamItems.map((item, i) => (
+                    {chefs.map((item, i) => (
                         <div key={i} className="col-lg-6 col-xl-4">
                             <div className="chefe-card style1 wow fadeInUp" data-wow-delay="0.2s">
                                 <div className="chefe-thumb">
-                                <Image src={item.img} alt="img" width={310} height={297}   />
+                                <Image src="/assets/img/chefe/imgi_135_image.webp" alt="img" width={310} height={297}   />
                                 </div>
-                                <div className="icon">
+                                {/* <div className="icon">
                                     <Link className="hovered-icon" href={item.facebook}><i className="bi bi-facebook"></i></Link>
                                     <a href="#"><i className="bi bi-share"></i></a>
                                     <Link className="hovered-icon" href={item.linkedin}><i className="bi bi-linkedin"></i></Link>
-                                </div>
+                                </div> */}
                                 <div className="chefe-content">
-                                    <Link href="/chef/chef-details">
-                                        <h3>{item.title}</h3>
+                                    <Link href={`/chef/chef-details/${item._id}`}>
+                                        <h3>{item.name}</h3>
                                     </Link>
-                                    <p>{item.content}</p>
+                                    <p>Age {item.age}</p>
+                                    <p>Chef Assistant</p>
                                 </div>
                             </div>
                         </div>

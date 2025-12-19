@@ -1,9 +1,12 @@
 {
   "/(defaultLayout)/page": "app/(defaultLayout)/page.js",
-  "/cuisines/[cuisineId]/page": "app/cuisines/[cuisineId]/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/api/chefs/route": "app/api/chefs/route.js",
+  "/api/chefProfile/route": "app/api/chefProfile/route.js",
   "/_not-found/page": "app/_not-found/page.js",
-  "/(defaultLayout)/about/page": "app/(defaultLayout)/about/page.js",
-  "/(defaultLayout)/menu/page": "app/(defaultLayout)/menu/page.js",
-  "/(defaultLayout)/contact/page": "app/(defaultLayout)/contact/page.js"
+  "/cuisines/[cuisineId]/page": "app/cuisines/[cuisineId]/page.js",
+  "/(defaultLayout)/chef/chef-details/page": "app/(defaultLayout)/chef/chef-details/page.js",
+  "/api/chefProfile/[chefId]/route": "app/api/chefProfile/[chefId]/route.js",
+  "/(defaultLayout)/chef/chef-details/[chefId]/page": "app/(defaultLayout)/chef/chef-details/[chefId]/page.js",
+  "/(defaultLayout)/menu/page": "app/(defaultLayout)/menu/page.js"
 }

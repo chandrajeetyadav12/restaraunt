@@ -22,7 +22,7 @@ export default function MenuPage() {
           `${process.env.NEXT_PUBLIC_API_URL}/api/menuStructure/cuisine/${cuisineId}/aggregation`
         );
 
-        // 🔥 API gives { cuisine, sections }
+        //  API gives { cuisine, sections }
         setSections(res.data.sections);
         setActiveTab(0); // reset when cuisine changes
       } catch (error) {

@@ -12,13 +12,11 @@ const BestSelling1 = () => {
                 {
                     params: { limit }
                 })
-            console.log(salesdata)
             setSales(salesdata.data.data)
         }
         getBestSellsApi()
 
     }, [])
-    console.log(sales)
 
     const foodItems = [
         { img: '/assets/img/dishes/naturalsandwich.png', title: 'Natural Sandwich', content: 'The registration fee', price: '₹30.00' },
