@@ -46,11 +46,7 @@ const Team1 = () => {
         ]
       }; 
 
-    const teamItems = [
-        // {img:'/assets/img/chefe/imgi_134_image.webp', title:'Ralph Edwards', content:'Chef Lead', facebook:'#', linkedin:'#'},
-        // {img:'/assets/img/chefe/imgi_134_image.webp', title:'Leslie Alexander', content:'Chef Assistant', facebook:'#', linkedin:'#'},
-        {img:'/assets/img/chefe/imgi_135_image.webp', title:'Ronald Richards', content:'Chef Assistant', facebook:'#', linkedin:'#'},
-      ]; 
+
 
       const logoItems = [
         {img:'/assets/img/logo/clientLogo1_1.png'},
@@ -76,7 +72,7 @@ const Team1 = () => {
                             src="/assets/img/icon/titleIcon.svg" alt="img" width={20} height={20}   />
                     </div>
                     <h2 className="title  wow fadeInUp" data-wow-delay="0.7s">
-                        Meet Our Expert Chefe
+                        Meet Our Expert Chef
                     </h2>
                 </div>
                 <div className="chefe-card-wrap style1 pb-5">

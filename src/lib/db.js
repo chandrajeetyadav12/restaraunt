@@ -1,11 +1,12 @@
 import mongoose from "mongoose";
 
 
-const MONGODB_URI = process.env.MONGODB_URI;
+// const MONGODB_URI = process.env.MONGODB_URI;
+const MONGO_URI_Atlas=process.env.MONGO_URI_Atlas
 
 
-if (!MONGODB_URI) {
-throw new Error("Please define MONGODB_URI in .env.local");
+if (!MONGO_URI_Atlas) {
+throw new Error("Please define MONGO_URI_Atlas in .env.local");
 }
 
 
@@ -18,7 +19,7 @@ if (cached.conn) return cached.conn;
 
 
 if (!cached.promise) {
-cached.promise = mongoose.connect(MONGODB_URI, {
+cached.promise = mongoose.connect(MONGO_URI_Atlas, {
 bufferCommands: false,
 autoIndex: false,
 }).then((mongoose) => mongoose);
