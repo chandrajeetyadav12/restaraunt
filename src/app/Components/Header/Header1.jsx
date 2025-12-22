@@ -69,7 +69,7 @@ export default function Header1({ variant }) {
           <div className="cs_main_header_in">
             <div className="cs_main_header_left">
               <Link className="cs_site_branding" href="/">
-                <Image src="/assets/img/logo/starbudslogo1.jpeg" alt="img" width={167} height={58}/>
+                <Image src="/assets/img/logo/logo.svg" alt="img" width={190} height={80}/>
               </Link>
               </div>
               <div className="cs_main_header_center">
