@@ -82,9 +82,9 @@ const Footer1 = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/blog">
+                                        <Link href="#">
                                             <i className="bi bi-chevron-double-right"></i>
-                                            Our Blogs
+                                            Terms & Condition
                                         </Link>
                                     </li>
                                     <li>
@@ -102,7 +102,7 @@ const Footer1 = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-xl-3 col-lg-4 col-md-6 ps-xl-5 wow fadeInUp" data-wow-delay=".4s">
+                        {/* <div className="col-xl-3 col-lg-4 col-md-6 ps-xl-5 wow fadeInUp" data-wow-delay=".4s">
                             <div className="single-footer-widget">
                                 <div className="widget-head">
                                     <h3>Our Menu</h3>
@@ -140,7 +140,7 @@ const Footer1 = () => {
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="col-xl-3 col-lg-4 col-md-6 ps-xl-5 wow fadeInUp" data-wow-delay=".4s">
                             <div className="single-footer-widget">
                                 <div className="widget-head">
@@ -154,7 +154,7 @@ const Footer1 = () => {
                                         Saturday: <span className="text-theme-color2"> 8am – 12am </span>
                                     </li>
                                 </ul>
-                                <form className="mt-4">
+                                {/* <form className="mt-4">
                                     <div className="form-control">
                                         <input className="email" type="email" placeholder="Your email address" />
                                         <button type="submit" className="submit-btn"><i className="bi bi-arrow-right"></i></button>
@@ -164,17 +164,17 @@ const Footer1 = () => {
                                         <label htmlFor="checkbox">I agree to the <a href="#">Privacy Policy.
                                         </a></label>
                                     </div>
-                                </form>
+                                </form> */}
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="footer-bottom">
+            {/* <div className="footer-bottom">
                 <div className="container">
                     <div className="footer-wrapper d-flex align-items-center justify-content-between">
                         <p className="wow fadeInLeft" data-wow-delay=".3s">
-                            © All Copyright 2024 by <a href="#">FreshEat</a>
+                            © All Copyright 2024 by <a href="#">AMBROSIA STARBUDS CAFE</a>
                         </p>
                         <ul className="brand-logo wow fadeInRight" data-wow-delay=".5s">
                             <li>
@@ -190,7 +190,7 @@ const Footer1 = () => {
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </footer>
     );
 };

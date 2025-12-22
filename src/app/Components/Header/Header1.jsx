@@ -55,7 +55,7 @@ export default function Header1({ variant }) {
                     <li><a href="#"><i className="bi bi-facebook"></i></a></li>
                     <li><a href="#"><i className="bi bi-twitter"></i></a></li>
                     <li><a href="#"><i className="bi bi-linkedin"></i></a></li>
-                    <li><a href="#"><i className="bi bi-instagram"></i></a></li>
+                    {/* <li><a href="#"><i className="bi bi-instagram"></i></a></li> */}
                 </ul>
                 </div>
               </div>
@@ -88,22 +88,22 @@ export default function Header1({ variant }) {
                 </div>
             </div>
             <div className="cs_main_header_right">
-              <div className="header-btn d-flex align-items-center">
+              {/* <div className="header-btn d-flex align-items-center">
 
               <a onClick={() => setSearchToggle(!searchToggle)} className="search-trigger search-icon"><i className="bi bi-search"></i></a>
 
-                {/* <div className="main-button">
+                <div className="main-button">
                 <Link href="/contact" className="theme-btn" >ORDER NOW <i className="bi bi-arrow-right"></i></Link>
-                  </div> */}
+                  </div>
 
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
       </div>
     </header>
 
-    <div className={`search-wrap ${searchToggle ? 'active' : ''}`} >
+    {/* <div className={`search-wrap ${searchToggle ? 'active' : ''}`} >
             <div className="search-inner">
                 <i onClick={() => setSearchToggle(!searchToggle)} className="bi bi-x-lg search-close" id="search-close"></i>
                 <div className="search-cell">
@@ -114,7 +114,7 @@ export default function Header1({ variant }) {
                     </form>
                 </div>
             </div>
-        </div>
+        </div> */}
 
         <div className="cs_site_header_spacing_130"></div>
 

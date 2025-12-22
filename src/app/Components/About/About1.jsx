@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 
 const About1 = () => {
 
@@ -37,9 +37,9 @@ const About1 = () => {
                                 {aboutContent.title}
                                 </h2>
                                 <div className="text wow fadeInUp" data-wow-delay="0.8s">{aboutContent.content}</div>
-                                <div className="btn-wrapper wow fadeInUp" data-wow-delay="0.9s">
+                                {/* <div className="btn-wrapper wow fadeInUp" data-wow-delay="0.9s">
                                     <Link className="theme-btn" href={aboutContent.btnUrl}>{aboutContent.btnName} <i className="bi bi-arrow-right"></i></Link>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

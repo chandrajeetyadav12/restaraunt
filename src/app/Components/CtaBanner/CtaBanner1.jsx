@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 
 const CtaBanner1 = () => {
     return (
@@ -19,7 +19,7 @@ const CtaBanner1 = () => {
                                 <h6 className="wow fadeInUp" data-wow-delay="0.5s">WELCOME Ambrosia Starbuds Cafe</h6>
                                 <h3 className="wow fadeInUp" data-wow-delay="0.7s">TODAY SPACIAL FOOD</h3>
                                 <p className="wow fadeInUp" data-wow-delay="0.8s">limits Time Offer</p>
-                                <Link className="theme-btn wow fadeInUp" data-wow-delay="0.9s" href="/menu">ORDER NOW <i className="bi bi-arrow-right"></i></Link>
+                                {/* <Link className="theme-btn wow fadeInUp" data-wow-delay="0.9s" href="/menu">ORDER NOW <i className="bi bi-arrow-right"></i></Link> */}
                             </div>
                         </div>
                         <div className="col-xl-6 order-1 order-xl-2">

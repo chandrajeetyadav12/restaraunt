@@ -1,7 +1,7 @@
 "use client"
 import { useEffect } from "react";
 import loadBackgroudImages from "../Common/loadBackgroudImages";
-import Link from "next/link";
+// import Link from "next/link";
 import Image from "next/image";
 
 const Offer1 = () => {
@@ -29,9 +29,9 @@ const Offer1 = () => {
                                 <h6>{item.title1}</h6>
                                 <h3>{item.title2}</h3>
                                 <p>{item.content}</p>
-                                <Link href="/menu" className={item.addClass}>
+                                {/* <Link href="/menu" className={item.addClass}>
                                     ORDER NOW <i className="bi bi-arrow-right"></i>
-                                </Link>
+                                </Link> */}
                             </div>
                             <div className="offer-thumb">
                                 <img className="thumbImg" src={item.img} alt="thumb" />

@@ -39,7 +39,7 @@ const Contact3 = () => {
     });
     const onSubmit = async (data) => {
         try {
-            const res = await axios.post("http://localhost:5000/api/contact", data);
+            const res = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/api/contact`, data);
             setResponseMsg(res.data.message);
             reset();
         } catch (err) {

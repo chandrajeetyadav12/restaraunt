@@ -183,20 +183,20 @@ const FoodItem4 = () => {
             <div className="marquee-inner to-left">
                 <ul className="marqee-list d-flex">
                     <li className="marquee-item style1">
-                        <span className="text-slider"></span><span className="text-slider text-style">chicken pizza</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">GRILLED CHICKEN</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">BURGER</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">CHICKEN PIZZA</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">FRESH PASTA</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">ITALIANO FRENCH FRY</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">CHICKEN FRY</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">chicken pizza</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">GRILLED CHICKEN</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">BURGER</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">CHICKEN PIZZA</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">FRESH PASTA</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">ITALIANO FRENCH FRY</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">CHICKEN FRY</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Cheese Onion </span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Cheese Corn</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Veggie Fresh Pizza</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Margherita Pizza</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Double Cheese Margherita</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Farm Fresh Pizza</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Mexican Pizza</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Paneer Onion Pizza</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Tandoori Paneer Pizza</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Paneer Tikka Pizza</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">5 Pepper Pizza </span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Chef's Veg Wonder</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Classic Garlic Bread</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Cheese Garlic Bread</span>
                     </li>
                 </ul>
             </div>

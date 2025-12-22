@@ -1,6 +1,5 @@
 "use client"
 import Image from "next/image";
-import Link from "next/link";
 import Slider from "react-slick";
 
 const HeroBanner1 = () => {
@@ -37,9 +36,8 @@ const HeroBanner1 = () => {
       };  
 
     const heroContent = [
-        {img:'/assets/img/banner/garlicbread.png', subtitle:'WELCOME To Ambrosia Starbudscafe', title:'GARLIC BREAD', btnname:'ORDER NOW'},
-        {img:'/assets/img/banner/tandooripannerpizza.png', subtitle:'WELCOME To Ambrosia Starbudscafe', title:'Tandoori Paneer Pizza', btnname:'ORDER NOW'},
-        {img:'/assets/img/banner/maxicancheesberger.png', subtitle:'WELCOME To Ambrosia Starbudscafe', title:'Mexican Cheese Burger', btnname:'ORDER NOW'},
+        {img:'/assets/img/banner/tandooripannerpizza.png', subtitle:'WELCOME To Ambrosia Starbudscafe', title:'Tandoori Paneer Pizza'},
+        {img:'/assets/img/banner/maxicancheesberger.png', subtitle:'WELCOME To Ambrosia Starbudscafe', title:'Mexican Cheese Burger'},
       ]; 
 
     return (
@@ -53,16 +51,16 @@ const HeroBanner1 = () => {
                     <div key={i} className="swiper-slide">
                         <div className="banner-wrapper style1 bg-img">
                             <div className="shape1_1 d-none d-xxl-block" data-animation="slideInLeft" data-duration="2s"
-                                data-delay=".3s"><Image src="/assets/img/shape/bannerShape1_1.svg" alt="img" width={189} height={103}   /></div>
+                                data-delay=".3s"><Image src="/assets/img/shape/bannerShape1_1.svg" alt="img" width={189} height={209}   /></div>
                             <div className="shape1_2 d-none d-xxl-block" data-animation="slideInLeft" data-duration="2s"
                                 data-delay=".3s"><Image src="/assets/img/shape/bannerShape1_2.svg" alt="img" width={189} height={209}   /></div>
                             <div className="shape1_3 d-none d-xxl-block" data-animation="slideInLeft" data-duration="3s"
-                                data-delay="2s"><Image src="/assets/img/shape/bannerShape1_3.svg" alt="img" width={182} height={137}   /></div>
+                                data-delay="2s"><Image src="/assets/img/shape/bannerShape1_3.svg" alt="img" width={189} height={209}   /></div>
                             <div className="shape1_4 d-none d-xxl-block" data-animation="slideInLeft" data-duration="2s"
-                                data-delay=".3s"><Image src="/assets/img/shape/bannerShape1_4.svg" alt="img" width={160} height={152}   /></div>
+                                data-delay=".3s"><Image src="/assets/img/shape/bannerShape1_4.svg" alt="img" width={189} height={209}   /></div>
                             <div className="shape1_5 d-none d-xxl-block" data-animation="slideInLeft" data-duration="2s"
-                                data-delay=".3s"><Image src="/assets/img/shape/bannerShape1_5.svg" alt="img" width={115} height={137}   /></div>
-                            <div className="shape1_6 d-none d-xxl-block cir36"><Image src="/assets/img/shape/bannerShape1_6.svg" alt="img" width={75} height={75}   /></div>
+                                data-delay=".3s"><Image src="/assets/img/shape/bannerShape1_5.svg" alt="img" width={189} height={209}   /></div>
+                            <div className="shape1_6 d-none d-xxl-block cir36"><Image src="/assets/img/shape/bannerShape1_6.svg" alt="img" width={189} height={209}   /></div>
                             <div className="overlay"></div>
                             <div className="banner-container">
                                 <div className="container">
@@ -77,9 +75,7 @@ const HeroBanner1 = () => {
                                                             data-duration="2s" data-delay=".5s">
                                                             {item.title}
                                                         </h1>
-                                                        <Link className="theme-btn" href="/menu"
-                                                            data-animation="slideInRight" data-duration="2s"
-                                                            data-delay=".7s">{item.btnname} <i className="bi bi-arrow-right"></i></Link>
+                                                      
                                                     </div>
                                                 </div>
                                             </div>

@@ -128,20 +128,20 @@ const Testimonial1 = () => {
             <div className="marquee-inner to-left">
                 <ul className="marqee-list d-flex">
                     <li className="marquee-item style-2">
-                        <span className="text-slider"></span><span className="text-slider text-style">chicken pizza</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">GRILLED CHICKEN</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">BURGER</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">CHICKEN PIZZA</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">FRESH PASTA</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">ITALIANO FRENCH FRY</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">CHICKEN FRY</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">chicken pizza</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">GRILLED CHICKEN</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">BURGER</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">CHICKEN PIZZA</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">FRESH PASTA</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">ITALIANO FRENCH FRY</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">CHICKEN FRY</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Strawberry Cooler</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Mango Mule</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Lemon Basil Cooler</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Watermelon Mojito</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Kiwi Mint Sparkler</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Cranberry Spritzer</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Orange Sunrise</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Natural Hot Coffee</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Creamy Coffee</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Black Coffee</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Regular Cold Coffee</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Chocolate Cold Coffee</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Coffee with Vanilla Ice Cream</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Coffee with Chocolate Ice Cream</span>
                     </li>
                 </ul>
             </div>

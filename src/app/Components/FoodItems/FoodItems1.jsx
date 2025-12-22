@@ -7,7 +7,7 @@ const FoodItems1 = () => {
   const [PopularFood, setPopularFood] = useState([])
   useEffect(() => {
     const getPopularApi = async () => {
-       const apiVal=await axios.get("http://localhost:5000/api/menuItems/popular")
+       const apiVal=await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/api/menuItems/popular`)
        console.log(apiVal)
        setPopularFood(apiVal.data)
     }
