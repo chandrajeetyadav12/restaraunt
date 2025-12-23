@@ -6,7 +6,7 @@ import Slider from "react-slick";
 const Team1 = () => {
  
         const teamItems = [
-        {img:'/assets/img/chefe/imgi_135_image.webp',name:"Merry Jhonson", title:'Merry Jhonson', content:'President of Sales', facebook:'#', linkedin:'#', youtube:'#'},
+        {img:'/assets/img/chefe/imgi_135_image.webp',name:"Merry Jhonson",age:24, title:'Merry Jhonson', content:'President of Sales', facebook:'#', linkedin:'#', youtube:'#'},
       ]; 
     const settings = {
         dots: false,
@@ -82,9 +82,7 @@ const Team1 = () => {
                                     <Link className="hovered-icon" href={item.linkedin}><i className="bi bi-linkedin"></i></Link>
                                 </div> */}
                                 <div className="chefe-content">
-                                    {/* <Link href={`/chef/chef-details/${item._id}`}>
-                                        <h3>{item.name}</h3>
-                                    </Link> */}
+                                 
                                       <Link href="/chef/chef-details1">
                                         <h3>{item.name}</h3>
                                     </Link>

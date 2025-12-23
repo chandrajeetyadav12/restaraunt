@@ -57,20 +57,20 @@ const Contact3 = () => {
                                 <div className="contact-box style1">
                                     <div className="contact-icon"> <Image src="/assets/img/icon/location.png" alt="img" width={70} height={70} /></div>
                                     <h3 className="title">Our Address</h3>
-                                    <p>4517 Washington Ave. Manchester, Kentucky 39495</p>
+                                    <p>Shop No. GF-18 Signate Plaza Complex Krunal Char Rasta Gotri-Samta Road, Laxmipura, Gotri, Vadodara, Gujarat-390021</p>
                                 </div>
                             </div>
                             <div className="col-md-6 col-xl-3">
                                 <div className="contact-box style1">
                                     <div className="contact-icon"><Image src="/assets/img/icon/gmail.png" alt="img" width={70} height={70} /></div>
-                                    <h3 className="title">info@exmple.com</h3>
-                                    <p>Email us anytime for any kind ofquety.</p>
+                                    <h3 className="title">pgonekar18@gmail.com</h3>
+                                    <p>Email us anytime for any kind of query.</p>
                                 </div>
                             </div>
                             <div className="col-md-6 col-xl-3">
                                 <div className="contact-box style1">
                                     <div className="contact-icon"><Image src="/assets/img/icon/phone.png" alt="img" width={70} height={70} /></div>
-                                    <h3 className="title">Hot: +208-666-01112</h3>
+                                    <h3 className="title">Hot:+91 9589945050</h3>
                                     <p>24/7/365 priority Live Chat and ticketing support.</p>
                                 </div>
                             </div>

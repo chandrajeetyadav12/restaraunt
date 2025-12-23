@@ -55,7 +55,7 @@ const BestSelling1 = () => {
                         ))}
                     </div>
                     <div className="btn-wrapper  wow fadeInUp" data-wow-delay="0.9s">
-                        <Link className="theme-btn" href="/menu2">VIEW ALL ITEM <i className="bi bi-arrow-right"></i></Link>
+                        <Link className="theme-btn" href="/menu">VIEW ALL ITEM <i className="bi bi-arrow-right"></i></Link>
                     </div>
                 </div>
             </div>

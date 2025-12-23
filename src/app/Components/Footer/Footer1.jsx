@@ -26,7 +26,7 @@ const Footer1 = () => {
                                     <div className="item1"><i className="bi bi-envelope-fill"></i></div>
                                     <div className="item2">
                                         <h6>send email</h6>
-                                        <p>info@exmple.com</p>
+                                        <p>pgonekar18@gmail.com</p>
                                     </div>
                                 </div>
                             </div>
@@ -35,7 +35,7 @@ const Footer1 = () => {
                                     <div className="item1"><i className="bi bi-telephone-fill"></i></div>
                                     <div className="item2">
                                         <h6>call emergency</h6>
-                                        <p>+88 0123 654 99</p>
+                                        <p>+91 9589945050</p>
                                     </div>
                                 </div>
                             </div>
