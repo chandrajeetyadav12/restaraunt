@@ -17,15 +17,6 @@ const BestSelling1 = () => {
         getBestSellsApi()
 
     }, [])
-
-    const foodItems = [
-        { img: '/assets/img/dishes/naturalsandwich.png', title: 'Natural Sandwich', content: 'The registration fee', price: '₹30.00' },
-        { img: '/assets/img/dishes/regularberger.png', title: 'Regular Berger', content: 'The registration fee', price: '₹30.00' },
-        { img: '/assets/img/dishes/cheeseonionpizza.png', title: 'Cheese Onion Pizza', content: 'The registration fee', price: '120.00' },
-        { img: '/assets/img/dishes/classicpasta.png', title: 'Classic Pasta', content: 'The registration fee', price: '₹70.00' },
-        { img: '/assets/img/dishes/garlicbread.png', title: 'Classic Garlic Bread', content: 'The registration fee', price: '₹50.00' },
-    ];
-
     return (
         <section className="popular-dishes-section fix section-padding">
             <div className="popular-dishes-wrapper style1">

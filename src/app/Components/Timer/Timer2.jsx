@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 
 const Timer2 = () => {
     return (
@@ -50,7 +50,7 @@ const Timer2 = () => {
                                     </div>
 
                                     <div className="btn-wrap">
-                                        <Link className="theme-btn" href="/menu">ORDER NOW <i className="bi bi-arrow-right"></i></Link>
+                                        {/* <Link className="theme-btn" href="/menu">ORDER NOW <i className="bi bi-arrow-right"></i></Link> */}
                                     </div>
                                 </div>
                             </div>

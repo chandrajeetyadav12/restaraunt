@@ -4,12 +4,12 @@ import Link from "next/link";
 const About4 = () => {
 
     const aboutContent = {  
-        img1:'/assets/img/shape/aboutShape1_1.png',  
-        img2:'/assets/img/shape/aboutShape1_3.png',  
-        img3:'/assets/img/shape/aboutShape1_4.png',  
-        img4:'/assets/img/shape/aboutShape1_6.png',  
+        img1:'/assets/img/shape/aboutShape1_1.webp',  
+        img2:'/assets/img/shape/tandooripannerpizza1_3.png',  
+        img3:'/assets/img/shape/aboutShape1_4.webp',  
+        img4:'/assets/img/shape/cheeseonionpizza1_6.png',  
         subtitle:"About US",
-        title:'Variety of flavours from american cuisine',
+        title:'Variety of flavours from AMBROSIA STARBUDS CAFE',
         content:'It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point established fact that',  
         btnName:'ORDER NOW', 
         btnUrl:'/menu', 
@@ -27,7 +27,7 @@ const About4 = () => {
             <div className="container">
                 <div className="about-us section-padding">
                     <div className="row">
-                        <div className="col-12">
+                        <div className="col-12 py-4">
                             <div className="title-area">
                                 <div className="sub-title text-center wow fadeInUp" data-wow-delay="0.5s">
                                 <Image className="me-1" src="/assets/img/icon/titleIcon.svg" alt="img" width={20} height={20}   />
@@ -38,7 +38,7 @@ const About4 = () => {
                                 </h2>
                                 <div className="text wow fadeInUp" data-wow-delay="0.8s">{aboutContent.content}</div>
                                 <div className="btn-wrapper wow fadeInUp" data-wow-delay="0.9s">
-                                    <Link className="theme-btn" href={aboutContent.btnUrl}>{aboutContent.btnName} <i className="bi bi-arrow-right"></i></Link>
+                                    {/* <Link className="theme-btn" href={aboutContent.btnUrl}>{aboutContent.btnName} <i className="bi bi-arrow-right"></i></Link> */}
                                 </div>
                             </div>
                         </div>
@@ -50,20 +50,20 @@ const About4 = () => {
             <div className="marquee-inner to-left">
                 <ul className="marqee-list d-flex">
                     <li className="marquee-item style1">
-                        <span className="text-slider"></span><span className="text-slider text-style">chicken pizza</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">GRILLED CHICKEN</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">BURGER</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">CHICKEN PIZZA</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">FRESH PASTA</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">ITALIANO FRENCH FRY</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">CHICKEN FRY</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">chicken pizza</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">GRILLED CHICKEN</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">BURGER</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">CHICKEN PIZZA</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">FRESH PASTA</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">ITALIANO FRENCH FRY</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">CHICKEN FRY</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Cheese Onion </span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Cheese Corn</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Veggie Fresh Pizza</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Margherita Pizza</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Double Cheese Margherita</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Farm Fresh Pizza</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Mexican Pizza</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Paneer Onion Pizza</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Tandoori Paneer Pizza</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Paneer Tikka Pizza</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">5 Pepper Pizza </span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Chef's Veg Wonder</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Classic Garlic Bread</span>
+                        <span className="text-slider"></span><span className="text-slider text-style">Exotic Garlic Bread</span>
                     </li>
                 </ul>
             </div>

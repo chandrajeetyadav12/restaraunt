@@ -4,9 +4,9 @@ import Link from "next/link";
 const Team3 = () => {
 
     const teamItems = [
-        {img:'/assets/img/chefe/chefeThumb2_1.jpg', title:'Devon Lane', content:'President of Sales', facebook:'#', linkedin:'#', youtube:'#'},
-        {img:'/assets/img/chefe/chefeThumb2_2.jpg', title:'Ralph Edwards', content:'Chefe Manager', facebook:'#', linkedin:'#', youtube:'#'},
-        {img:'/assets/img/chefe/chefeThumb2_3.jpg', title:'Marvin McKinney', content:'Main Chefe', facebook:'#', linkedin:'#', youtube:'#'},
+        {img:'/assets/img/chefe/imgi_135_image.webp', title:'Merry Jhonson', content:'President of Sales', facebook:'#', linkedin:'#', youtube:'#'},
+        // {img:'/assets/img/chefe/chefeThumb2_2.jpg', title:'Ralph Edwards', content:'Chefe Manager', facebook:'#', linkedin:'#', youtube:'#'},
+        // {img:'/assets/img/chefe/chefeThumb2_3.jpg', title:'Marvin McKinney', content:'Main Chefe', facebook:'#', linkedin:'#', youtube:'#'},
       ]; 
 
     return (
@@ -41,7 +41,7 @@ const Team3 = () => {
                                     <a href={item.linkedin}><i className="bi bi-linkedin"></i></a>
                                 </div>
                                 <div className="chefe-content">
-                                    <Link href="/chef/chef-details">
+                                    <Link href="/chef/chef-details1">
                                         <h3>{item.title}</h3>
                                     </Link>
                                     <p>{item.content}</p>

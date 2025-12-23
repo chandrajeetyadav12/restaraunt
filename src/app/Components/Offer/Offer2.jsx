@@ -1,7 +1,7 @@
 "use client"
 import { useEffect } from "react";
 import loadBackgroudImages from "../Common/loadBackgroudImages";
-import Link from "next/link";
+// import Link from "next/link";
 import Image from "next/image";
 
 const Offer2 = () => {
@@ -11,10 +11,11 @@ const Offer2 = () => {
       }, []);
 
       const offerItems = [
-        {img:'/assets/img/offer/offerThumb1_2.png', bgimg:'/assets/img/bg/offerBG2_1.jpg', title1:'start price $25', title2:'TODAY SPACIAL FOOD', content:'limits Time Offer', addClass:'theme-btn style5'},      
-        {img:'/assets/img/offer/offerThumb1_3.png', bgimg:'/assets/img/bg/offerBG2_2.jpg', title1:'start price $28', title2:'special chicken roll', content:'limits Time Offer', addClass:'theme-btn style4'},         
-        {img:'/assets/img/offer/offerThumb1_1.png', bgimg:'/assets/img/bg/offerBG2_3.jpg', title1:'start price $55', title2:'SPICY FRIED CHICKEN', content:'limits Time Offer', addClass:'theme-btn style4'},         
-      ]; 
+        {img:'/assets/img/offer/naturalsandwich.png', bgimg:'/assets/img/bg/offerBG2_1.jpg', title1:'start price Rs 30', title2:'TODAY SPACIAL Natural Sandwich', content:'limits Time Offer', addClass:'theme-btn style5'},      
+        {img:'/assets/img/offer/regularberger.png', bgimg:'/assets/img/bg/offerBG2_3.jpg', title1:'start price Rs 30', title2:'special Regular Berger', content:'limits Time Offer', addClass:'theme-btn style4'},         
+        {img:'/assets/img/offer/tandooripannerpizza.png', bgimg:'/assets/img/bg/offerBG2_1.jpg', title1:'start price Rs 180', title2:'Tandoori Panner Pizza', content:'limits Time Offer', addClass:'theme-btn style4'},         
+      
+    ]; 
 
     return (
 <div className="offer-section fix bg-color2 mt-5">
@@ -29,9 +30,9 @@ const Offer2 = () => {
                                 <h6 className="text-white">{item.title1}</h6>
                                 <h3>{item.title2}</h3>
                                 <p className="text-white">{item.content}</p>
-                                <Link href="/menu" className={item.addClass}>
+                                {/* <Link href="/menu" className={item.addClass}>
                                     ORDER NOW <i className="fa-sharp fa-regular fa-arrow-right"></i>
-                                </Link>
+                                </Link> */}
                             </div>
                             <div className="offer-thumb">
                             <Image className="thumbImg" src={item.img} alt="img" width={276} height={260}   />

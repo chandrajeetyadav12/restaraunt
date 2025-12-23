@@ -19,7 +19,7 @@ const page = () => {
             <About4></About4>
             <CtaBanner1></CtaBanner1>
             <Team3></Team3>
-            <CtaBanner3></CtaBanner3>
+            {/* <CtaBanner3></CtaBanner3> */}
             <Testimonial2></Testimonial2>
             <Gallery1></Gallery1>            
     </div>
