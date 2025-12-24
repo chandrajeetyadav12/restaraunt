@@ -5136,6 +5136,7 @@ input.main-search-input::placeholder {
   background-color: var(--white);
   border: 1px solid rgba(235, 0, 41, 0.25);
   border-radius: 8px;
+  height: 100%;
 }
 .contact-box.style1 .contact-icon {
   margin-bottom: 25px;
@@ -6088,6 +6089,8 @@ input.main-search-input::placeholder {
 }
 .gallery-thumb.style2 {
   position: relative;
+  width: 100%;
+ height: 260px;  
   overflow: hidden;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
@@ -6099,6 +6102,8 @@ input.main-search-input::placeholder {
   position: relative;
   width: 100%;
   height: 100%;
+  object-fit: contain;
+  background: #fff;
   z-index: 2;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;

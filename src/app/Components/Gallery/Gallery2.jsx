@@ -3,18 +3,18 @@ import Link from "next/link";
 const Gallery2 = () => {
 
     const brandContent = [
-        {img:'/assets/img/gallery/galleryThumb2_1.jpg',addclass:'col-lg-5'},
-        {img:'/assets/img/gallery/galleryThumb2_2.jpg',addclass:'col-lg-4'},
-        {img:'/assets/img/gallery/galleryThumb2_3.jpg',addclass:'col-lg-3'},
-        {img:'/assets/img/gallery/galleryThumb2_4.jpg',addclass:'col-lg-4'},
-        {img:'/assets/img/gallery/galleryThumb2_5.jpg',addclass:'col-lg-4'},
-        {img:'/assets/img/gallery/galleryThumb2_6.jpg',addclass:'col-lg-4'},
-        {img:'/assets/img/gallery/galleryThumb2_7.jpg',addclass:'col-lg-4'},
-        {img:'/assets/img/gallery/galleryThumb2_8.jpg',addclass:'col-lg-4'},
-        {img:'/assets/img/gallery/galleryThumb2_9.jpg',addclass:'col-lg-4'},
-        {img:'/assets/img/gallery/galleryThumb2_10.jpg',addclass:'col-lg-5'},
-        {img:'/assets/img/gallery/galleryThumb2_11.jpg',addclass:'col-lg-4'},
-        {img:'/assets/img/gallery/galleryThumb2_12.jpg',addclass:'col-lg-3'},
+        {img:'/assets/img/gallery/cheescornpizza.png',addclass:'col-lg-5'},
+        {img:'/assets/img/gallery/coffeevanilaicecream.png',addclass:'col-lg-4'},
+        {img:'/assets/img/gallery/coldcoffee.png',addclass:'col-lg-3'},
+        {img:'/assets/img/gallery/choclatecoldcoffee.png',addclass:'col-lg-4'},
+        {img:'/assets/img/gallery/bluevuracao.png',addclass:'col-lg-4'},
+        {img:'/assets/img/gallery/cheeseberger.png',addclass:'col-lg-4'},
+        {img:'/assets/img/gallery/blackcoffe.png',addclass:'col-lg-4'},
+        {img:'/assets/img/gallery/classicmojito.png',addclass:'col-lg-4'},
+        {img:'/assets/img/gallery/cheesetomatopizza.png',addclass:'col-lg-4'},
+        {img:'/assets/img/gallery/cheesejalpano.png',addclass:'col-lg-5'},
+        {img:'/assets/img/gallery/cheeseparatha.png',addclass:'col-lg-4'},
+        {img:'/assets/img/gallery/cheesgarlic.png',addclass:'col-lg-3'},
 
       ];
 

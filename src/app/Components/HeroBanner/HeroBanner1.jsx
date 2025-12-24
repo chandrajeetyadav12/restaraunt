@@ -36,8 +36,8 @@ const HeroBanner1 = () => {
       };  
 
     const heroContent = [
-        {img:'/assets/img/banner/tandooripannerpizza.png', subtitle:'WELCOME To Ambrosia Starbudscafe', title:'Tandoori Paneer Pizza'},
-        {img:'/assets/img/banner/maxicancheesberger.png', subtitle:'WELCOME To Ambrosia Starbudscafe', title:'Mexican Cheese Burger'},
+        {img:'/assets/img/banner/tandooripannerpizza.png', subtitle:'WELCOME To Ambrosia Starbuds cafe', title:'Tandoori Paneer Pizza'},
+        {img:'/assets/img/banner/maxicancheesberger.png', subtitle:'WELCOME To Ambrosia Starbuds cafe', title:'Mexican Cheese Burger'},
       ]; 
 
     return (

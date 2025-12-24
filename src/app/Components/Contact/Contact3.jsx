@@ -16,7 +16,7 @@ const Contact3 = () => {
             .required("Phone is required"),
         subject: Yup.string()
             .oneOf(
-                ["complain", "greetings","date","price", "order",],
+                ["complain", "greetings", "date", "price", "order",],
                 "Invalid subject"
             )
             .required("Subject is required"),
@@ -46,7 +46,7 @@ const Contact3 = () => {
             setResponseMsg(err.response?.data?.error || "Something went wrong");
         }
     };
- 
+
     return (
         <div>
             <div className="contact-us-section section-padding fix">
@@ -78,7 +78,7 @@ const Contact3 = () => {
                                 <div className="contact-box style1">
                                     <div className="contact-icon"><Image src="/assets/img/icon/clock.png" alt="img" width={70} height={70} /></div>
                                     <h3 className="title">Opening Hour</h3>
-                                    <p>Sunday-Fri: 9 AM – 6 PM Saturday: 9 AM – 4 PM</p>
+                                    <p>Sunday-Fri: 9 AM – 11 PM Saturday: 9 AM – 9 PM</p>
                                 </div>
                             </div>
                         </div>
@@ -173,15 +173,15 @@ const Contact3 = () => {
             </div>
 
             <div className="map-wrapper contact-area-map">
-  <iframe
-    src="https://www.google.com/maps?q=22.32017750623666,73.14177324110433&hl=en&z=15&output=embed"
-    height="550"
-    loading="lazy"
-    style={{ border: 0, width: "100%" }}
-    allowFullScreen
-    referrerPolicy="no-referrer-when-downgrade"
-  ></iframe>
-</div>
+                <iframe
+                    src="https://www.google.com/maps?q=22.32017750623666,73.14177324110433&hl=en&z=15&output=embed"
+                    height="550"
+                    loading="lazy"
+                    style={{ border: 0, width: "100%" }}
+                    allowFullScreen
+                    referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+            </div>
 
         </div>
     );

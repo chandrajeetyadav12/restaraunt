@@ -4,13 +4,34 @@ import { useEffect, useRef, useState } from "react";
 
 const Faq2 = () => {
 
-    const faqContent = [
-        {title:'What Are The Restaurants Operating Hours?', content:'It is a long established fact that a reader will be distracted lorem the readable content of a page when looking'},
-        {title:'Do You Offer Vegetarian / Vegans Options?', content:'It is a long established fact that a reader will be distracted lorem the readable content of a page when looking'},
-        {title:'Are Kids Allowed in Restaurant?', content:'It is a long established fact that a reader will be distracted lorem the readable content of a page when looking'},
-        {title:'What Are The Restaurants Operating Hours?', content:'It is a long established fact that a reader will be distracted lorem the readable content of a page when looking'},
-        {title:'Do You Offer Vegetarian / Vegans Options?', content:'It is a long established fact that a reader will be distracted lorem the readable content of a page when looking'},       
-      ]; 
+const faqContent = [
+  {
+    title: "What are the restaurant’s operating hours?",
+    content:
+      "We are open every day from 10:00 AM to 11:00 PM. Operating hours may vary on public holidays, so we recommend checking our website or contacting us before visiting."
+  },
+  {
+    title: "Do you offer vegetarian or vegan options?",
+    content:
+      "Yes, we offer a wide range of vegetarian and vegan dishes made with fresh, high-quality ingredients. Our menu clearly highlights vegetarian and vegan options for your convenience."
+  },
+  {
+    title: "Are kids allowed in the restaurant?",
+    content:
+      "Absolutely! Our restaurant is family-friendly, and we welcome guests of all ages. We also offer kid-friendly meals and comfortable seating for families."
+  },
+  {
+    title: "Do you provide home delivery or takeaway services?",
+    content:
+      "Yes, we offer both home delivery and takeaway services. You can place your order directly through our website."
+  },
+  {
+    title: "Do I need to make a reservation in advance?",
+    content:
+      "Reservations are not mandatory, but we highly recommend booking in advance during weekends and peak hours to ensure availability and avoid waiting time."
+  }
+];
+
 
 
     const accordionContentRef = useRef(null);
@@ -48,7 +69,7 @@ const Faq2 = () => {
             <div className="row gx-60">
                 <div className="col-xl-5">
                     <div className="faq-thumb w-100 h-100 fix rounded-3">
-                    <Image className="w-100 h-100 rounded-3" src="/assets/img/dishes/burger.png" alt="img" width={505} height={599}   />
+                    <Image className="w-100 h-100 rounded-3" src="/assets/img/dishes/faqimg1.webp" alt="img" width={505} height={599}   />
                     </div>
                 </div>
                 <div className="col-xl-7">

@@ -80,8 +80,8 @@ const FoodItems1 = () => {
                           <Link href="/menu">
                           <h3>{item.name}</h3>
                           </Link>
-                          <div className="text text-start">{item.description}</div>
-                          <h6 className="text-start">Price:{item.price}</h6>
+                          <div className="text text-center">{item.description}</div>
+                          <h6 className="text-center">Price:{item.price}</h6>
                         </div>
                       </div>
                     </div>
