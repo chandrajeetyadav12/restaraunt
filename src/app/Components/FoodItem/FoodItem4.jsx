@@ -2,6 +2,7 @@
 import FoodItemCard2 from "../Card/FoodItemCard2";
 import { useState, useEffect } from "react";
 import axios from "axios";
+import FoodItem1 from "./FoodItem1";
 const FoodItem4 = () => {
     const [PopularFood, setPopularFood] = useState([])
     console.log(PopularFood)
@@ -15,6 +16,7 @@ const FoodItem4 = () => {
     }, [])
     return (
         <section className="food-menu-section fix section-padding">
+            <FoodItem1/>
             <div className="food-menu-wrapper-container style2">
                 <div className="container">
                     <div className="food-menu-wrapper style2 section-padding">
