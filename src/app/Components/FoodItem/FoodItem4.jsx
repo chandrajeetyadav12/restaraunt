@@ -29,10 +29,10 @@ const FoodItem4 = () => {
                                 </h2>
                             </div>
                             <div className="food-menu-tab-wrapper style2">
-                                <div className="row gy-5">
+                                <div className="row gy-3">
                                     {PopularFood.map((item, id) => {
                                         return (
-                                            <div className="col-xl-4 d-flex " key={id}>
+                                            <div className="col-xl-4 col-md-6 d-flex " key={id}>
                                                    <FoodItemCard2
                                                             img={item.image} alt="thumb" width="152" height="152"
                                                             title={item.name}
