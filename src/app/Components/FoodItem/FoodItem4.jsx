@@ -1,208 +1,83 @@
+"use client"
 import FoodItemCard2 from "../Card/FoodItemCard2";
-
+import { useState, useEffect } from "react";
+import axios from "axios";
 const FoodItem4 = () => {
+    const [PopularFood, setPopularFood] = useState([])
+    console.log(PopularFood)
+    useEffect(() => {
+        const getPopularApi = async () => {
+            const apiVal = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/api/menuItems/popular`)
+            console.log(apiVal)
+            setPopularFood(apiVal.data)
+        }
+        getPopularApi()
+    }, [])
     return (
         <section className="food-menu-section fix section-padding">
-        <div className="food-menu-wrapper-container style2">
-            <div className="container">
-                <div className="food-menu-wrapper style2 section-padding">
-                    <div className="container">
-                        <div className="title-area">
-                            <div className="sub-title text-center wow fadeInUp" data-wow-delay="0.5s">
-                                <img className="me-1" src="/assets/img/icon/titleIcon.svg" alt="icon" />POPULAR DISHES<img
-                                    className="ms-1" src="/assets/img/icon/titleIcon.svg" alt="icon" />
+            <div className="food-menu-wrapper-container style2">
+                <div className="container">
+                    <div className="food-menu-wrapper style2 section-padding">
+                        <div className="container">
+                            <div className="title-area">
+                                <div className="sub-title text-center wow fadeInUp" data-wow-delay="0.5s">
+                                    <img className="me-1" src="/assets/img/icon/titleIcon.svg" alt="icon" />POPULAR DISHES<img
+                                        className="ms-1" src="/assets/img/icon/titleIcon.svg" alt="icon" />
+                                </div>
+                                <h2 className="title wow fadeInUp" data-wow-delay="0.7s">
+                                    Our Most Popular Deals
+                                </h2>
                             </div>
-                            <h2 className="title wow fadeInUp" data-wow-delay="0.7s">
-                                Our Most Popular Deals
-                            </h2>
-                        </div>
-                        <div className="food-menu-tab-wrapper style2">
-                            <div className="row gy-5">
-                                <div className="col-xl-4 d-flex align-items-center justify-content-center">
-                                    <div className="tab-left">
-                                        <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                                            <li className="nav-item" role="presentation">
-                                                <div className="nav-link active" id="pills-chinesePasta-tab"
-                                                    data-bs-toggle="pill" data-bs-target="#pills-chinesePasta"
-                                                    role="tab" aria-controls="pills-chinesePasta" aria-selected="true">
-                                                        <FoodItemCard2
-                                                            img="/assets/img/menu/cheeseonionpizza.png"
-                                                            title="Cheese Onion Pizza"
-                                                            content="Fresh Dough Pizza."
-                                                            price="₹79.00"                                                            
+                            <div className="food-menu-tab-wrapper style2">
+                                <div className="row gy-5">
+                                    {PopularFood.map((item, id) => {
+                                        return (
+                                            <div className="col-xl-4 d-flex " key={id}>
+                                                   <FoodItemCard2
+                                                            img={item.image} alt="thumb" width="152" height="152"
+                                                            title={item.name}
+                                                            description={item.description}
+                                                            price={item.price}
                                                         >
                                                         </FoodItemCard2>
-                                                </div>
-                                            </li>
-                                            <li className="nav-item" role="presentation">
-                                                <div className="nav-link" id="pills-chickenFriedRice-tab"
-                                                    data-bs-toggle="pill" data-bs-target="#pills-chickenFriedRice"
-                                                    role="tab" aria-controls="pills-chickenFriedRice"
-                                                    aria-selected="false">
-                                                    <FoodItemCard2
-                                                        img="/assets/img/menu/cheescornpizza.png"
-                                                        title="Cheese corn pizza"
-                                                        content="It's a testament to our."
-                                                        price="₹79.00"
-                                                    ></FoodItemCard2>
-                                                </div>
-                                            </li>
-                                            <li className="nav-item" role="presentation">
-                                                <div className="nav-link" id="pills-chickenPizza-tab" data-bs-toggle="pill"
-                                                    data-bs-target="#pills-chickenPizza" role="tab"
-                                                    aria-controls="pills-chickenPizza" aria-selected="false">
-                                                    <FoodItemCard2
-                                                        img="/assets/img/menu/cheesetomatopizza.png"
-                                                        title="Cheese tomato pizza"
-                                                        content="Fresh Dough Pizza.."
-                                                        price="₹79.00"
-                                                    ></FoodItemCard2>
-                                                </div>
-                                            </li>
-                                            <li className="nav-item" role="presentation">
-                                                <div className="nav-link" id="pills-chickenNoodles-tab"
-                                                    data-bs-toggle="pill" data-bs-target="#pills-chickenNoodles"
-                                                    role="tab" aria-controls="pills-chickenNoodles"
-                                                    aria-selected="false">
-                                                    <FoodItemCard2
-                                                        img="/assets/img/menu/cheeseonionpizza.png"
-                                                        title="Cheese Onion"
-                                                        content="( Loaded Cheese +Fresh Onion ) small."
-                                                        price="₹120.00"
-                                                    ></FoodItemCard2>
-                                                </div>
-                                            </li>
-                                            <li className="nav-item" role="presentation">
-                                                <div className="nav-link" id="pills-grilledChicken-tab"
-                                                    data-bs-toggle="pill" data-bs-target="#pills-grilledChicken"
-                                                    role="tab" aria-controls="pills-grilledChicken"
-                                                    aria-selected="false">
-                                                    <FoodItemCard2
-                                                        img="/assets/img/menu/cheeseonionpizza.png"
-                                                        title="Cheese Onion"
-                                                        content="( Loaded Cheese +Fresh Onion ) medium.."
-                                                        price="₹180.00"
-                                                    ></FoodItemCard2>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div className="col-xl-4 d-flex align-items-center justify-content-center">
-                                    <div className="middle-tab-content">
-                                        <div className="tab-content" id="pills-tabContent">
-                                            <div className="tab-pane fade show active" id="pills-chinesePasta"
-                                                role="tabpanel" aria-labelledby="pills-chinesePasta-tab" tabIndex="0">
-                                                <div className="menuthumb">
-                                                    <img src="/assets/img/menu/menuThumb03_1.png" alt="thumb" />
-                                                </div>
+                                              
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                        )
+                                    })}
 
-                                <div className="col-xl-4 d-flex align-items-center justify-content-center">
-                                    <div className="tab-right">
-                                        <ul className="nav nav-pills mb-3" id="pills-tab2" role="tablist">
-                                            <li className="nav-item" role="presentation">
-                                                <div className="nav-link" id="pills-EggCucumber-tab" data-bs-toggle="pill"
-                                                    data-bs-target="#pills-EggCucumber" role="tab"
-                                                    aria-controls="pills-EggCucumber" aria-selected="true">
-                                                    <FoodItemCard2
-                                                        img="/assets/img/menu/garlicbread.png"
-                                                        title="Classic Garlic Breadr"
-                                                        content="It's a testament to our."
-                                                        price="₹50.00"
-                                                    ></FoodItemCard2>  
 
-                                                </div>
-                                            </li>
-                                            <li className="nav-item" role="presentation">
-                                                <div className="nav-link" id="pills-chickenWhiteRice-tab"
-                                                    data-bs-toggle="pill" data-bs-target="#pills-chickenWhiteRice"
-                                                    role="tab" aria-controls="pills-chickenWhiteRice"
-                                                    aria-selected="false">
-                                                    <FoodItemCard2
-                                                        img="/assets/img/menu/cheesgarlic.png"
-                                                        title="Cheese Garlic Bread"
-                                                        content="It's a testament to our."
-                                                        price="₹60.00"
-                                                    ></FoodItemCard2> 
-                                                </div>
-                                            </li>
-                                            <li className="nav-item" role="presentation">
-                                                <div className="nav-link" id="pills-specialBurger-tab" data-bs-toggle="pill"
-                                                    data-bs-target="#pills-specialBurger" role="tab"
-                                                    aria-controls="pills-specialBurger" aria-selected="false">
-                                        <FoodItemCard2
-                                            img="/assets/img/menu/garlicbread.png"
-                                            title="Exotic Garlic Bread"
-                                            content="It's a testament to our."
-                                            price="₹70.00"
-                                        ></FoodItemCard2>
-                                                </div>
-                                            </li>
-                                            <li className="nav-item" role="presentation">
-                                                <div className="nav-link" id="pills-vegetablesBurger-tab"
-                                                    data-bs-toggle="pill" data-bs-target="#pills-vegetablesBurger"
-                                                    role="tab" aria-controls="pills-vegetablesBurger"
-                                                    aria-selected="false">
-                                         <FoodItemCard2
-                                            img="/assets/img/menu/pannergarlicbread.png"
-                                            title="Paneer Tikka Garlic Bread"
-                                            content="It's a testament to our."
-                                            price="₹80.00"
-                                        ></FoodItemCard2> 
 
-                                                </div>
-                                            </li>
-                                            <li className="nav-item" role="presentation">
-                                                <div className="nav-link" id="pills-briefChicken-tab" data-bs-toggle="pill"
-                                                    data-bs-target="#pills-briefChicken" role="tab"
-                                                    aria-controls="pills-briefChicken" aria-selected="false">
-                                        <FoodItemCard2
-                                            img="/assets/img/menu/pannergarlicbread.png"
-                                            title="Regular Burger"
-                                            content="It's a testament to our."
-                                            price="₹30.00"
-                                        ></FoodItemCard2>  
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div className="marquee-wrapper style-1 text-slider section-padding">
-            <div className="marquee-inner to-left">
-                <ul className="marqee-list d-flex">
-                    <li className="marquee-item style1">
-                        <span className="text-slider"></span><span className="text-slider text-style">Cheese Onion </span>
-                        <span className="text-slider"></span><span className="text-slider text-style">Cheese Corn</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">Veggie Fresh Pizza</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">Margherita Pizza</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">Double Cheese Margherita</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">Farm Fresh Pizza</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">Mexican Pizza</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">Paneer Onion Pizza</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">Tandoori Paneer Pizza</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">Paneer Tikka Pizza</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">5 Pepper Pizza </span>
-                        <span className="text-slider"></span><span className="text-slider text-style">Chef's Veg Wonder</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">Classic Garlic Bread</span>
-                        <span className="text-slider"></span><span className="text-slider text-style">Cheese Garlic Bread</span>
-                    </li>
-                </ul>
+            <div className="marquee-wrapper style-1 text-slider section-padding">
+                <div className="marquee-inner to-left">
+                    <ul className="marqee-list d-flex">
+                        <li className="marquee-item style1">
+                            <span className="text-slider"></span><span className="text-slider text-style">Cheese Onion </span>
+                            <span className="text-slider"></span><span className="text-slider text-style">Cheese Corn</span>
+                            <span className="text-slider"></span><span className="text-slider text-style">Veggie Fresh Pizza</span>
+                            <span className="text-slider"></span><span className="text-slider text-style">Margherita Pizza</span>
+                            <span className="text-slider"></span><span className="text-slider text-style">Double Cheese Margherita</span>
+                            <span className="text-slider"></span><span className="text-slider text-style">Farm Fresh Pizza</span>
+                            <span className="text-slider"></span><span className="text-slider text-style">Mexican Pizza</span>
+                            <span className="text-slider"></span><span className="text-slider text-style">Paneer Onion Pizza</span>
+                            <span className="text-slider"></span><span className="text-slider text-style">Tandoori Paneer Pizza</span>
+                            <span className="text-slider"></span><span className="text-slider text-style">Paneer Tikka Pizza</span>
+                            <span className="text-slider"></span><span className="text-slider text-style">5 Pepper Pizza </span>
+                            <span className="text-slider"></span><span className="text-slider text-style">Chef's Veg Wonder</span>
+                            <span className="text-slider"></span><span className="text-slider text-style">Classic Garlic Bread</span>
+                            <span className="text-slider"></span><span className="text-slider text-style">Cheese Garlic Bread</span>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
 
-    </section>
+        </section>
 
     );
 };
