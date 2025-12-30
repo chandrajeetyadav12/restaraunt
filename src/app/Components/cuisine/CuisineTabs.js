@@ -18,7 +18,7 @@ export default function CuisineTabs() {
       {cuisines.map((cuisine) => (
         <li key={cuisine._id} className="nav-item">
           <Link
-            className="nav-link " 
+            className="nav-link" 
             href={`/cuisines/${cuisine._id}`}
           >
             {cuisine.name}

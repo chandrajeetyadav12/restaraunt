@@ -1,7 +1,48 @@
 "use client"
 import Image from "next/image";
-import CuisineTabs from "../cuisine/CuisineTabs";
+// import CuisineTabs from "../cuisine/CuisineTabs";
+import { useEffect, useState } from "react";
+
 const FoodItem1 = () => {
+    const [cuisines, setCuisines] = useState([]);
+    const [selectedCuisine, setSelectedCuisine] = useState(null);
+    const [menuData, setMenuData] = useState(null);
+
+
+    // useEffect(() => {
+    //     fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/Cuisine`)
+    //         .then((res) => res.json())
+    //         .then((data) => setCuisines(data));
+    // }, []);
+    useEffect(() => {
+        const loadCuisines = async () => {
+            const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/Cuisine`);
+            const data = await res.json();
+
+            setCuisines(data);
+
+            //  AUTO LOAD FIRST CUISINE
+            if (data.length > 0) {
+                handleCuisineClick(data[0]);
+            }
+        };
+
+        loadCuisines();
+    }, []);
+
+    const handleCuisineClick = async (cuisine) => {
+        if (!cuisine) return;
+
+        setSelectedCuisine(cuisine);
+
+        const res = await fetch(
+            `${process.env.NEXT_PUBLIC_API_URL}/api/menu/menu-structure/${cuisine._id}`
+        );
+        const data = await res.json();
+
+        setMenuData(data);
+    };
+
     return (
         <section className="food-menu-section fix section-padding">
             <div className="burger-shape">
@@ -29,7 +70,75 @@ const FoodItem1 = () => {
                             </div>
 
                         </div>
-                        <CuisineTabs />
+                        {/* <CuisineTabs /> */}
+                        <div className="food-menu-tab">
+                            <ul className="nav nav-pills mb-3">
+                                {cuisines.map((cuisine) => (
+                                    <li key={cuisine._id} onClick={() => handleCuisineClick(cuisine)}
+                                        className={`nav-item nav-link ${selectedCuisine?._id === cuisine._id ? "active" : ""
+                                            }`}
+                                    >
+                                        {cuisine.name}
+                                    </li>
+                                ))}
+                            </ul>
+                            {/* menu display */}
+                            {menuData && (
+                                <div className="menu-wrapper">
+                                    <h2 className="mb-4">{menuData.cuisine}</h2>
+
+                                    {menuData.sections.map((section) => (
+                                        <div key={section.sectionId} className="mb-5">
+                                            <h3 className="mb-3">{section.sectionName}</h3>
+
+                                            {Object.entries(section.items).map(([subcategory, items]) => (
+                                                <div key={subcategory} className="mb-4">
+                                                    {subcategory !== "ITEMS" && (
+                                                        <h5 className="text-muted mb-3">{subcategory}</h5>
+                                                    )}
+
+                                                    {/* Cards Grid */}
+                                                    <div className="row">
+                                                        {items.map((item) => (
+                                                            <div key={item._id} className="col-md-6 mb-4">
+                                                                <div className="card h-100 shadow-sm">
+                                                                    <div className="card-body d-flex">
+                                                                        {/* Image */}
+                                                                        <div className="me-3">
+                                                                            <Image
+                                                                                src={item.image}
+                                                                                alt={item.name}
+                                                                                width={90}
+                                                                                height={90}
+                                                                                className="rounded"
+                                                                            />
+                                                                        </div>
+
+                                                                        {/* Content */}
+                                                                        <div className="flex-grow-1">
+                                                                            <h6 className="mb-1">{item.name}</h6>
+                                                                            <p className="mb-1 text-muted">₹{item.price}</p>
+
+                                                                            {/* Veg / Non-Veg */}
+                                                                            <span className={`badge ${item.isVeg ? "bg-success" : "bg-danger"}`}>
+                                                                                {item.isVeg ? "Veg" : "Non-Veg"}
+                                                                            </span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        ))}
+                                                    </div>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    ))}
+                                </div>
+                            )}
+
+
+
+                        </div>
                     </div>
                 </div>
             </div>

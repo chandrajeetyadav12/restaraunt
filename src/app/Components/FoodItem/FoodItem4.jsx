@@ -5,11 +5,9 @@ import axios from "axios";
 import FoodItem1 from "./FoodItem1";
 const FoodItem4 = () => {
     const [PopularFood, setPopularFood] = useState([])
-    console.log(PopularFood)
     useEffect(() => {
         const getPopularApi = async () => {
             const apiVal = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/api/menuItems/popular`)
-            console.log(apiVal)
             setPopularFood(apiVal.data)
         }
         getPopularApi()
