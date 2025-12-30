@@ -85,11 +85,11 @@ const FoodItem1 = () => {
                             {/* menu display */}
                             {menuData && (
                                 <div className="menu-wrapper">
-                                    <h2 className="mb-4">{menuData.cuisine}</h2>
+                                    {/* <h2 className="mb-4">{menuData.cuisine}</h2> */}
 
                                     {menuData.sections.map((section) => (
                                         <div key={section.sectionId} className="mb-5">
-                                            <h3 className="mb-3">{section.sectionName}</h3>
+                                            {/* <h3 className="mb-3">{section.sectionName}</h3> */}
 
                                             {Object.entries(section.items).map(([subcategory, items]) => (
                                                 <div key={subcategory} className="mb-4">
