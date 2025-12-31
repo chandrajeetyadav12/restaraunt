@@ -1,30 +1,39 @@
 "use client"
 import Image from "next/image";
-// import CuisineTabs from "../cuisine/CuisineTabs";
 import { useEffect, useState } from "react";
 
 const FoodItem1 = () => {
     const [cuisines, setCuisines] = useState([]);
     const [selectedCuisine, setSelectedCuisine] = useState(null);
     const [menuData, setMenuData] = useState(null);
-
-
-    // useEffect(() => {
-    //     fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/Cuisine`)
-    //         .then((res) => res.json())
-    //         .then((data) => setCuisines(data));
-    // }, []);
+    const [cuisineLoading, setCuisineLoading] = useState(true);
+    const [menuLoading, setMenuLoading] = useState(false);
+    const [error, setError] = useState(null);
     useEffect(() => {
         const loadCuisines = async () => {
-            const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/Cuisine`);
-            const data = await res.json();
+            try {
+                setCuisineLoading(true);
+                setError(null);
+                const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/Cuisine`);
+                if (!res.ok) {
+                    throw new Error("Failed to load cuisines");
+                }
+                const data = await res.json();
 
-            setCuisines(data);
-
-            //  AUTO LOAD FIRST CUISINE
-            if (data.length > 0) {
-                handleCuisineClick(data[0]);
+                setCuisines(data);
+                //  AUTO LOAD FIRST CUISINE
+                if (data.length > 0) {
+                    handleCuisineClick(data[0]);
+                }
+            } catch (error) {
+                setError(err.message || "Something went wrong");
             }
+            finally {
+                setCuisineLoading(false);
+            }
+
+
+
         };
 
         loadCuisines();
@@ -32,15 +41,29 @@ const FoodItem1 = () => {
 
     const handleCuisineClick = async (cuisine) => {
         if (!cuisine) return;
+        try {
+            setSelectedCuisine(cuisine);
+            setMenuLoading(true);
+            setMenuData(null);
+            setError(null);
+            const res = await fetch(
+                `${process.env.NEXT_PUBLIC_API_URL}/api/menu/menu-structure/${cuisine._id}`
+            );
+            if (!res.ok) {
+                throw new Error("Failed to load menu");
+            }
+            const data = await res.json();
 
-        setSelectedCuisine(cuisine);
+            setMenuData(data);
+        } catch (error) {
+            setError(error.message || "Unable to load menu");
+        }
+        finally {
+            setMenuLoading(false);
+        }
 
-        const res = await fetch(
-            `${process.env.NEXT_PUBLIC_API_URL}/api/menu/menu-structure/${cuisine._id}`
-        );
-        const data = await res.json();
 
-        setMenuData(data);
+
     };
 
     return (
@@ -60,36 +83,49 @@ const FoodItem1 = () => {
                                 FOOD MENU<Image className="ms-1"
                                     src="/assets/img/icon/titleIcon.svg" alt="img" width={20} height={20} />
                             </div>
+
                             <h2 className="title wow fadeInUp" data-wow-delay="0.7s">
                                 Ambrosia Starbuds  Foods Menu
                             </h2>
                             <div className="cuisineList">
-                                <h3 className="center cuisineHead wow fadeInUp" data-wow-delay="0.7s">
+                                {/* ================= CUISINE LOADING ================= */}
+                                {cuisineLoading ? (
+                                    <p className="text-center my-3">Loading cuisines...</p>
+                                ) : <h3 className="center cuisineHead wow fadeInUp" data-wow-delay="0.7s">
                                     Choose a cuisine and discover food you’ll love.
-                                </h3>
+                                </h3>}
+
                             </div>
 
                         </div>
-                        {/* <CuisineTabs /> */}
                         <div className="food-menu-tab">
-                            <ul className="nav nav-pills mb-3">
-                                {cuisines.map((cuisine) => (
-                                    <li key={cuisine._id} onClick={() => handleCuisineClick(cuisine)}
-                                        className={`nav-item nav-link ${selectedCuisine?._id === cuisine._id ? "active" : ""
-                                            }`}
-                                    >
-                                        {cuisine.name}
-                                    </li>
-                                ))}
-                            </ul>
+                            {!cuisineLoading && (
+
+                                <ul className="nav nav-pills mb-3">
+                                    {cuisines.map((cuisine) => (
+                                        <li key={cuisine._id} onClick={() => handleCuisineClick(cuisine)}
+                                            className={`nav-item nav-link ${selectedCuisine?._id === cuisine._id ? "active" : ""
+                                                }`}
+                                        >
+                                            {cuisine.name}
+                                        </li>
+                                    ))}
+                                </ul>
+                            )}
+                            {error && (
+                                <p className="text-danger text-center my-3">
+                                    {error}
+                                </p>
+                            )}
+                            {menuLoading && (
+                                <p className="text-center my-4">Loading menu...</p>
+                            )}
                             {/* menu display */}
-                            {menuData && (
+                            {!menuLoading && menuData && (
                                 <div className="menu-wrapper">
-                                    {/* <h2 className="mb-4">{menuData.cuisine}</h2> */}
 
                                     {menuData.sections.map((section) => (
                                         <div key={section.sectionId} className="mb-5">
-                                            {/* <h3 className="mb-3">{section.sectionName}</h3> */}
 
                                             {Object.entries(section.items).map(([subcategory, items]) => (
                                                 <div key={subcategory} className="mb-4">
@@ -97,13 +133,11 @@ const FoodItem1 = () => {
                                                         <h5 className="text-muted mb-3">{subcategory}</h5>
                                                     )}
 
-                                                    {/* Cards Grid */}
                                                     <div className="row">
                                                         {items.map((item) => (
                                                             <div key={item._id} className="col-md-6 mb-4">
                                                                 <div className="card h-100 shadow-sm">
                                                                     <div className="card-body d-flex">
-                                                                        {/* Image */}
                                                                         <div className="me-3">
                                                                             <Image
                                                                                 src={item.image}
@@ -117,7 +151,7 @@ const FoodItem1 = () => {
                                                                         {/* Content */}
                                                                         <div className="flex-grow-1">
                                                                             <h6 className="mb-1">{item.name}</h6>
-                                                                            <p className="mb-1 text-muted">₹{item.price}</p>
+                                                                            <p className="mb-1 text-muted"><span>Price:</span> ₹{item.price}</p>
 
                                                                             {/* Veg / Non-Veg */}
                                                                             <span className={`badge ${item.isVeg ? "bg-success" : "bg-danger"}`}>

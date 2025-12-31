@@ -12,7 +12,7 @@ const FoodItemCard2 = ({ img, title, content, price }) => {
                 </div>
             </div>
 
-            <h6>Price:{price}</h6>
+            <h6 className="text-muted">Price:{price}</h6>
         </div>
     );
 };

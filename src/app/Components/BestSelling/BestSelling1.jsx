@@ -5,14 +5,26 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 const BestSelling1 = () => {
     const [sales, setSales] = useState([])
+    const [BestSellingLoading, setBestSellingLoading] = useState(true)
+    const [error, setError] = useState(null)
     const limit = 8;
     useEffect(() => {
         const getBestSellsApi = async () => {
-            const salesdata = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/api/menuItems/best-selling`,
-                {
-                    params: { limit }
-                })
-            setSales(salesdata.data.data)
+            try {
+                setBestSellingLoading(true)
+                setError(null)
+                const salesdata = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/api/menuItems/best-selling`,
+                    {
+                        params: { limit }
+                    })
+                setSales(salesdata.data.data)
+            } catch (error) {
+                setError(error.response?.data?.message || error.message || "somethings went wrong")
+            }
+            finally {
+                setBestSellingLoading(false)
+            }
+
         }
         getBestSellsApi()
 
@@ -29,20 +41,19 @@ const BestSelling1 = () => {
                             <Image className="me-1" src="/assets/img/icon/titleIcon.svg" alt="img" width={20} height={20} />
                             POPULAR DISHES<Image className="ms-1"
                                 src="/assets/img/icon/titleIcon.svg" alt="img" width={20} height={20} />
-                        </div>
-                        <h2 className="title wow fadeInUp" data-wow-delay="0.7s">
-                            Best selling Dishes
-                        </h2>
+                        </div>{BestSellingLoading && <h2 className="title wow fadeInUp" data-wow-delay="0.7s">
+                            Best selling Dishes loading....
+                        </h2>}
+                        {!BestSellingLoading && !error && sales.length > 0 &&<h2 className="title wow fadeInUp" data-wow-delay="0.7s">Best selling Dishes</h2>}
+
                     </div>
                     <div className="dishes-card-wrap style1">
-                        {sales.map((item, i) => (
+                        {!BestSellingLoading &&!error&& sales.length > 0 && sales.map((item, i) => (
                             <div key={i} className="dishes-card style1 wow fadeInUp" data-wow-delay="0.2s">
                                 <div className="dishes-thumb">
                                     <Image src={item.image} alt="img" width={158} height={158} />
                                 </div>
-                                {/* <Link href="/menu"> */}
                                 <h3>{item.name}</h3>
-                                {/* </Link> */}
                                 <p className="text-start">{item.description}</p>
                                 <h6 className="text-center">Price:{item.price}</h6>
                                 <div className="social-profile">
@@ -54,9 +65,12 @@ const BestSelling1 = () => {
                             </div>
                         ))}
                     </div>
-                    <div className="btn-wrapper  wow fadeInUp" data-wow-delay="0.9s">
-                        <Link className="theme-btn" href="/menu">VIEW ALL ITEM <i className="bi bi-arrow-right"></i></Link>
-                    </div>
+                    {!BestSellingLoading && !error &&(
+                        <div className="btn-wrapper  wow fadeInUp" data-wow-delay="0.9s">
+                            <Link className="theme-btn" href="/menu">VIEW ALL ITEM <i className="bi bi-arrow-right"></i></Link>
+                        </div>
+                    )}
+
                 </div>
             </div>
 

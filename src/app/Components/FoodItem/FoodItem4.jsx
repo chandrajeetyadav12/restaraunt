@@ -5,16 +5,34 @@ import axios from "axios";
 import FoodItem1 from "./FoodItem1";
 const FoodItem4 = () => {
     const [PopularFood, setPopularFood] = useState([])
+    const [PopularLoading, setPopularLoading] = useState(false)
+    const [Error, setError] = useState(null)
     useEffect(() => {
         const getPopularApi = async () => {
-            const apiVal = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/api/menuItems/popular`)
-            setPopularFood(apiVal.data)
+            try {
+                setPopularLoading(true)
+                setError(null)
+                const apiVal = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/api/menuItems/popular`)
+
+                setPopularFood(apiVal.data)
+            } catch (error) {
+                setError(
+                    error.response?.data?.message ||
+                    error.message ||
+                    "Something went wrong"
+                );
+            }
+            finally {
+                setPopularLoading(false)
+
+            }
+
         }
         getPopularApi()
     }, [])
     return (
         <section className="food-menu-section fix section-padding">
-            <FoodItem1/>
+            <FoodItem1 />
             <div className="food-menu-wrapper-container style2">
                 <div className="container">
                     <div className="food-menu-wrapper style2 section-padding">
@@ -24,23 +42,30 @@ const FoodItem4 = () => {
                                     <img className="me-1" src="/assets/img/icon/titleIcon.svg" alt="icon" />POPULAR DISHES<img
                                         className="ms-1" src="/assets/img/icon/titleIcon.svg" alt="icon" />
                                 </div>
-                                <h2 className="title wow fadeInUp" data-wow-delay="0.7s">
-                                    Our Most Popular Deals
-                                </h2>
+                                {PopularLoading && <h2 className="title text-center">Loading popular deals...</h2>}
+
                             </div>
+                            {!PopularLoading && !Error &&(
+                                <h2 className="title center wow fadeInUp" data-wow-delay="0.7s">Our Most Popular Deals</h2>
+                            )}
                             <div className="food-menu-tab-wrapper style2">
+                                {Error && (
+                                    <p className="text-danger text-center my-3">
+                                        Popular deals unavailable
+                                    </p>
+                                )}
                                 <div className="row gy-3">
-                                    {PopularFood.map((item, id) => {
+                                    {!PopularLoading && PopularFood.map((item, id) => {
                                         return (
                                             <div className="col-xl-4 col-md-6 d-flex " key={id}>
-                                                   <FoodItemCard2
-                                                            img={item.image} alt="thumb" width="152" height="152"
-                                                            title={item.name}
-                                                            description={item.description}
-                                                            price={item.price}
-                                                        >
-                                                        </FoodItemCard2>
-                                              
+                                                <FoodItemCard2
+                                                    img={item.image} alt="thumb" width="152" height="152"
+                                                    title={item.name}
+                                                    description={item.description}
+                                                    price={item.price}
+                                                >
+                                                </FoodItemCard2>
+
                                             </div>
                                         )
                                     })}

@@ -5,11 +5,26 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 const FoodItems1 = () => {
   const [PopularFood, setPopularFood] = useState([])
+  const [PopularFoodLoading, setPopularFoodLoading] = useState(false)
+  const [Error, setError] = useState(null)
   useEffect(() => {
     const getPopularApi = async () => {
-       const apiVal=await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/api/menuItems/popular`)
-       console.log(apiVal)
-       setPopularFood(apiVal.data)
+      try {
+        setPopularFoodLoading(true)
+        setError(null)
+        const apiVal = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/api/menuItems/popular`)
+        setPopularFood(apiVal.data)
+      } catch (error) {
+        setError(
+          error.response?.data?.message ||
+          error.message ||
+          "Something went wrong"
+        );
+      }
+      finally {
+        setPopularFoodLoading(false)
+      }
+
     }
     getPopularApi()
   }, [])
@@ -60,15 +75,22 @@ const FoodItems1 = () => {
               <img className="me-1" src="/assets/img/icon/titleIcon.svg" alt="icon" />Best Food <img
                 src="/assets/img/icon/titleIcon.svg" alt="icon" />
             </div>
-            <h2 className="title wow fadeInUp" data-wow-delay="0.7s">
-              Popular Food Items
-            </h2>
+            {PopularFoodLoading && <h2 className="title wow fadeInUp" data-wow-delay="0.7s">Popular Food Items loading....</h2>}
+            {!PopularFoodLoading && !Error && (
+              <h2 className="title center wow fadeInUp" data-wow-delay="0.7s">Popular Food Items</h2>
+
+            )}
           </div>
           <div className="slider-area mb-n40">
+            {Error && (
+              <p className="text-danger text-center my-3">
+                Popular Food unavailable
+              </p>
+            )}
             <div className="swiper bestFoodItems-slider">
               <div className="swiper-wrapper cs_slider_gap_301 food-slider-item">
                 <Slider {...settings}>
-                  {PopularFood.map((item, i) => (
+                  {!PopularFoodLoading && PopularFood.map((item, i) => (
                     <div key={i} className="swiper-slide">
                       <div className="single-food-items">
                         <div className="item-thumb">
@@ -78,7 +100,7 @@ const FoodItems1 = () => {
                         </div>
                         <div className="item-content">
                           <Link href="/menu">
-                          <h3>{item.name}</h3>
+                            <h3>{item.name}</h3>
                           </Link>
                           <div className="text text-center">{item.description}</div>
                           <h6 className="text-center">Price:{item.price}</h6>
