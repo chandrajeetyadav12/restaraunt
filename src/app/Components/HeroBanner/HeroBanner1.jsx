@@ -13,95 +13,104 @@ const HeroBanner1 = () => {
         arrows: false,
         swipeToSlide: true,
         autoplay: true,
-        autoplaySpeed: 4000,        
+        autoplaySpeed: 4000,
         responsive: [
-          {
-            breakpoint: 1399,
-            settings: {
-              slidesToShow: 1,
+            {
+                breakpoint: 1399,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 1199,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }, {
+                breakpoint: 575,
+                settings: {
+                    slidesToShow: 1,
+                }
             }
-          },
-          {
-            breakpoint: 1199,
-            settings: {
-              slidesToShow: 1,
-            }
-          },{
-            breakpoint: 575,
-            settings: {
-              slidesToShow: 1,
-            }
-          }
         ]
-      };  
+    };
 
     const heroContent = [
-        {img:'/assets/img/banner/tandooripannerpizza.png', subtitle:'WELCOME To Ambrosia Starbuds cafe', title:'Tandoori Paneer Pizza'},
-        {img:'/assets/img/banner/maxicancheesberger.png', subtitle:'WELCOME To Ambrosia Starbuds cafe', title:'Mexican Cheese Burger'},
-      ]; 
+        { img: '/assets/img/banner/tandooripannerpizza.png', subtitle: 'WELCOME To Ambrosia Starbuds cafe', title: 'Tandoori Paneer Pizza' },
+        { img: '/assets/img/banner/maxicancheesberger.png', subtitle: 'WELCOME To Ambrosia Starbuds cafe', title: 'Mexican Cheese Burger' },
+    ];
 
     return (
         <section className="banner-section fix">
-        <div className="slider-area">
-            <div className="swiper banner-slider">
-                <div className="swiper-wrapper">
+            <div className="slider-area">
+                <div className="swiper banner-slider">
+                    <div className="swiper-wrapper">
 
-                <Slider {...settings}>
-                {heroContent.map((item, i) => (
-                    <div key={i} className="swiper-slide">
-                        <div className="banner-wrapper style1 bg-img">
-                            <div className="shape1_1 d-none d-xxl-block" data-animation="slideInLeft" data-duration="2s"
-                                data-delay=".3s"><Image src="/assets/img/shape/bannerShape1_1.svg" alt="img" width={189} height={209}   /></div>
-                            <div className="shape1_2 d-none d-xxl-block" data-animation="slideInLeft" data-duration="2s"
-                                data-delay=".3s"><Image src="/assets/img/shape/bannerShape1_2.svg" alt="img" width={189} height={209}   /></div>
-                            <div className="shape1_3 d-none d-xxl-block" data-animation="slideInLeft" data-duration="3s"
-                                data-delay="2s"><Image src="/assets/img/shape/bannerShape1_3.svg" alt="img" width={189} height={209}   /></div>
-                            <div className="shape1_4 d-none d-xxl-block" data-animation="slideInLeft" data-duration="2s"
-                                data-delay=".3s"><Image src="/assets/img/shape/bannerShape1_4.svg" alt="img" width={189} height={209}   /></div>
-                            <div className="shape1_5 d-none d-xxl-block" data-animation="slideInLeft" data-duration="2s"
-                                data-delay=".3s"><Image src="/assets/img/shape/bannerShape1_5.svg" alt="img" width={189} height={209}   /></div>
-                            <div className="shape1_6 d-none d-xxl-block cir36"><Image src="/assets/img/shape/bannerShape1_6.svg" alt="img" width={189} height={209}   /></div>
-                            <div className="overlay"></div>
-                            <div className="banner-container">
-                                <div className="container">
-                                    <div className="row">
-                                        <div className="col-12 col-xxl-6">
-                                            <div className="banner-title-area">
-                                                <div className="banner-style1">
-                                                    <div className="section-title">
-                                                        <h6 className="sub-title" data-animation="slideInRight"
-                                                            data-duration="2s" data-delay=".3s"> {item.subtitle} </h6>
-                                                        <h1 className="title" data-animation="slideInRight"
-                                                            data-duration="2s" data-delay=".5s">
-                                                            {item.title}
-                                                        </h1>
-                                                      
+                        <Slider {...settings}>
+                            {heroContent.map((item, i) => (
+                                <div key={i} className="swiper-slide">
+                                    <div className="banner-wrapper style1 bg-img">
+                                        <div className="shape1_1 d-none d-xxl-block" data-animation="slideInLeft" data-duration="2s"
+                                            data-delay=".3s"><Image src="/assets/img/shape/bannerShape1_1.svg" alt="img" width={189} height={209} /></div>
+                                        <div className="shape1_2 d-none d-xxl-block" data-animation="slideInLeft" data-duration="2s"
+                                            data-delay=".3s"><Image src="/assets/img/shape/bannerShape1_2.svg" alt="img" width={189} height={209} /></div>
+                                        <div className="shape1_3 d-none d-xxl-block" data-animation="slideInLeft" data-duration="3s"
+                                            data-delay="2s"><Image src="/assets/img/shape/bannerShape1_3.svg" alt="img" width={189} height={209} /></div>
+                                        <div className="shape1_4 d-none d-xxl-block" data-animation="slideInLeft" data-duration="2s"
+                                            data-delay=".3s"><Image src="/assets/img/shape/bannerShape1_4.svg" alt="img" width={189} height={209} /></div>
+                                        <div className="shape1_5 d-none d-xxl-block" data-animation="slideInLeft" data-duration="2s"
+                                            data-delay=".3s"><Image src="/assets/img/shape/bannerShape1_5.svg" alt="img" width={189} height={209} /></div>
+                                        <div className="shape1_6 d-none d-xxl-block cir36"><Image src="/assets/img/shape/bannerShape1_6.svg" alt="img" width={189} height={209} /></div>
+                                        <div className="overlay"></div>
+                                        <div className="banner-container">
+                                            <div className="container">
+                                                <div className="row">
+                                                    <div className="col-12 col-xxl-6">
+                                                        <div className="banner-title-area">
+                                                            <div className="banner-style1">
+                                                                <div className="section-title">
+                                                                    <h6 className="sub-title" data-animation="slideInRight"
+                                                                        data-duration="2s" data-delay=".3s"> {item.subtitle} </h6>
+                                                                    <h1 className="title" data-animation="slideInRight"
+                                                                        data-duration="2s" data-delay=".5s">
+                                                                        {item.title}
+                                                                    </h1>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div className="col-12 col-xl-6 d-none d-xxl-block">
+                                                        <div className="banner-thumb-area1" data-tilt data-animation="slideInRight"
+                                                            data-duration="2s" data-delay=".9s">
+                                                            <div className="img-wrapper">
+                                                                <Image
+                                                                    src={item.img}
+                                                                    alt="banner"
+                                                                    fill
+                                                                    className="banner-img1"
+                                                                />
+                                                            </div>
+
+                                                            {/* <img src={item.img} alt="shape" /> */}
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-12 col-xl-6 d-none d-xxl-block">
-                                            <div className="banner-thumb-area" data-tilt data-animation="slideInRight"
-                                                data-duration="2s" data-delay=".9s">
-                                                <img src={item.img} alt="shape" />
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
+                            ))}
+                        </Slider>
+
                     </div>
-                    ))}
-                    </Slider>
 
+                    <div className="arrow-prev"><Image src="/assets/img/icon/arrowPrev.svg" alt="img" width={40} height={40} /></div>
+                    <div className="arrow-next"><Image src="/assets/img/icon/arrowNext.svg" alt="img" width={40} height={40} /></div>
+                    <div className="pagination-className swiper-pagination"></div>
                 </div>
-
-                <div className="arrow-prev"><Image src="/assets/img/icon/arrowPrev.svg" alt="img" width={40} height={40}   /></div>
-                <div className="arrow-next"><Image src="/assets/img/icon/arrowNext.svg" alt="img" width={40} height={40}   /></div>
-                <div className="pagination-className swiper-pagination"></div>
             </div>
-        </div>
-    </section>
+        </section>
     );
 };
 

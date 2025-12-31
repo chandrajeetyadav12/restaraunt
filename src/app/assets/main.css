@@ -2638,7 +2638,7 @@ input.main-search-input::placeholder {
 }
 
 .section-padding {
-  padding: 125px 0;
+  padding: 65px 0;
 }
 @media (max-width: 1199px) {
   .section-padding {
@@ -13912,3 +13912,26 @@ margin-bottom: 0 !important;
   background-color: #fff !important;
   color: red !important;
 }
+  .banner-container .container {
+  height: 600px;
+    max-width: 1544px;
+  }
+.banner-thumb-area1 {
+  height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.banner-img1 {
+  object-fit: contain;
+}
+
+
+
+

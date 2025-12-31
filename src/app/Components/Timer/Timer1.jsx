@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Timer1 = () => {
     return (
-        <div className="timer-section fix">
+        <div className="timer-section fix my-2">
         <div className="timer-wrapper style1">
             <div className="container">
                 <div className="timer-wrap style1">
