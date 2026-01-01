@@ -16,7 +16,7 @@ const About1 = () => {
       } 
 
     return (
-        <section className="about-us-section fix section-padding pb-0">
+        <section className="about-us-section fix section-padding-about1 pb-0">
         <div className="about-wrapper style1">
             <div className="shape1 d-none d-xxl-block"><Image src={aboutContent.img1} alt="img" width={432} height={552}   /></div>
             <div className="shape2 d-none d-xxl-block"><Image src="/assets/img/shape/aboutShape1_2.png" alt="img" width={181} height={289}   /></div>
@@ -25,7 +25,7 @@ const About1 = () => {
             <div className="shape5 d-none d-xxl-block"><Image src="/assets/img/shape/aboutShape1_5.png" alt="img" width={173} height={277}   /></div>
             <div className="shape6 d-none d-xxl-block"><Image src={aboutContent.img4} alt="img" className="cir36" width={362} height={358}   /></div>
             <div className="container">
-                <div className="about-us section-padding">
+                <div className="about-us section-padding-about1">
                     <div className="row">
                         <div className="col-12">
                             <div className="title-area">

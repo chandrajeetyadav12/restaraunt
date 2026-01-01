@@ -2638,12 +2638,20 @@ input.main-search-input::placeholder {
 }
 
 .section-padding {
-  padding: 65px 0;
+  padding: 80px 0;
+}
+.section-padding-about1{
+  padding: 153px 0;
+
 }
 @media (max-width: 1199px) {
   .section-padding {
     padding: 90px 0;
   }
+  .section-padding-about1{
+  padding: 90px 0;
+
+}
 }
 @media (max-width: 991px) {
   .section-padding {
@@ -9322,6 +9330,7 @@ input.main-search-input::placeholder {
 }
 
 .single-food-items {
+  height: 165px;
   padding: 24px 25px 30px;
   margin-top: 140px;
   border-radius: 16px;
