@@ -56,12 +56,12 @@ const BestSelling1 = () => {
                                 <h3>{item.name}</h3>
                                 <p className="text-start">{item.description}</p>
                                 <h6 className="text-center">Price:{item.price}</h6>
-                                <div className="social-profile">
+                                {/* <div className="social-profile">
                                     <span className="plus-btn"> <Link href="/shop/wishlist"> <i className="bi bi-heart"></i></Link></span>
                                     <ul>
                                         <li><Link href="/shop/cart"><i className="bi bi-basket2"></i></Link></li>
                                     </ul>
-                                </div>
+                                </div> */}
                             </div>
                         ))}
                     </div>

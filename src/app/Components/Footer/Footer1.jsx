@@ -81,12 +81,12 @@ const Footer1 = () => {
                                             Our Gallery
                                         </Link>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <Link href="#">
                                             <i className="bi bi-chevron-double-right"></i>
                                             Terms & Condition
                                         </Link>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <Link href="/faq">
                                             <i className="bi bi-chevron-double-right"></i>
