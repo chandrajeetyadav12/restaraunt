@@ -14,7 +14,7 @@ const FoodItem1 = () => {
             try {
                 setCuisineLoading(true);
                 setError(null);
-                const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/Cuisine`);
+                const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/cuisines`);
                 if (!res.ok) {
                     throw new Error("Failed to load cuisines");
                 }
