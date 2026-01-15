@@ -2164,6 +2164,12 @@ textarea.form-control:focus {
   .progress-wrap .progress-meta {
     gap: 150px;
   }
+  .title-area .title{
+    font-size: 18px;
+  }
+  .title-area .text{
+    font-size: 20px;
+  }
 }
 .progress-wrap .progress-container {
   position: relative;
