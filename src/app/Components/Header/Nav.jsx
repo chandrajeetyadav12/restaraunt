@@ -1,9 +1,18 @@
 import Link from 'next/link';
-import DropDown from './DropDown';
-
+import UserMenu from './UserMenu';
+import { useContext } from 'react';
+import { AuthContext } from '@/context/AuthContext';
 export default function Nav({ setMobileToggle }) {
+  const { user, logout } = useContext(AuthContext);
   return (
     <ul className="cs_nav_list fw-medium">
+            <li className="mobile-auth">
+        <UserMenu
+          user={user}
+          logout={logout}
+          setMobileToggle={setMobileToggle}
+        />
+      </li>
       <li className="">
         <Link href="/">Home</Link>
         {/* <DropDown>
@@ -92,7 +101,7 @@ export default function Nav({ setMobileToggle }) {
 
       <li className="">
         <Link href="/menu" onClick={() => setMobileToggle(false)}>
-         Menu
+          Menu
         </Link>
         {/* <DropDown>
           <ul>
@@ -108,8 +117,8 @@ export default function Nav({ setMobileToggle }) {
             </li>
           </ul>
         </DropDown> */}
-      </li> 
-      
+      </li>
+
       {/* <li className="menu-item-has-children">
         <Link href="/blog" onClick={() => setMobileToggle(false)}>
           Blog
@@ -188,8 +197,9 @@ export default function Nav({ setMobileToggle }) {
       </li> */}
       <li className="">
         <Link href="/contact" onClick={() => setMobileToggle(false)}>
-        Contact
+          Contact
         </Link>
+
         {/* <DropDown>
           <ul>
             <li>
@@ -205,6 +215,15 @@ export default function Nav({ setMobileToggle }) {
           </ul>
         </DropDown> */}
       </li>
+      {/* AUTH MENU (For Mobile Sidebar) */}
+      {/* <li className="mobile-auth">
+        <UserMenu
+          user={user}
+          logout={logout}
+          setMobileToggle={setMobileToggle}
+        />
+      </li> */}
+
 
     </ul>
   );

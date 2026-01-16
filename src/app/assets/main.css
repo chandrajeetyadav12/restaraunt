@@ -13947,6 +13947,100 @@ margin-bottom: 0 !important;
   object-fit: contain;
 }
 
+/* check */
+/* HEADER RIGHT FIX */
+.main_header_right {
+  position: relative;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+}
+
+/* USER MENU */
+.auth-links{
+  display: flex;
+  gap: 10px;
+}
+.cs_user_menu {
+  position: relative;
+}
+.cs_user_dropdown.active {
+  display: block;
+}
+/* CLICK AREA */
+.cs_user_trigger {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* DROPDOWN */
+.cs_user_dropdown {
+  position: absolute;
+  top: 120%;
+  right: 0;
+  background: #fff;
+  min-width: 180px;
+  border-radius: 6px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.15);
+  z-index: 9999;
+  display: none;
+}
+
+/* THIS WAS MISSING */
+.cs_user_dropdown.active {
+  display: block;
+}
+
+/* ITEMS */
+.cs_user_dropdown a,
+.cs_user_dropdown button {
+  display: block;
+  padding: 10px 14px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  background: none;
+  font-size: 14px;
+}
+
+.cs_user_dropdown button.logout-btn {
+  color: red;
+}
+
+/* PREVENT CLIPPING */
+.cs_header,
+.cs_main_header,
+.cs_main_header_in {
+  overflow: visible !important;
+}
+/* Desktop: hide mobile auth menu */
+.mobile-auth {
+  display: none;
+}
+.btns{
+  background-color: #fc791a;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+}
+/* Mobile: show inside sidebar */
+@media (max-width: 1199px) {
+  .main_header_right{
+    display: none;
+  }
+  .mobile-auth {
+    display: block;
+    margin-top: 20px;
+  }
+  .cs_user_dropdown{
+    left: 0px;
+    background-color:#8c8e91;
+    width: fit-content;
+  }
+}
+
 
 
 
