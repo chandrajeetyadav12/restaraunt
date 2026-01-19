@@ -95,14 +95,14 @@ const Cart = () => {
                     </tfoot>
                 </table>
 
-                <div className="mt-4 d-flex justify-content-between">
+                {/* <div className="mt-4 d-flex justify-content-between">
                     <Link href="/shop" className="btn btn-outline-primary">
                         Continue Shopping
                     </Link>
                     <Link href="/shop/checkout" className="btn btn-primary">
                         Proceed to Checkout
                     </Link>
-                </div>
+                </div> */}
             </div>
         </div>
     );

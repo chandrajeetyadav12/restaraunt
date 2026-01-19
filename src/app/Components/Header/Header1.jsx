@@ -98,9 +98,11 @@ export default function Header1({ variant }) {
               </div>
               <div className='header_right_side'>
                 <div className='cartcontainer'>
+                  <Link href="/shop/cart" style={{ color: "inherit" }}>
                 <Badge badgeContent={cartCount} color="error">
                   <ShoppingCartIcon />
                 </Badge>
+                </Link>
                 </div>
 
 
