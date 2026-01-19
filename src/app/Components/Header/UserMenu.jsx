@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 
-const DEFAULT_AVATAR = "/assets/img/profile/profile.png"; // put in public/images/
+const DEFAULT_AVATAR = "/assets/img/profile/profile.png";
 
 export default function UserMenu({ user, logout, setMobileToggle }) {
   const [open, setOpen] = useState(false);
@@ -48,15 +48,15 @@ const userImage = user?.image ? user.image : DEFAULT_AVATAR;
     <div ref={menuRef} className="cs_user_menu">
       {/* TRIGGER (AVATAR) */}
       <div
-        className="cs_user_trigger"
+        className="cs_user_trigger px-3"
         onClick={() => setOpen((prev) => !prev)}
       >
         <img
-        width="30px"
-        height="20px"
+        width="40px"
+        height="40px"
           src={userImage}
           alt="User Avatar"
-          className="cs_user_avatar"
+          className="rounded-circle  mb-3"
         />
         <span>{user.name}</span>
       </div>
@@ -69,7 +69,7 @@ const userImage = user?.image ? user.image : DEFAULT_AVATAR;
         </div> */}
 
         <Link
-          href="#"
+          href="/profile"
           onClick={() => {
             setOpen(false);
             setMobileToggle?.(false);

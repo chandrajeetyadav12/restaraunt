@@ -1,7 +1,9 @@
 "use client"
 import Image from "next/image";
 import { useEffect, useState } from "react";
-
+import { useContext } from "react";
+import { CartContext } from "@/context/CartContext";
+import Link from "next/link";
 const FoodItem1 = () => {
     const [cuisines, setCuisines] = useState([]);
     const [selectedCuisine, setSelectedCuisine] = useState(null);
@@ -9,6 +11,8 @@ const FoodItem1 = () => {
     const [cuisineLoading, setCuisineLoading] = useState(true);
     const [menuLoading, setMenuLoading] = useState(false);
     const [error, setError] = useState(null);
+    const { addToCart, getItemQuantity } = useContext(CartContext);
+    // const quantity = getItemQuantity(item._id);
     useEffect(() => {
         const loadCuisines = async () => {
             try {
@@ -26,7 +30,7 @@ const FoodItem1 = () => {
                     handleCuisineClick(data[0]);
                 }
             } catch (error) {
-                setError(err.message || "Something went wrong");
+                setError(error.message || "Something went wrong");
             }
             finally {
                 setCuisineLoading(false);
@@ -134,34 +138,83 @@ const FoodItem1 = () => {
                                                     )}
 
                                                     <div className="row">
-                                                        {items.map((item) => (
-                                                            <div key={item._id} className="col-md-6 mb-4">
-                                                                <div className="card h-100 shadow-sm">
-                                                                    <div className="card-body d-flex">
-                                                                        <div className="me-3">
-                                                                            <Image
-                                                                                src={item.image}
-                                                                                alt={item.name}
-                                                                                width={90}
-                                                                                height={90}
-                                                                                className="rounded"
-                                                                            />
+                                                        {items.map((item) => {
+                                                            const quantity = getItemQuantity(item._id);
+                                                            return (
+                                                                <div key={item._id} className="col-md-6 mb-4">
+                                                                    <div className="card h-100 shadow-sm">
+                                                                        <div className="social-profile">
+                                                                            <span className="plus-btn"> <Link href="/shop/wishlist"> <i className="bi bi-heart"></i></Link></span>
+                                                                            <ul>
+                                                                                <li><Link href="/shop/cart"><i className="bi bi-basket2"></i></Link></li>
+                                                                            </ul>
                                                                         </div>
+                                                                        <div className="card-body d-flex">
+                                                                            <div className="me-3">
+                                                                                {/* <h1>{item._id}</h1> */}
+                                                                                <Image
+                                                                                    src={item.image}
+                                                                                    alt={item.name}
+                                                                                    width={90}
+                                                                                    height={90}
+                                                                                    className="rounded"
+                                                                                />
+                                                                            </div>
 
-                                                                        {/* Content */}
-                                                                        <div className="flex-grow-1">
-                                                                            <h6 className="mb-1">{item.name}</h6>
-                                                                            <p className="mb-1 text-muted"><span>Price:</span> ₹{item.price}</p>
+                                                                            {/* Content */}
+                                                                            <div className="flex-grow-1">
+                                                                                <h6 className="mb-1">{item.name}</h6>
+                                                                                <p className="mb-1 text-muted"><span>Price:</span> ₹{item.price}</p>
 
-                                                                            {/* Veg / Non-Veg */}
-                                                                            <span className={`badge ${item.isVeg ? "bg-success" : "bg-danger"}`}>
-                                                                                {item.isVeg ? "Veg" : "Non-Veg"}
-                                                                            </span>
+                                                                                {/* Veg / Non-Veg */}
+                                                                                <span className={`badge ${item.isVeg ? "bg-success" : "bg-danger"}`}>
+                                                                                    {item.isVeg ? "Veg" : "Non-Veg"}
+                                                                                </span>
+                                                                            </div>
+                                                                           
                                                                         </div>
+                                                                         {/* ADD / COUNTER */}
+                                                                            <div className="p-3">
+                                                                                {item.stock === 0 ? (
+                                                                                    <button className="btn btn-sm btn-secondary" disabled>
+                                                                                        Out of Stock
+                                                                                    </button>
+                                                                                ) : quantity === 0 ? (
+                                                                                    <button
+                                                                                        className="btn btn-sm btn-primary"
+                                                                                        onClick={() => addToCart(item._id, 1)}
+                                                                                    >
+                                                                                        ADD
+                                                                                    </button>
+                                                                                ) : (
+                                                                                    <div className="d-flex align-items-center gap-2">
+                                                                                        <button
+                                                                                            className="btn btn-sm btn-outline-danger"
+                                                                                            onClick={() => addToCart(item._id, -1)}
+                                                                                        >
+                                                                                            −
+                                                                                        </button>
+
+                                                                                        <span className="fw-bold">{quantity}</span>
+
+                                                                                        <button
+                                                                                            className="btn btn-sm btn-outline-success"
+                                                                                            disabled={quantity >= item.stock}
+                                                                                            onClick={() => addToCart(item._id, 1)}
+                                                                                        >
+                                                                                            +
+                                                                                        </button>
+                                                                                    </div>
+                                                                                )}
+                                                                            </div>
+
+
                                                                     </div>
+
                                                                 </div>
-                                                            </div>
-                                                        ))}
+                                                            )
+
+                                                        })}
                                                     </div>
                                                 </div>
                                             ))}

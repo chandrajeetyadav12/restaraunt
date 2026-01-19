@@ -13949,6 +13949,16 @@ margin-bottom: 0 !important;
 
 /* check */
 /* HEADER RIGHT FIX */
+.header_right_side{
+  display: flex;
+  justify-content: center;
+  align-self:center;
+
+}
+.cartcontainer{
+  width: 100px;
+  line-height: 100px;
+}
 .main_header_right {
   position: relative;
   z-index: 1000;
@@ -14025,6 +14035,10 @@ margin-bottom: 0 !important;
   border-radius: 5px;
   padding: 10px;
 }
+.updateProfileInput{
+  border: 1px solid #fc791a;
+  border-radius: 2px;
+}
 /* Mobile: show inside sidebar */
 @media (max-width: 1199px) {
   .main_header_right{
@@ -14040,7 +14054,22 @@ margin-bottom: 0 !important;
     width: fit-content;
   }
 }
+/* checksss */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+}
 
-
-
-
+.modal {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+}

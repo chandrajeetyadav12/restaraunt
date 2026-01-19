@@ -6,7 +6,7 @@ export default function Nav({ setMobileToggle }) {
   const { user, logout } = useContext(AuthContext);
   return (
     <ul className="cs_nav_list fw-medium">
-            <li className="mobile-auth">
+      <li className="mobile-auth">
         <UserMenu
           user={user}
           logout={logout}

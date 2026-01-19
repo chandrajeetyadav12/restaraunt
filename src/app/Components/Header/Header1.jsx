@@ -1,18 +1,25 @@
 "use client"
-import { useEffect, useState } from 'react';
+import {useContext, useEffect, useState } from 'react';
 import Nav from './Nav';
 import Link from 'next/link';
 import Image from 'next/image';
-import { useContext } from "react";
 import { AuthContext } from "@/context/AuthContext";
 import UserMenu from "./UserMenu"
+import Badge from "@mui/material/Badge";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import { CartContext } from "@/context/CartContext";
 export default function Header1({ variant }) {
   const [mobileToggle, setMobileToggle] = useState(false);
   const [isSticky, setIsSticky] = useState();
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [searchToggle, setSearchToggle] = useState(false);
   const { user, logout } = useContext(AuthContext);
-
+  const { getCartCount, loadCart } = useContext(CartContext);
+  const cartCount = getCartCount();
+    // Load cart once on page load / refresh
+  useEffect(() => {
+    loadCart();
+  }, []);
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.scrollY;
@@ -89,14 +96,25 @@ export default function Header1({ variant }) {
                   <Nav setMobileToggle={setMobileToggle} />
                 </div>
               </div>
-              <div className="main_header_right">
-                <UserMenu
-                  user={user}
-                  logout={logout}
-                  setMobileToggle={setMobileToggle}
-                />
-         
+              <div className='header_right_side'>
+                <div className='cartcontainer'>
+                <Badge badgeContent={cartCount} color="error">
+                  <ShoppingCartIcon />
+                </Badge>
+                </div>
+
+
+
+                <div className="main_header_right">
+                  <UserMenu
+                    user={user}
+                    logout={logout}
+                    setMobileToggle={setMobileToggle}
+                  />
+
+                </div>
               </div>
+
 
             </div>
           </div>

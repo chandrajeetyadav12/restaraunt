@@ -6,6 +6,10 @@ import "./assets/main.css";
 import Header1 from "./Components/Header/Header1";
 import Footer1 from "./Components/Footer/Footer1";
 import { AuthProvider } from "@/context/AuthContext";
+import { CartProvider } from "@/context/CartContext";
+
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer } from "react-toastify";
 const epilogue = Epilogue({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700', '800'],
@@ -39,11 +43,14 @@ export default function RootLayout({ children }) {
       </head>
       <body className={`${epilogue.variable} ${roboto.variable}`}>
         <AuthProvider>
+          <CartProvider>
           <Header1 />
 
           {children}
           <Footer1 />
+          </CartProvider>
         </AuthProvider>
+        <ToastContainer position="top-right" autoClose={3000} />
       </body>
     </html>
   );

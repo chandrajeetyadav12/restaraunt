@@ -13,6 +13,11 @@ const initialState = {
 };
 
 export const AuthProvider = ({ children }) => {
+  const token =
+  typeof window !== "undefined"
+    ? localStorage.getItem("token")
+    : null;
+
   const [state, dispatch] = useReducer(authReducer, initialState);
 
   /* ======================
@@ -90,15 +95,25 @@ export const AuthProvider = ({ children }) => {
     localStorage.clear();
     dispatch({ type: "LOGOUT" });
   };
+const updateUser = (updatedUser) => {
+  localStorage.setItem("user", JSON.stringify(updatedUser));
+
+  dispatch({
+    type: "LOGIN_SUCCESS",
+    payload: updatedUser,
+  });
+};
 
   return (
     <AuthContext.Provider
       value={{
-        user: state.user,
-        isAuthenticated: state.isAuthenticated,
+        user: state?.user,
+        isAuthenticated: state?.isAuthenticated,
         loading: state.loading,
+        token,
         login,
         logout,
+        updateUser
       }}
     >
       {!state.loading && children}
